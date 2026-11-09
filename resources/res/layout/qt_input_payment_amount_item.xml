@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:textColor="@color/core_text_color_purple_black_by_select"
+    android:background="@drawable/qt_selector_input_payment_amount_item"
+    android:paddingLeft="@dimen/dp8"
+    android:paddingTop="@dimen/dp5"
+    android:paddingRight="@dimen/dp8"
+    android:paddingBottom="@dimen/dp5"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:paddingHorizontal="@dimen/dp8"
+    android:paddingVertical="@dimen/dp5"
+    style="@style/Text.202046.12"/>

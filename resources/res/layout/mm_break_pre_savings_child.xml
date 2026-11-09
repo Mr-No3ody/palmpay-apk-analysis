@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/cv_shape_rect_corner_12_bg_f6f6fa"
+    android:paddingLeft="8dp"
+    android:paddingTop="4dp"
+    android:paddingRight="8dp"
+    android:paddingBottom="4dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="12dp"
+    android:paddingHorizontal="8dp"
+    android:paddingVertical="4dp">
+    <TextView
+        android:id="@+id/tv_advance_label"
+        android:text="Advance Amount"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        style="@style/Text.6f7b85.12"/>
+    <TextView
+        android:id="@+id/tvAdvanceValue"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/tv_advance_label"
+        style="@style/Text.202046.12"/>
+    <TextView
+        android:id="@+id/tv_fee_label"
+        android:layout_marginTop="8dp"
+        android:text="Total Service Fee"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_advance_label"
+        style="@style/Text.6f7b85.12"/>
+    <TextView
+        android:id="@+id/tvFeeValue"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/tv_fee_label"
+        style="@style/Text.202046.12"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

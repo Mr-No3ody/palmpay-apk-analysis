@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <TextView
+        android:gravity="center_vertical"
+        android:id="@+id/fb_tvName"
+        android:paddingTop="@dimen/fb_dp6"
+        android:paddingBottom="@dimen/fb_dp6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/fb_total_fee"
+        android:paddingVertical="@dimen/fb_dp6"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        style="@style/fb_txt_s_b"/>
+    <TextView
+        android:gravity="center_vertical"
+        android:id="@+id/fb_tvAmount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBaseline_toBaselineOf="@+id/fb_tvName"
+        app:layout_constraintEnd_toEndOf="parent"
+        style="@style/fb_txt_number_s_b_b"/>
+    <TextView
+        android:gravity="center_vertical"
+        android:id="@+id/fb_tvDetail"
+        android:background="@drawable/fb_shape_rect_corner_8_bg_dark"
+        android:paddingLeft="@dimen/fb_dp12"
+        android:paddingTop="@dimen/fb_dp8"
+        android:paddingRight="@dimen/fb_dp12"
+        android:paddingBottom="@dimen/fb_dp8"
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/fb_dp2"
+        android:layout_marginBottom="@dimen/fb_dp6"
+        android:layout_below="@+id/fb_tvName"
+        android:lineSpacingExtra="4dp"
+        android:paddingHorizontal="@dimen/fb_dp12"
+        android:paddingVertical="@dimen/fb_dp8"
+        app:layout_constraintTop_toBottomOf="@+id/fb_tvName"
+        style="@style/fb_txt_mi_g"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

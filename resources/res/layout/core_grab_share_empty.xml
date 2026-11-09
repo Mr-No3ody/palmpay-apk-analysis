@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="@dimen/dp102"
+    android:layout_height="@dimen/dp102">
+    <ImageView
+        android:id="@+id/ivGrabEmpty"
+        android:layout_width="@dimen/dp90"
+        android:layout_height="@dimen/dp90"
+        android:src="@drawable/core_grab_empty_share_select"
+        android:layout_alignParentBottom="true"/>
+</RelativeLayout>

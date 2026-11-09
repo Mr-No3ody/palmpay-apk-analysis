@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@drawable/mm_bg_turn_on_auto_save_successfully_dialog"
+    android:paddingTop="@dimen/dp18"
+    android:paddingBottom="@dimen/dp16"
+    android:layout_width="wrap_content"
+    android:text="@string/mm_turn_on_turned_on_successfully"
+    android:drawableTop="@drawable/mm_icon_succeed_white"
+    android:drawablePadding="@dimen/dp12"
+    style="@style/Text.ffffff.12"/>

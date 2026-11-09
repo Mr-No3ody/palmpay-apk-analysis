@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <androidx.appcompat.widget.AppCompatImageView
+        android:layout_gravity="center_horizontal"
+        android:id="@+id/ivLoading"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:adjustViewBounds="true"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintDimensionRatio="289:395"
+        app:layout_constraintHeight_percent="0.4938"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.172"
+        app:srcCompat="@drawable/mm_icon_loading_page_1"/>
+    <TextView
+        android:textStyle="bold"
+        android:id="@+id/tvTitle"
+        android:layout_marginTop="@dimen/dp48"
+        android:text="@string/mm_loading_first_page_title"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ivLoading"
+        style="@style/Text.medium.26273c.26"/>
+    <TextView
+        android:id="@+id/tvDesc"
+        android:layout_marginTop="@dimen/dp12"
+        android:text="@string/mm_loading_first_page_desc"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvTitle"
+        style="@style/Text.858a8f.16"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

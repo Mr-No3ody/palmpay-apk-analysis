@@ -1,0 +1,60 @@
+package com.transsnet.palmpay.credit.bean.style;
+
+import com.transsnet.palmpay.core.bean.style_config.BaseStyleConfig;
+import com.transsnet.palmpay.core.bean.style_config.TextStyleConfig;
+import kotlin.Metadata;
+import kotlin.jvm.JvmField;
+import org.jetbrains.annotations.Nullable;
+
+/* JADX INFO: loaded from: classes4.dex */
+@Metadata(d1 = {"\u0000\u001a\n\u0002\u0018\u0002\n\u0002\u0010\u0000\n\u0002\b\u0003\n\u0002\u0018\u0002\n\u0000\n\u0002\u0018\u0002\n\u0002\b\u000b\b\u0016\u0018\u00002\u00020\u0001B\u0007¢\u0006\u0004\b\u0002\u0010\u0003R\u0014\u0010\u0004\u001a\u0004\u0018\u00010\u00058\u0006@\u0006X\u0087\u000e¢\u0006\u0002\n\u0000R\u0014\u0010\u0006\u001a\u0004\u0018\u00010\u00078\u0006@\u0006X\u0087\u000e¢\u0006\u0002\n\u0000R\u0014\u0010\b\u001a\u0004\u0018\u00010\u00078\u0006@\u0006X\u0087\u000e¢\u0006\u0002\n\u0000R\u0014\u0010\t\u001a\u0004\u0018\u00010\u00058\u0006@\u0006X\u0087\u000e¢\u0006\u0002\n\u0000R\u0014\u0010\n\u001a\u0004\u0018\u00010\u00078\u0006@\u0006X\u0087\u000e¢\u0006\u0002\n\u0000R\u0014\u0010\u000b\u001a\u0004\u0018\u00010\u00078\u0006@\u0006X\u0087\u000e¢\u0006\u0002\n\u0000R\u0014\u0010\f\u001a\u0004\u0018\u00010\u00078\u0006@\u0006X\u0087\u000e¢\u0006\u0002\n\u0000R\u0014\u0010\r\u001a\u0004\u0018\u00010\u00058\u0006@\u0006X\u0087\u000e¢\u0006\u0002\n\u0000R\u0014\u0010\u000e\u001a\u0004\u0018\u00010\u00078\u0006@\u0006X\u0087\u000e¢\u0006\u0002\n\u0000R\u0014\u0010\u000f\u001a\u0004\u0018\u00010\u00078\u0006@\u0006X\u0087\u000e¢\u0006\u0002\n\u0000R\u0014\u0010\u0010\u001a\u0004\u0018\u00010\u00078\u0006@\u0006X\u0087\u000e¢\u0006\u0002\n\u0000R\u0014\u0010\u0011\u001a\u0004\u0018\u00010\u00078\u0006@\u0006X\u0087\u000e¢\u0006\u0002\n\u0000¨\u0006\u0012"}, d2 = {"Lcom/transsnet/palmpay/credit/bean/style/VaTransferRepaymentStyleConfig;", "", "<init>", "()V", "vaTransferCardBg", "Lcom/transsnet/palmpay/core/bean/style_config/BaseStyleConfig;", "vaTransferTitle", "Lcom/transsnet/palmpay/core/bean/style_config/TextStyleConfig;", "vaTransferGuideText", "vaTransferGuideArrowIcon", "vaTransferDesc", "vaTransferAccountNumberLabel", "vaTransferAccountNo", "vaTransferAccountCopyIcon", "vaTransferAccountNameLabel", "vaTransferAccountName", "vaTransferBankNameLabel", "vaTransferBankName", "module_flexi_export_release"}, k = 1, mv = {2, 1, 0}, xi = 48)
+public class VaTransferRepaymentStyleConfig {
+
+    @JvmField
+    @Nullable
+    public BaseStyleConfig vaTransferAccountCopyIcon;
+
+    @JvmField
+    @Nullable
+    public TextStyleConfig vaTransferAccountName;
+
+    @JvmField
+    @Nullable
+    public TextStyleConfig vaTransferAccountNameLabel;
+
+    @JvmField
+    @Nullable
+    public TextStyleConfig vaTransferAccountNo;
+
+    @JvmField
+    @Nullable
+    public TextStyleConfig vaTransferAccountNumberLabel;
+
+    @JvmField
+    @Nullable
+    public TextStyleConfig vaTransferBankName;
+
+    @JvmField
+    @Nullable
+    public TextStyleConfig vaTransferBankNameLabel;
+
+    @JvmField
+    @Nullable
+    public BaseStyleConfig vaTransferCardBg;
+
+    @JvmField
+    @Nullable
+    public TextStyleConfig vaTransferDesc;
+
+    @JvmField
+    @Nullable
+    public BaseStyleConfig vaTransferGuideArrowIcon;
+
+    @JvmField
+    @Nullable
+    public TextStyleConfig vaTransferGuideText;
+
+    @JvmField
+    @Nullable
+    public TextStyleConfig vaTransferTitle;
+}

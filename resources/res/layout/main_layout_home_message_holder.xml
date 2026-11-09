@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.transsnet.palmpay.ui.view.FixedSizeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/cv_shape_rect_corner_12_bg_white"
+    android:layout_width="match_parent"
+    android:layout_height="52dp">
+    <ViewFlipper
+        android:id="@+id/viewFlipper"
+        android:layout_width="match_parent"
+        android:layout_height="52dp"/>
+</com.transsnet.palmpay.ui.view.FixedSizeLayout>

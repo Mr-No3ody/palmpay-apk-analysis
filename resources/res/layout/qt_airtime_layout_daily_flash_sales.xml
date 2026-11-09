@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <TextView
+        android:id="@+id/tv_title_daily_flash_sales"
+        android:layout_width="wrap_content"
+        android:layout_height="20dp"
+        android:text="@string/core_daily_flash_sales"
+        android:includeFontPadding="false"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        style="@style/Text.medium.202046.16"/>
+    <com.mikepenz.iconics.view.IconicsImageView
+        android:layout_gravity="center_vertical"
+        android:id="@+id/iv_airtime_flash_sale_question_icon"
+        android:layout_width="@dimen/dp20"
+        android:layout_height="@dimen/dp20"
+        android:layout_marginStart="@dimen/dp4"
+        android:layout_marginEnd="@dimen/dp10"
+        app:iiv_color="@color/ppColorTextPrimary"
+        app:iiv_icon="pay_InformationOutline"
+        app:iiv_size="@dimen/dp20"
+        app:layout_constraintBottom_toBottomOf="@+id/tv_title_daily_flash_sales"
+        app:layout_constraintStart_toEndOf="@+id/tv_title_daily_flash_sales"
+        app:layout_constraintTop_toTopOf="@+id/tv_title_daily_flash_sales"/>
+    <androidx.recyclerview.widget.RecyclerView
+        android:orientation="horizontal"
+        android:id="@+id/atua_pick_special_amount_rcv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dp10"
+        app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+        app:layout_constraintTop_toBottomOf="@+id/tv_title_daily_flash_sales"/>
+</merge>

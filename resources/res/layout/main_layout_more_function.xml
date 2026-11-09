@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.mikepenz.iconics.view.IconicsTextView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:textSize="@dimen/dp12"
+    android:textColor="@color/ppColorTextAssist"
+    android:gravity="center_vertical"
+    android:id="@+id/tvMore"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="@string/core_more"
+    android:includeFontPadding="false"
+    android:drawablePadding="0dp"
+    app:iiv_end_color="@color/ppColorTextAssist"
+    app:iiv_end_icon="pay_ArrowRight"
+    app:iiv_end_size="@dimen/dp14"/>

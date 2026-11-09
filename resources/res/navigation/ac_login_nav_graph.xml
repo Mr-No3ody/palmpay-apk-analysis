@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/ac_login_nav_graph"
+    app:startDestination="@+id/fragment_login_input_mobile">
+    <fragment
+        android:label="fragment_input_mobile"
+        android:name="com.transsnet.palmpay.account.ui.fragment.login.LogInInputMobileFragment"
+        android:id="@+id/fragment_login_input_mobile"/>
+    <fragment
+        android:name="com.transsnet.palmpay.account.ui.fragment.login.LogInWithSmsFragment"
+        android:id="@+id/fragment_login_input_sms"/>
+    <fragment
+        android:name="com.transsnet.palmpay.account.ui.fragment.login.LogInWithPinFragment"
+        android:id="@+id/fragment_login_verify_pin"/>
+    <fragment
+        android:name="com.transsnet.palmpay.account.ui.fragment.login.LogInWithPswFragment"
+        android:id="@+id/fragment_login_verify_psw"/>
+    <fragment
+        android:name="com.transsnet.palmpay.account.ui.fragment.login.LogInWithTouchIdFragment"
+        android:id="@+id/fragment_login_verify_touch_id"/>
+    <fragment
+        android:label="fragment_set_pin"
+        android:name="com.transsnet.palmpay.account.ui.fragment.login.LogInConfirmPinFragment"
+        android:id="@+id/fragment_login_set_pin"/>
+    <fragment
+        android:name="com.transsnet.palmpay.account.ui.fragment.login.LogInWithRiskControlSmsFragment"
+        android:id="@+id/fragment_login_risk_control_verify"/>
+    <fragment
+        android:label="fragment_check_face"
+        android:name="com.transsnet.palmpay.account.ui.fragment.login.LogInWithFaceFragment"
+        android:id="@+id/fragment_login_with_face"/>
+    <fragment
+        android:label="fragment_select_verify_method"
+        android:name="com.transsnet.palmpay.account.ui.fragment.login.LogInSelectVerifyMethodFragment"
+        android:id="@+id/fragment_login_select_verify_method"/>
+</navigation>

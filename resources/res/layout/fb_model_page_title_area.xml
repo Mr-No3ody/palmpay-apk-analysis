@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/fb_cmpta_root"
+    android:background="@drawable/fb_gradient_purple_horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="158dp">
+    <com.mikepenz.iconics.view.IconicsImageView
+        android:id="@+id/fb_cmpta_back_iv"
+        android:padding="@dimen/fb_dp15"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/fb_dp25"
+        app:iiv_color="@color/ppColorTextBase"
+        app:iiv_icon="pay_Close"
+        app:iiv_size="24dp"/>
+    <TextView
+        android:textSize="@dimen/fb_dp14"
+        android:textColor="@color/ppColorTextBase"
+        android:id="@+id/fb_cmpta_right_top_text"
+        android:padding="@dimen/fb_dp15"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/fb_dp28"
+        android:layout_alignParentEnd="true"/>
+    <TextView
+        android:textSize="@dimen/fb_dp16"
+        android:textStyle="bold"
+        android:textColor="@color/ppColorTextBase"
+        android:id="@+id/fb_cmpta_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/fb_dp10"
+        android:layout_above="@+id/fb_cmpta_content"
+        android:layout_marginStart="@dimen/fb_dp15"/>
+    <TextView
+        android:textSize="@dimen/fb_dp12"
+        android:textColor="@color/ppColorTextBase"
+        android:id="@+id/fb_cmpta_content"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/fb_dp16"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="@dimen/fb_dp15"/>
+</RelativeLayout>

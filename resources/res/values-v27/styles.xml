@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Base.Theme.SplashScreen" parent="@style/Base.v27.Theme.SplashScreen">
+    </style>
+    <style name="Base.Theme.SplashScreen.Light" parent="@style/Base.v27.Theme.SplashScreen.Light">
+    </style>
+    <style name="Base.v27.Theme.SplashScreen" parent="@style/Base.v21.Theme.SplashScreen">
+        <item name="android:windowLayoutInDisplayCutoutMode">1</item>
+    </style>
+    <style name="Base.v27.Theme.SplashScreen.Light" parent="@style/Base.v21.Theme.SplashScreen.Light">
+        <item name="android:windowLayoutInDisplayCutoutMode">1</item>
+    </style>
+    <style name="BaseTheme" parent="@style/Theme.AppCompat.Light.DarkActionBar">
+        <item name="android:windowBackground">@color/ppColorBackgroundDark</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:navigationBarColor">@color/ppColorBackgroundDark</item>
+        <item name="android:windowLightNavigationBar">true</item>
+        <item name="actionBarStyle">@style/BaseTheme.ActionBar</item>
+        <item name="actionMenuTextAppearance">@style/ActionMenuTextAppearance</item>
+        <item name="colorAccent">@color/ppColorPrimary</item>
+        <item name="colorPrimary">@color/ppColorBackgroundLight</item>
+        <item name="colorPrimaryDark">@color/ppColorPrimary</item>
+        <item name="preferenceTheme">@style/AppTheme.FixForPreferenceThemeOverlay</item>
+    </style>
+    <style name="BaseTheme.NoActionBar" parent="@style/Theme.AppCompat.Light.NoActionBar">
+        <item name="android:buttonStyle">@style/Widget.AppCompat.Button.Borderless</item>
+        <item name="android:windowBackground">@color/ppColorBackgroundDark</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:navigationBarColor">@color/ppColorBackgroundDark</item>
+        <item name="android:windowLightNavigationBar">true</item>
+        <item name="buttonStyle">@style/Widget.AppCompat.Button.Borderless</item>
+        <item name="colorAccent">@color/ppColorPrimary</item>
+        <item name="colorPrimary">@color/ppColorBackgroundLight</item>
+        <item name="colorPrimaryDark">@color/ppColorPrimary</item>
+    </style>
+    <style name="LightBaseTheme" parent="@style/BaseTheme">
+        <item name="android:windowBackground">@color/ppColorBackgroundLight</item>
+        <item name="android:navigationBarColor">@color/ppColorBackgroundDark</item>
+        <item name="android:windowLightNavigationBar">true</item>
+    </style>
+    <style name="fb_BaseTheme.NoActionBar" parent="@style/Theme.AppCompat.Light.NoActionBar">
+        <item name="android:buttonStyle">@style/Widget.AppCompat.Button.Borderless</item>
+        <item name="android:windowBackground">@color/ppColorBackgroundDark</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:navigationBarColor">@color/ppColorBackgroundDark</item>
+        <item name="android:windowLightNavigationBar">true</item>
+        <item name="buttonStyle">@style/Widget.AppCompat.Button.Borderless</item>
+        <item name="colorAccent">@color/fb_base_colorAccent</item>
+        <item name="colorPrimaryDark">@color/fb_base_colorPrimaryDark</item>
+        <item name="fb_colorPrimary">@color/fb_base_colorPrimaryLight</item>
+    </style>
+</resources>

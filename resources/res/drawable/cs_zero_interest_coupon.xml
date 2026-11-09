@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aapt="http://schemas.android.com/aapt"
+    android:height="110dp"
+    android:width="228dp"
+    android:viewportWidth="228"
+    android:viewportHeight="110">
+    <path
+        android:fillColor="@drawable/_cs_zero_interest_coupon__0_res_0x7f08003c"
+        android:pathData="M0,12C0,5.37 5.37,0 12,0H216C222.63,0 228,5.37 228,12V14.05C227.67,14.02 227.34,14 227,14C222.03,14 218,18.03 218,23C218,27.97 222.03,32 227,32C227.34,32 227.67,31.98 228,31.95V98C228,98.35 227.99,98.7 227.96,99.05C227.64,99.02 227.32,99 227,99C222.03,99 218,103.03 218,108C218,108.62 218.06,109.22 218.18,109.8C217.47,109.93 216.74,110 216,110H12C10.91,110 9.86,109.86 8.86,109.58C8.95,109.07 9,108.54 9,108C9,103.04 4.99,99.02 0.04,99C0.01,98.67 0,98.34 0,98V32C4.97,32 9,27.97 9,23C9,18.03 4.97,14 0,14V12Z"
+        android:fillType="evenOdd"/>
+</vector>

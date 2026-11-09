@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="@color/ppColorBackgroundLight"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <RelativeLayout
+        android:paddingTop="@dimen/dp10"
+        android:paddingBottom="@dimen/dp10"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingVertical="@dimen/dp10">
+        <TextView
+            android:textColor="@color/ppColorTextPrimary"
+            android:ellipsize="end"
+            android:gravity="center"
+            android:id="@+id/tvTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/dp50"
+            android:layout_marginRight="@dimen/dp50"
+            android:text="@string/core_msg_set_document_photo"
+            android:maxLines="2"
+            android:layout_centerInParent="true"
+            android:layout_marginHorizontal="@dimen/dp50"
+            style="@style/Text.medium.6306b2.14"/>
+        <com.mikepenz.iconics.view.IconicsImageView
+            android:id="@+id/ivClose"
+            android:padding="@dimen/dp10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_alignParentEnd="true"
+            app:iiv_color="@color/ppColorTextNormal"
+            app:iiv_icon="pay_Close"
+            app:iiv_size="24dp"/>
+    </RelativeLayout>
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/cds_app_rcv"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp208"/>
+</LinearLayout>

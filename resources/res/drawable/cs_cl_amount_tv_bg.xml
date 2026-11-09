@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_checked="true">
+        <shape>
+            <corners android:radius="@dimen/dp16"/>
+            <solid android:color="@android:color/transparent"/>
+            <stroke
+                android:width="@dimen/dp1"
+                android:color="@color/cs_repayment_quick_amount_gear_border_color"/>
+        </shape>
+    </item>
+    <item>
+        <shape>
+            <corners android:radius="@dimen/dp16"/>
+            <solid android:color="@android:color/transparent"/>
+            <stroke
+                android:width="@dimen/dp1"
+                android:color="@color/cs_repayment_quick_amount_gear_border_color"/>
+        </shape>
+    </item>
+</selector>

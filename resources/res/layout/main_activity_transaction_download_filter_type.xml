@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="@color/ppColorBackgroundDark"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <com.palmpay.lib.ui.titlebar.PpTitleBar
+        android:id="@+id/titleBar"
+        android:background="@color/transparent"
+        android:layout_width="match_parent"
+        android:layout_height="?android:attr/actionBarSize"
+        app:title_bar_title="@string/main_transaction_history"/>
+    <androidx.core.widget.NestedScrollView
+        android:paddingRight="@dimen/dp16"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+        <LinearLayout
+            android:orientation="vertical"
+            android:id="@+id/viewContainer"
+            android:scrollbars="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+    </androidx.core.widget.NestedScrollView>
+    <LinearLayout
+        android:gravity="center"
+        android:background="@color/ppColorBackgroundLight"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp68">
+        <com.palmpay.lib.ui.button.PpButton
+            android:enabled="false"
+            android:gravity="center"
+            android:id="@+id/tvNext"
+            android:layout_width="match_parent"
+            android:layout_marginLeft="@dimen/dp16"
+            android:layout_marginRight="@dimen/dp16"
+            android:text="@string/core_continue"
+            android:layout_marginHorizontal="@dimen/dp16"
+            style="@style/ppButtonStyle"/>
+    </LinearLayout>
+</LinearLayout>

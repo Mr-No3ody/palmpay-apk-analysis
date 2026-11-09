@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <gradient
+        android:startColor="@color/pp_transparent"
+        android:endColor="@color/pp_transparent"
+        android:angle="0"
+        android:type="linear"
+        android:centerColor="@color/cs_cl_high_quality_exclusive_badge_center"/>
+</shape>

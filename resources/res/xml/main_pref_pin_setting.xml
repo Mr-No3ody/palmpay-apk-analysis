@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.preference.PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.preference.Preference
+        android:layout="@layout/main_pref_layout_single_line"
+        android:title="@string/main_change_pin"
+        android:key="key_change_pin"
+        android:summary="Enter the original PIN to change new PIN"/>
+    <androidx.preference.Preference
+        android:layout="@layout/main_pref_layout_single_line"
+        android:title="@string/main_reset_pin"
+        android:key="key_reset_pin"
+        android:summary="Too many input errors or account lockout reset"/>
+</androidx.preference.PreferenceScreen>

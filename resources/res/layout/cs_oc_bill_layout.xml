@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="@color/cs_oc_bill_bg_color"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <com.palmpay.lib.ui.titlebar.PpTitleBar
+        android:id="@+id/oc_bill_mtb"
+        android:background="@color/ppColorBackgroundLight"
+        android:layout_width="match_parent"
+        android:layout_height="?android:attr/actionBarSize"
+        app:title_bar_right_icon_1="@drawable/cs_oc_feedback_icon_big"
+        app:title_bar_right_text="@string/cs_bill_history"
+        app:title_bar_show_right_2_iv="true"
+        app:title_bar_title="Billing cycle"/>
+    <FrameLayout
+        android:id="@+id/bill_fl"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+</LinearLayout>

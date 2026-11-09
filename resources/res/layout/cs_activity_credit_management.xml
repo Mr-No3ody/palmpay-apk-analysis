@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="@color/cv_color_ffffff"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <com.palmpay.lib.ui.titlebar.PpTitleBar
+        android:id="@+id/titleBar"
+        android:background="@color/transparent"
+        android:layout_width="match_parent"
+        android:layout_height="?android:attr/actionBarSize"
+        app:layout_constraintTop_toTopOf="parent"
+        app:title_bar_title="@string/cs_cl_credit_management"/>
+    <FrameLayout
+        android:background="@color/ppColorBackgroundDark"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/rvCreditManagementList"
+            android:background="@drawable/cv_shape_rect_corner_12_bg_white"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/dp12"
+            android:layout_marginTop="@dimen/dp12"
+            android:layout_marginRight="@dimen/dp12"
+            android:layout_marginBottom="@dimen/dp12"
+            android:layout_marginHorizontal="@dimen/dp12"
+            android:layout_marginVertical="@dimen/dp12"/>
+        <include layout="@layout/cs_cl_credit_management_empty_view"/>
+    </FrameLayout>
+</LinearLayout>

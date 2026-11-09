@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:id="@+id/coreSafetyassessmentqaNavGraph">
+    <fragment
+        android:name="com.transsnet.palmpay.core.ui.fragment.verify.CheckSafetyAssessmentQADialogFragment"
+        android:id="@+id/fragmentSafetyAssessmentQaDialog"/>
+    <fragment
+        android:name="com.transsnet.palmpay.core.ui.fragment.verify.CheckSafetyAssessmentQAQuestionFragment"
+        android:id="@+id/fragmentSafetyAssessmentQaQuestion"/>
+    <fragment
+        android:name="com.transsnet.palmpay.core.ui.fragment.verify.CheckSafetyAssessmentQAResultFragment"
+        android:id="@+id/fragmentSafetyAssessmentQaResult"/>
+</navigation>

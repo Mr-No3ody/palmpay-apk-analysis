@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.transsnet.palmpay.custom_view.model.ModelPaymentInfoItem xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/previewEarlyRefundItem"
+    android:visibility="gone"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:cv_item_key="@string/core_early_refund"
+    app:cv_item_style="normal_with_value_icon"
+    app:cv_item_value="@string/core_in_effect"
+    app:cv_item_value_icon="@drawable/cv_check_green"
+    app:cv_item_value_icon_visible="true"/>

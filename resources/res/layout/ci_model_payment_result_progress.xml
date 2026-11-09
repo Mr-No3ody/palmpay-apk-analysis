@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ViewStub
+        android:id="@+id/successStub"
+        android:layout="@layout/ci_model_payment_result_success"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <ViewStub
+        android:id="@+id/pendingStub"
+        android:layout="@layout/ci_model_payment_result_pending"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <ViewStub
+        android:id="@+id/failStub"
+        android:layout="@layout/ci_model_payment_result_fail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+</merge>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:padding="@dimen/dp12"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:divider="@drawable/cv_shape_transparent_v_divider_6"
+    android:showDividers="middle">
+    <TextView
+        android:id="@+id/tvReviewTitle"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        style="@style/Text.medium.202046.16"/>
+    <LinearLayout
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:id="@+id/layoutInfoReview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@+id/tvReviewTitle">
+        <ImageView
+            android:layout_width="24dp"
+            android:layout_height="24dp"/>
+        <TextView style="@style/Text.202046.14"/>
+        <View
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_weight="1"/>
+        <com.mikepenz.iconics.view.IconicsImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:iiv_color="@color/ppColorTextAssist"
+            app:iiv_icon="pay_ArrowCenterRight"
+            app:iiv_size="@dimen/dp16"/>
+    </LinearLayout>
+</LinearLayout>

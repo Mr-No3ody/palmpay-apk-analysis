@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:paddingLeft="@dimen/dp12"
+    android:paddingRight="@dimen/dp12"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/dp64"
+    android:paddingHorizontal="@dimen/dp12">
+    <TextView
+        android:id="@+id/tvOrderName"
+        app:layout_constraintBottom_toTopOf="@+id/tvOrderDate"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_chainStyle="packed"
+        style="@style/Text.202046.14"/>
+    <TextView
+        android:id="@+id/tvOrderDate"
+        android:layout_marginTop="@dimen/dp8"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvOrderName"
+        style="@style/Text.858a8f.12"/>
+    <TextView
+        android:textSize="@dimen/dp16"
+        android:id="@+id/tvOrderAmount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        style="@style/txt_number_s_b"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

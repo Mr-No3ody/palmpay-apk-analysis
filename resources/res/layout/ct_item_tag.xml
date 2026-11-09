@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@drawable/ct_item_contact_tag_bg"
+    android:paddingLeft="@dimen/dp9"
+    android:paddingRight="@dimen/dp9"
+    android:layout_width="wrap_content"
+    android:layout_height="@dimen/dp24"
+    android:minWidth="@dimen/dp48">
+    <TextView
+        android:textSize="@dimen/dp14"
+        android:textColor="@color/ct_relationship_select_color"
+        android:id="@+id/cit_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"/>
+</RelativeLayout>

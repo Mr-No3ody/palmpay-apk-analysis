@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <View
+        android:id="@+id/v_divider"
+        style="@style/core_divider_horizontal"/>
+    <TextView
+        android:textColor="@color/ppColorError"
+        android:gravity="start"
+        android:id="@+id/tv_error"
+        android:paddingTop="@dimen/dp2"
+        android:paddingBottom="@dimen/dp2"
+        android:visibility="gone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:includeFontPadding="false"
+        android:paddingVertical="@dimen/dp2"
+        style="@style/Text.202046.12"/>
+</LinearLayout>

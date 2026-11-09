@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.palmpay.lib.ui.form.PpPhoneEditText xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:textSize="22dp"
+    android:id="@+id/inputMobile"
+    android:background="@drawable/cv_shape_rect_corner_12_bg_dark"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:form_country_code_text="+234"
+    app:form_edit_input_type="phone"
+    app:form_edit_max_length="11"
+    app:form_hide_text="Enter phone number"
+    app:form_icon_edit_left="@drawable/core_country_ng"
+    app:form_layout_background="@color/transparent"
+    app:form_style="dark"/>

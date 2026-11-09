@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/cv_shape_rect_corner_4_bg_dark"
+    android:paddingLeft="@dimen/dp8"
+    android:paddingRight="@dimen/dp8"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/dp40"
+    android:paddingHorizontal="@dimen/dp8">
+    <TextView
+        android:id="@+id/tvScheduleRecommendNumber"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constrainedWidth="true"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        style="@style/Text.202046.16"/>
+    <TextView
+        android:ellipsize="end"
+        android:id="@+id/tvTagName"
+        android:background="@drawable/cv_shape_rect_corner_12_bg_white_stroke_primary"
+        android:paddingLeft="@dimen/dp4"
+        android:paddingRight="@dimen/dp4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:maxLines="1"
+        android:layout_marginStart="@dimen/dp4"
+        android:layout_marginEnd="@dimen/dp10"
+        android:paddingHorizontal="@dimen/dp4"
+        app:layout_constrainedWidth="true"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/ivAdd"
+        app:layout_constraintHorizontal_bias="0"
+        app:layout_constraintStart_toEndOf="@+id/tvScheduleRecommendNumber"
+        app:layout_constraintTop_toTopOf="parent"
+        style="@style/Text.6306b2.12"/>
+    <com.mikepenz.iconics.view.IconicsImageView
+        android:id="@+id/ivAdd"
+        android:layout_width="@dimen/dp20"
+        android:layout_height="@dimen/dp20"
+        app:iiv_color="@color/ppColorTextPrimary"
+        app:iiv_icon="pay_AddOutline"
+        app:iiv_size="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

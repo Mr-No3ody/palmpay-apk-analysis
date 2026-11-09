@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.transsnet.palmpay.custom_view.model.ModelPaymentInfoItem xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/previewFeeAmountItem"
+    android:visibility="gone"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:cv_item_key="@string/core_fee"
+    app:cv_item_key_icon="@drawable/cv_info_icon_grey_1"
+    app:cv_item_key_icon_visible="false"/>

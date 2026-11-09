@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:layout_width="wrap_content"
+    android:layout_height="@dimen/dp74">
+    <ImageView
+        android:id="@+id/cisa_iv"
+        android:layout_width="@dimen/dp36"
+        android:layout_height="@dimen/dp36"
+        android:layout_marginLeft="@dimen/dp20"
+        android:layout_marginTop="@dimen/dp9"
+        android:layout_marginRight="@dimen/dp20"
+        android:src="@drawable/cv_more"/>
+    <TextView
+        android:textSize="@dimen/dp10"
+        android:textColor="@color/ppColorTextPrimary"
+        android:ellipsize="end"
+        android:id="@+id/cisa_tv"
+        android:paddingLeft="@dimen/dp2"
+        android:paddingRight="@dimen/dp2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dp6"
+        android:text="@string/core_more"
+        android:maxLines="1"
+        android:layout_centerInParent="true"/>
+</LinearLayout>

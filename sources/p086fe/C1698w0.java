@@ -1,0 +1,48 @@
+package p086fe;
+
+import Ef.a;
+import Ff.h;
+import androidx.camera.core.impl.utils.executor.g;
+import com.transsnet.palmpay.core.base.l;
+import com.transsnet.palmpay.core.bean.CommonResult;
+import kotlin.Unit;
+import kotlin.coroutines.Continuation;
+import kotlin.jvm.functions.Function2;
+import org.chromium.support_lib_boundary.util.b;
+
+/* JADX INFO: renamed from: fe.w0, reason: case insensitive filesystem */
+/* JADX INFO: loaded from: classes4.dex */
+public final class C1698w0 extends h implements Function2 {
+
+    /* JADX INFO: renamed from: a, reason: collision with root package name */
+    public /* synthetic */ Object f36777a;
+
+    /* JADX INFO: renamed from: b, reason: collision with root package name */
+    public final /* synthetic */ l f36778b;
+
+    /* JADX WARN: 'super' call moved to the top of the method (can break code semantics) */
+    public C1698w0(l lVar, Continuation continuation) {
+        super(2, continuation);
+        this.f36778b = lVar;
+    }
+
+    @Override // Ff.a
+    public final Continuation create(Object obj, Continuation continuation) {
+        C1698w0 c1698w0 = new C1698w0(this.f36778b, continuation);
+        c1698w0.f36777a = obj;
+        return c1698w0;
+    }
+
+    @Override // kotlin.jvm.functions.Function2
+    public final Object invoke(Object obj, Object obj2) {
+        return ((C1698w0) create((CommonResult) obj, (Continuation) obj2)).invokeSuspend(Unit.f38893a);
+    }
+
+    @Override // Ff.a
+    public final Object invokeSuspend(Object obj) {
+        a aVar = a.f2423a;
+        g.M(obj);
+        b.C(this.f36778b, (CommonResult) this.f36777a);
+        return Unit.f38893a;
+    }
+}

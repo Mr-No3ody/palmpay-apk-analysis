@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:state_checked="true"
+        android:drawable="@drawable/cv_shape_rect_corner_4_bg_secondary_stroke_primary"/>
+    <item
+        android:state_selected="true"
+        android:drawable="@drawable/cv_shape_rect_corner_4_bg_secondary_stroke_primary"/>
+    <item android:drawable="@drawable/core_shape_rect_corner_4_stroke_white"/>
+</selector>

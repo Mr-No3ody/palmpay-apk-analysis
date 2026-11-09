@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+    <ImageView
+        android:id="@+id/icon"
+        android:layout_width="@dimen/dp36"
+        android:layout_height="@dimen/dp36"
+        android:layout_marginTop="@dimen/dp16"
+        android:layout_centerHorizontal="true"/>
+    <View
+        android:id="@+id/view1"
+        android:layout_width="@dimen/dp1"
+        android:layout_height="@dimen/dp1"
+        android:layout_centerHorizontal="true"/>
+    <com.transsnet.adsdk.widgets.SingleAdView
+        android:id="@+id/ad_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dp14"
+        android:scaleType="fitXY"
+        android:adjustViewBounds="true"
+        android:layout_marginStart="@dimen/dp10"
+        android:layout_toEndOf="@+id/view1"/>
+    <TextView
+        android:textSize="@dimen/dp14"
+        android:textColor="@color/ppColorTextPrimary"
+        android:id="@+id/text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dp8"
+        android:layout_below="@+id/icon"
+        android:layout_centerHorizontal="true"/>
+</RelativeLayout>

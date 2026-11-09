@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:id="@+id/fb_rootView"
+    android:background="@color/ppColorBackgroundLight"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <com.palmpay.lib.ui.titlebar.PpTitleBar
+        android:id="@+id/fb_titleBar"
+        android:layout_width="match_parent"
+        android:layout_height="?android:attr/actionBarSize"
+        app:layout_constraintTop_toTopOf="parent"
+        app:title_bar_show_right_text_arrow_down="false"
+        app:title_bar_title="@string/fb_face_verification"/>
+    <ViewStub
+        android:id="@+id/fb_view1"
+        android:layout="@layout/fb_layout_check_face_recognition_1"
+        android:inflatedId="@+id/fb_view1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginBottom="@dimen/fb_dp56"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/fb_titleBar"/>
+    <ViewStub
+        android:id="@+id/fb_view2"
+        android:layout="@layout/fb_layout_check_face_recognition_2"
+        android:inflatedId="@+id/fb_view2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@+id/fb_titleBar"/>
+    <TextView
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/fb_dp16"
+        android:layout_marginRight="@dimen/fb_dp16"
+        android:layout_marginBottom="24dp"
+        android:text="Your facial information will be protected according to privacy policy,located on the Me page-About PalmPay-Privacy Policy."
+        android:layout_marginHorizontal="@dimen/fb_dp16"
+        app:layout_constraintBottom_toBottomOf="parent"
+        style="@style/fb_txt_mi_lg"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:paddingLeft="@dimen/dp16"
+    android:paddingRight="@dimen/dp16"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/dp56"
+    android:paddingHorizontal="@dimen/dp16">
+    <TextView
+        android:id="@+id/tv_item_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        style="@style/txt_s_b"/>
+    <TextView
+        android:textSize="@dimen/dp12"
+        android:textColor="@color/ppColorPrimary"
+        android:ellipsize="end"
+        android:id="@+id/tv_item_tag"
+        android:background="@drawable/cv_shape_rect_corner_10_bg_f8f4fe"
+        android:paddingLeft="@dimen/dp10"
+        android:paddingRight="@dimen/dp10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:maxLines="1"
+        android:layout_marginStart="@dimen/dp4"
+        android:layout_marginEnd="@dimen/dp50"
+        android:paddingHorizontal="@dimen/dp10"
+        app:layout_constrainedWidth="true"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/tv_item_hint"
+        app:layout_constraintHorizontal_bias="0"
+        app:layout_constraintStart_toEndOf="@+id/tv_item_name"
+        app:layout_constraintTop_toTopOf="parent"
+        style="@style/txt_s_b"/>
+    <TextView
+        android:textSize="@dimen/dp12"
+        android:id="@+id/tv_item_hint"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        style="@style/txt_s_g"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

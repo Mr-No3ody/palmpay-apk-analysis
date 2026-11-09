@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:state_enabled="true"
+        android:drawable="@drawable/cs_cl_card_borrow_txt_bg"/>
+    <item android:drawable="@drawable/cs_cl_card_borrow_forzen_txt_bg"/>
+</selector>

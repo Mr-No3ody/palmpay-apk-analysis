@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/cv_rect_bg_white_corner_bl_br_12"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <com.mikepenz.iconics.view.IconicsTextView
+        android:gravity="center"
+        android:layout_gravity="center_horizontal"
+        android:id="@+id/iv_bottom"
+        android:paddingTop="@dimen/dp12"
+        android:paddingBottom="@dimen/dp12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/sm_view_all"
+        android:paddingVertical="@dimen/dp12"
+        app:iiv_end_color="@color/ppColorTextNormal"
+        app:iiv_end_icon="pay_ArrowCenterRight"
+        app:iiv_end_size="@dimen/dp16"
+        style="@style/Text.6f7b85.12"/>
+</FrameLayout>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <com.palmpay.lib.ui.titlebar.PpTitleBar
+        android:id="@+id/titleBar"
+        android:background="@color/transparent"
+        android:layout_width="match_parent"
+        android:layout_height="?android:attr/actionBarSize"
+        app:layout_constraintTop_toTopOf="parent"
+        app:title_bar_show_right_text_arrow_down="false"
+        app:title_bar_title=""/>
+    <com.mikepenz.iconics.view.IconicsImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        app:iiv_color="@color/ppColorPrimary"
+        app:iiv_icon="pay_TouchSensor"
+        app:iiv_size="@dimen/dp56"
+        app:layout_constraintBottom_toTopOf="@+id/tv1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"/>
+    <TextView
+        android:textSize="@dimen/dp20"
+        android:gravity="center"
+        android:id="@+id/tv1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Login Quicker with Fingerprint "
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.35"
+        style="@style/txt_b_b_b"/>
+    <TextView
+        android:gravity="center"
+        android:id="@+id/tv2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="@dimen/dp12"
+        android:layout_marginRight="30dp"
+        android:text="Turn on fingerprint now to enable PalmPay use it login your account, for a smoother experience next time."
+        android:lineSpacingExtra="2dp"
+        android:layout_marginHorizontal="30dp"
+        app:layout_constraintTop_toBottomOf="@+id/tv1"
+        style="@style/txt_s_g"/>
+    <com.palmpay.lib.ui.button.PpButton
+        android:gravity="center"
+        android:id="@+id/tvConfirm"
+        android:layout_width="match_parent"
+        android:layout_marginLeft="@dimen/dp16"
+        android:layout_marginTop="@dimen/dp45"
+        android:layout_marginRight="@dimen/dp16"
+        android:text="@string/ac_turn_on"
+        android:layout_marginHorizontal="@dimen/dp16"
+        app:layout_constraintTop_toBottomOf="@+id/tv2"
+        style="@style/ppButtonStyle"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

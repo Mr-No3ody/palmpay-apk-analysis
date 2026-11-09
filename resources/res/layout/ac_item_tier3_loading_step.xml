@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:gravity="center_vertical"
+    android:orientation="horizontal"
+    android:paddingLeft="@dimen/dp12"
+    android:paddingRight="@dimen/dp12"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/dp52"
+    android:paddingHorizontal="@dimen/dp12">
+    <androidx.appcompat.widget.AppCompatImageView
+        android:layout_width="3dp"
+        android:layout_height="3dp"
+        android:scaleType="fitXY"
+        app:srcCompat="@drawable/ac_indicator_dot_1"
+        app:tint="@color/ppColorTextPrimary"/>
+    <TextView
+        android:textSize="@dimen/dp14"
+        android:textColor="@color/ppColorTextPrimary"
+        android:gravity="start"
+        android:id="@+id/tvStep"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="@dimen/dp8"
+        style="@style/Text.medium.202046"/>
+    <ImageView
+        android:id="@+id/ivStatus"
+        android:visibility="invisible"
+        android:layout_width="@dimen/dp20"
+        android:layout_height="@dimen/dp20"
+        android:contentDescription="@null"/>
+</LinearLayout>

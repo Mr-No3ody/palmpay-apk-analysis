@@ -1,0 +1,56 @@
+package p051d9;
+
+import Ef.a;
+import Ff.h;
+import androidx.camera.core.impl.utils.executor.g;
+import com.transsnet.palmpay.account.bean.LogInReq;
+import com.transsnet.palmpay.account.business.IApiAccountService;
+import kotlin.Unit;
+import kotlin.coroutines.Continuation;
+import kotlin.jvm.functions.Function1;
+
+/* JADX INFO: loaded from: classes3.dex */
+public final class J extends h implements Function1 {
+
+    /* JADX INFO: renamed from: a, reason: collision with root package name */
+    public int f35562a;
+
+    /* JADX INFO: renamed from: b, reason: collision with root package name */
+    public final /* synthetic */ LogInReq f35563b;
+
+    /* JADX WARN: 'super' call moved to the top of the method (can break code semantics) */
+    public J(LogInReq logInReq, Continuation continuation) {
+        super(1, continuation);
+        this.f35563b = logInReq;
+    }
+
+    @Override // Ff.a
+    public final Continuation create(Continuation continuation) {
+        return new J(this.f35563b, continuation);
+    }
+
+    @Override // kotlin.jvm.functions.Function1
+    public final Object invoke(Object obj) {
+        return ((J) create((Continuation) obj)).invokeSuspend(Unit.f38893a);
+    }
+
+    @Override // Ff.a
+    public final Object invokeSuspend(Object obj) {
+        a aVar = a.f2423a;
+        int i7 = this.f35562a;
+        if (i7 != 0) {
+            if (i7 != 1) {
+                throw new IllegalStateException("call to 'resume' before 'invoke' with coroutine");
+            }
+            g.M(obj);
+            return obj;
+        }
+        g.M(obj);
+        IApiAccountService iApiAccountServiceT = G8.a.t();
+        LogInReq logInReq = this.f35563b;
+        logInReq.appId = "P260617092568177297851";
+        this.f35562a = 1;
+        Object objLogIn = iApiAccountServiceT.logIn(logInReq, this);
+        return objLogIn == aVar ? aVar : objLogIn;
+    }
+}

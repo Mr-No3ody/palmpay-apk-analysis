@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:paddingTop="@dimen/dp16"
+    android:paddingBottom="@dimen/dp16"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:minHeight="@dimen/dp48"
+    android:paddingVertical="@dimen/dp16">
+    <LinearLayout
+        android:orientation="vertical"
+        android:id="@+id/ll_promotion_layout"
+        android:paddingTop="@dimen/dp6"
+        android:paddingBottom="@dimen/dp6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingVertical="@dimen/dp6"/>
+    <LinearLayout
+        android:orientation="vertical"
+        android:id="@+id/ll_promotion_tips_layout"
+        android:paddingLeft="@dimen/dp12"
+        android:paddingRight="@dimen/dp12"
+        android:paddingBottom="@dimen/dp6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingHorizontal="@dimen/dp12">
+        <com.mikepenz.iconics.view.IconicsTextView
+            android:gravity="start|center_vertical"
+            android:id="@+id/tv_item_key"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/dp6"
+            app:iiv_start_color="@color/ppColorTextDisable"
+            app:iiv_start_icon="pay_InformationOutline"
+            app:iiv_start_size="@dimen/dp14"
+            style="@style/Text.9ca2aa.12"/>
+    </LinearLayout>
+</merge>

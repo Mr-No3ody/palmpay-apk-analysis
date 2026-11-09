@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/cs_shape_flexi_interest_voucher_bg"
+    android:paddingLeft="@dimen/dp16"
+    android:paddingRight="@dimen/dp16"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/dp32"
+    android:paddingHorizontal="@dimen/dp16">
+    <TextView
+        android:id="@+id/tvCouponName"
+        app:layout_constraintBottom_toBottomOf="@+id/tvCouponAmount"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/tvCouponAmount"
+        style="@style/Text.202046.12"/>
+    <TextView
+        android:id="@+id/tvCouponAmount"
+        android:background="@drawable/cs_oc_discount_icon"
+        android:layout_marginLeft="@dimen/dp8"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toRightOf="@+id/tvCouponName"
+        app:layout_constraintTop_toTopOf="parent"
+        style="@style/Text.ffffff.10"/>
+    <com.mikepenz.iconics.view.IconicsImageView
+        android:id="@+id/ivArrowRight"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:iiv_color="@color/ppColorTextAssist"
+        app:iiv_icon="pay_ArrowCenterRight"
+        app:iiv_size="@dimen/dp16"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

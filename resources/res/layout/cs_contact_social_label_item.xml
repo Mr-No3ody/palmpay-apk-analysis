@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <CheckedTextView
+        android:textSize="12sp"
+        android:textColor="@color/cs_oc_contact_social_txt_color"
+        android:ellipsize="end"
+        android:gravity="center"
+        android:id="@+id/check_tv"
+        android:background="@drawable/cs_oc_contact_social_label_bg"
+        android:paddingTop="@dimen/dp10"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp70"
+        android:text="@string/cs_whats_app"
+        android:maxLines="1"
+        android:drawableTop="@drawable/cs_whats_icon"
+        android:drawablePadding="@dimen/dp5"/>
+</LinearLayout>

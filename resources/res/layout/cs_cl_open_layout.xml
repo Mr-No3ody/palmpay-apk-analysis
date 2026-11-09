@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ViewStub
+        android:layout_gravity="center_horizontal"
+        android:id="@+id/ins_open_stub"
+        android:layout="@layout/cs_cl_installment_cash_open_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+    <ViewStub
+        android:layout_gravity="center_horizontal"
+        android:id="@+id/cash_open_stub"
+        android:layout="@layout/cs_cl_cash_open_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+</FrameLayout>

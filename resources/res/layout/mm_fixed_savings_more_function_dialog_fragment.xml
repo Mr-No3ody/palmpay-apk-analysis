@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="@dimen/dp180"
+    android:layout_height="wrap_content">
+    <ImageView
+        android:layout_gravity="right"
+        android:id="@+id/iv_triangle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="@dimen/dp12"/>
+    <LinearLayout
+        android:orientation="vertical"
+        android:background="@drawable/cv_shape_rect_corner_12_bg_white"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:divider="@color/ppColorDividerLine"
+        android:showDividers="middle"
+        android:dividerPadding="@dimen/dp12">
+        <com.mikepenz.iconics.view.IconicsTextView
+            android:gravity="center"
+            android:id="@+id/tvCustomerService"
+            android:paddingLeft="@dimen/dp12"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dp50"
+            android:text="@string/core_customer_service"
+            android:drawablePadding="4dp"
+            app:iiv_start_color="@color/ppColorTextPrimary"
+            app:iiv_start_icon="pay_CustomerService"
+            app:iiv_start_size="@dimen/dp20"
+            style="@style/Text.medium.202046.12"/>
+        <com.mikepenz.iconics.view.IconicsTextView
+            android:gravity="center"
+            android:id="@+id/tvFAQ"
+            android:paddingLeft="@dimen/dp12"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dp50"
+            android:text="@string/core_faq"
+            android:drawablePadding="4dp"
+            app:iiv_start_color="@color/ppColorTextPrimary"
+            app:iiv_start_icon="pay_Question"
+            app:iiv_start_size="@dimen/dp20"
+            style="@style/Text.medium.202046.12"/>
+    </LinearLayout>
+</LinearLayout>

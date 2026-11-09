@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="BaseDialogTheme" parent="@style/Theme.AppCompat.Light.Dialog.Alert">
+        <item name="android:fitsSystemWindows">false</item>
+        <item name="android:windowMinWidthMinor">329dp</item>
+        <item name="colorAccent">@color/ppColorPrimary</item>
+        <item name="windowFixedWidthMinor">329dp</item>
+    </style>
+    <style name="BaseDialogTheme.MatchWidth" parent="@style/Theme.AppCompat.Dialog">
+        <item name="android:windowBackground">@color/ppColorBackgroundLight</item>
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:fitsSystemWindows">false</item>
+    </style>
+    <style name="BaseTheme" parent="@style/Theme.AppCompat.Light.DarkActionBar">
+        <item name="android:windowBackground">@color/ppColorBackgroundDark</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:fitsSystemWindows">true</item>
+        <item name="android:navigationBarColor">@color/ppColorBackgroundDark</item>
+        <item name="android:windowLightNavigationBar">true</item>
+        <item name="actionBarStyle">@style/BaseTheme.ActionBar</item>
+        <item name="actionMenuTextAppearance">@style/ActionMenuTextAppearance</item>
+        <item name="colorAccent">@color/ppColorPrimary</item>
+        <item name="colorPrimary">@color/ppColorBackgroundLight</item>
+        <item name="colorPrimaryDark">@color/ppColorPrimary</item>
+        <item name="preferenceTheme">@style/AppTheme.FixForPreferenceThemeOverlay</item>
+    </style>
+    <style name="BaseTheme.NoActionBar" parent="@style/Theme.AppCompat.Light.NoActionBar">
+        <item name="android:buttonStyle">@style/Widget.AppCompat.Button.Borderless</item>
+        <item name="android:windowBackground">@color/ppColorBackgroundDark</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:fitsSystemWindows">true</item>
+        <item name="android:navigationBarColor">@color/ppColorBackgroundDark</item>
+        <item name="android:windowLightNavigationBar">true</item>
+        <item name="buttonStyle">@style/Widget.AppCompat.Button.Borderless</item>
+        <item name="colorAccent">@color/ppColorPrimary</item>
+        <item name="colorPrimary">@color/ppColorBackgroundLight</item>
+        <item name="colorPrimaryDark">@color/ppColorPrimary</item>
+    </style>
+    <style name="CoreReactNativeTheme" parent="@style/BaseTheme.NoActionBar">
+        <item name="android:windowBackground">@color/ppColorBackgroundDark</item>
+        <item name="android:fitsSystemWindows">false</item>
+        <item name="colorPrimaryDark">@color/ppColorBackgroundLight</item>
+    </style>
+    <style name="ImmersionTheme" parent="@style/BaseTheme.NoActionBar">
+        <item name="android:fitsSystemWindows">false</item>
+    </style>
+    <style name="LightBaseTheme" parent="@style/BaseTheme">
+        <item name="android:windowBackground">@color/ppColorBackgroundLight</item>
+        <item name="android:fitsSystemWindows">true</item>
+        <item name="android:navigationBarColor">@color/ppColorBackgroundDark</item>
+        <item name="android:windowLightNavigationBar">true</item>
+    </style>
+    <style name="MainHomeTheme" parent="@style/BaseTheme.NoActionBar">
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:fitsSystemWindows">false</item>
+        <item name="android:windowDisablePreview">true</item>
+    </style>
+    <style name="MainHomeTheme2" parent="@style/BaseTheme.NoActionBar">
+        <item name="android:windowBackground">@color/ppColorBackgroundLight</item>
+        <item name="android:fitsSystemWindows">false</item>
+    </style>
+    <style name="Translucent" parent="@style/Theme.AppCompat.DayNight.NoActionBar">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowAnimationStyle">@android:style/Animation</item>
+        <item name="android:background">@android:color/transparent</item>
+        <item name="android:fitsSystemWindows">false</item>
+        <item name="android:backgroundDimEnabled">false</item>
+        <item name="android:colorBackgroundCacheHint">@null</item>
+        <item name="android:windowActionBar">false</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+    </style>
+    <style name="fb_BaseDialogTheme" parent="@style/Theme.AppCompat.Light.Dialog.Alert">
+        <item name="android:fitsSystemWindows">false</item>
+        <item name="android:windowMinWidthMinor">329dp</item>
+        <item name="colorAccent">@color/fb_base_colorAccent</item>
+        <item name="windowFixedWidthMinor">329dp</item>
+    </style>
+    <style name="fb_BaseTheme.NoActionBar" parent="@style/Theme.AppCompat.Light.NoActionBar">
+        <item name="android:buttonStyle">@style/Widget.AppCompat.Button.Borderless</item>
+        <item name="android:windowBackground">@color/ppColorBackgroundDark</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:fitsSystemWindows">true</item>
+        <item name="android:navigationBarColor">@color/fb_bg_color_gray_3</item>
+        <item name="android:windowLightNavigationBar">true</item>
+        <item name="buttonStyle">@style/Widget.AppCompat.Button.Borderless</item>
+        <item name="colorAccent">@color/fb_base_colorAccent</item>
+        <item name="colorPrimaryDark">@color/fb_base_colorPrimaryDark</item>
+        <item name="fb_colorPrimary">@color/fb_base_colorPrimaryLight</item>
+    </style>
+    <style name="fb_Translucent" parent="@style/Theme.AppCompat.DayNight.NoActionBar">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowAnimationStyle">@android:style/Animation</item>
+        <item name="android:background">@android:color/transparent</item>
+        <item name="android:fitsSystemWindows">false</item>
+        <item name="android:backgroundDimEnabled">false</item>
+        <item name="android:colorBackgroundCacheHint">@null</item>
+        <item name="android:windowActionBar">false</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+    </style>
+</resources>

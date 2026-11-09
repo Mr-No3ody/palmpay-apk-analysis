@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ImageView
+        android:id="@+id/ivBg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scaleType="fitCenter"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
+    <ImageView
+        android:id="@+id/ivLogo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="18dp"
+        android:src="@drawable/cv_default_bank_logo"
+        android:scaleType="fitXY"
+        android:paddingStart="24dp"
+        app:layout_constraintLeft_toLeftOf="@+id/ivBg"
+        app:layout_constraintTop_toTopOf="@+id/ivBg"/>
+    <TextView
+        android:gravity="center_vertical"
+        android:id="@+id/tvName"
+        android:paddingTop="14dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:maxLines="1"
+        android:fontFamily="sans-serif-medium"
+        android:paddingStart="10dp"
+        app:layout_constraintLeft_toRightOf="@+id/ivLogo"
+        app:layout_constraintTop_toTopOf="@+id/ivBg"
+        style="@style/txt_me_w"/>
+    <TextView
+        android:gravity="center_vertical"
+        android:id="@+id/tvCardNo"
+        android:paddingTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:maxLines="1"
+        android:paddingStart="10dp"
+        app:layout_constraintLeft_toRightOf="@+id/ivLogo"
+        app:layout_constraintTop_toBottomOf="@+id/tvName"
+        style="@style/txt_s_w"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

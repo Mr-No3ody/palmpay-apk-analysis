@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <com.wang.avi.AVLoadingIndicatorView
+        android:layout_gravity="center"
+        android:id="@+id/fb_indicatorView"
+        android:visibility="visible"
+        android:layout_width="@dimen/fb_dp48"
+        android:layout_height="@dimen/fb_dp48"
+        app:indicatorColor="@color/fb_base_colorAccent"
+        app:indicatorName="BallSpinFadeLoaderIndicator"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        style="@style/AVLoadingIndicatorView.Large"/>
+    <FrameLayout
+        android:id="@+id/fb_apv_fragment_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+</merge>

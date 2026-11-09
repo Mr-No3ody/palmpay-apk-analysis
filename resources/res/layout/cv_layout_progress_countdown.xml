@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="30dp"
+    android:layout_height="30dp">
+    <com.transsnet.palmpay.custom_view.CircleProgressView
+        android:id="@+id/progressBar"
+        android:layout_width="@dimen/dp30"
+        android:layout_height="@dimen/dp30"
+        app:circleColor="@color/ppColorDividerLine"
+        app:currentProgress="10"
+        app:maxProgress="10"
+        app:progressColor="@color/ppColorPrimary"
+        app:progressStrokeWidth="2dp"/>
+    <TextView
+        android:gravity="center_vertical"
+        android:layout_gravity="center"
+        android:id="@+id/tvCountDown"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/cv_palmpay_number_bold"
+        style="@style/txt_mi_b"/>
+</FrameLayout>

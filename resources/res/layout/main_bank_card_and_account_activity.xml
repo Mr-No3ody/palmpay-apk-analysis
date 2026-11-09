@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:fitsSystemWindows="true"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <com.palmpay.lib.ui.titlebar.PpTitleBar
+        android:id="@+id/titleBar"
+        android:background="@color/ppColorBackgroundLight"
+        android:layout_width="match_parent"
+        android:layout_height="?android:attr/actionBarSize"
+        app:title_bar_right_text="@string/core_faqs"
+        app:title_bar_title="@string/main_bank_card_and_account"/>
+    <com.google.android.material.tabs.TabLayout
+        android:id="@+id/tabLayout"
+        android:background="@color/ppColorBackgroundLight"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp48"
+        app:tabBackground="@color/transparent"
+        app:tabGravity="fill"
+        app:tabIndicatorColor="@color/ppColorPrimary"
+        app:tabIndicatorHeight="@dimen/dp2"
+        app:tabMode="fixed"
+        app:tabSelectedTextColor="@color/ppColorPrimary"
+        app:tabTextAppearance="@style/NormalTextStyle"
+        app:tabTextColor="@color/ppColorTextNormal"/>
+    <View
+        android:background="@color/ppColorDividerLine"
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"/>
+    <androidx.viewpager.widget.ViewPager
+        android:id="@+id/viewpager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:requiresFadingEdge="none"/>
+</LinearLayout>

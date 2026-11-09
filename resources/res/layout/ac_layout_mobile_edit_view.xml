@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.palmpay.lib.ui.form.PpFormVertical xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:textColor="@color/ppColorTextPrimary"
+    android:id="@+id/inputMobile"
+    android:background="@drawable/cv_shape_rect_corner_12_bg_dark"
+    android:paddingBottom="@dimen/dp16"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:form_edit_max_length="50"
+    app:form_hide_bottom_line="true"
+    app:form_hide_text="Please enter Phone Number/Email"
+    app:form_layout_background="@color/transparent"/>

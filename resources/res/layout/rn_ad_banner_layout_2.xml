@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <com.transsnet.adsdk.widgets.banner.BannerAdView
+        android:id="@+id/banner_ad_view"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        app:ad_banner_selected_indicator_color="#ffffff"
+        app:ad_rounded_corners="8dp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:use_cache="true"/>
+</FrameLayout>

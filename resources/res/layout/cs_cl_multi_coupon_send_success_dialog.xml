@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <ImageView
+        android:id="@+id/ivActivity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scaleType="fitXY"
+        android:adjustViewBounds="true"/>
+    <com.palmpay.lib.ui.button.PpButton
+        android:textStyle="bold"
+        android:id="@+id/btnBuyDataAirtime"
+        android:background="@drawable/cs_cl_buy_data_airtime_bg"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp48"
+        android:layout_marginLeft="@dimen/dp68"
+        android:layout_marginTop="-36dp"
+        android:layout_marginRight="@dimen/dp68"
+        android:text="@string/cs_cl_buy_data_airtime"
+        android:backgroundTint="@color/ppColorFlexiCashPrimary"
+        android:layout_marginHorizontal="@dimen/dp68"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        style="@style/ppButtonStyle"/>
+    <com.mikepenz.iconics.view.IconicsTextView
+        android:id="@+id/tvViewLoans"
+        android:layout_marginTop="6dp"
+        android:text="@string/cs_cl_view_loans"
+        app:iiv_end_color="@color/cv_color_ffffff"
+        app:iiv_end_icon="pay_ArrowRight"
+        app:iiv_end_padding="8dp"
+        app:iiv_end_size="16dp"
+        style="@style/Text.medium.ffffff.14"/>
+    <ImageView
+        android:id="@+id/clickEvent_multiCouponSendSuccess_close_iv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dp24"
+        android:src="@drawable/cs_cl_closed_white_icon"/>
+</LinearLayout>

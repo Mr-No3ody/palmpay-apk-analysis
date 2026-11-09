@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:id="@+id/ira_root"
+    android:background="@drawable/cv_rect_cornet_12_stroke_f2f2f2_bg_white"
+    android:layout_width="94dp"
+    android:layout_height="70dp">
+    <TextView
+        android:textSize="@dimen/dp20"
+        android:id="@+id/ira_amount_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toTopOf="@+id/ira_discount_amount_tv"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        style="@style/txt_number_s_b_b"/>
+    <TextView
+        android:textColor="@color/ppColorPrimary"
+        android:gravity="center"
+        android:id="@+id/ira_discount_amount_tv"
+        android:background="@drawable/cv_shape_rect_bottom_corner_8_bg_secondary"
+        android:layout_width="0dp"
+        android:layout_height="@dimen/dp20"
+        android:layout_marginTop="@dimen/dp2"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        style="@style/Text.6f7b85.12"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

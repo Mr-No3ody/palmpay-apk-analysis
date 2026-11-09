@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.swiperefreshlayout.widget.SwipeRefreshLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/refreshLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <com.transsnet.palmpay.custom_view.ReboundScrollView
+        android:orientation="vertical"
+        android:scrollbars="none"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:gravity="center_horizontal"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <com.transsnet.palmpay.credit.ui.view.NotifyInfoView
+                android:id="@+id/viewNotifyInfo"
+                android:paddingLeft="@dimen/dp16"
+                android:paddingRight="@dimen/dp16"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingHorizontal="@dimen/dp16"/>
+            <ViewStub
+                android:id="@+id/vsMobileInstallmentDefault"
+                android:layout="@layout/cs_layout_home_mobile_installment_default"
+                android:inflatedId="@+id/llMobileInstallmentDefault"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"/>
+            <ViewStub
+                android:id="@+id/vsMobileInstallmentMain"
+                android:layout="@layout/cs_layout_home_mobile_installment_main"
+                android:inflatedId="@+id/llMobileInstallmentMain"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"/>
+        </LinearLayout>
+    </com.transsnet.palmpay.custom_view.ReboundScrollView>
+</androidx.swiperefreshlayout.widget.SwipeRefreshLayout>

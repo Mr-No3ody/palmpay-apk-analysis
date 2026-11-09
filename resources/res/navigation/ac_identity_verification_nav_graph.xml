@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" app:startDestination="@+id/fragment_identity_verification_step_face">
+    <fragment
+        android:name="com.transsnet.palmpay.account.ui.fragment.identify.IdentityVerificationStep0Fragment"
+        android:id="@+id/fragment_identity_verification_step_face"/>
+    <fragment
+        android:name="com.transsnet.palmpay.account.ui.fragment.identify.IdentityVerificationStepFace2Fragment"
+        android:id="@+id/fragment_identity_verification_step_face_2"/>
+    <fragment
+        android:name="com.transsnet.palmpay.account.ui.fragment.identify.IdentityVerificationStep1Fragment"
+        android:id="@+id/fragment_identity_verification_step_id"/>
+    <fragment
+        android:name="com.transsnet.palmpay.account.ui.fragment.identify.IdentityVerificationStep2Fragment"
+        android:id="@+id/fragment_identity_verification_step2"/>
+    <fragment
+        android:name="com.transsnet.palmpay.account.ui.fragment.identify.IdentityVerificationConfirmBvnFragment"
+        android:id="@+id/fragment_identity_verification_confirm_bvn"/>
+    <fragment
+        android:name="com.transsnet.palmpay.account.ui.fragment.identify.IdentityVerificationAddressFragment"
+        android:id="@+id/fragment_identity_verification_step_address"/>
+    <fragment
+        android:name="com.transsnet.palmpay.account.ui.fragment.identify.IdentityVerificationUserProfileFragment"
+        android:id="@+id/fragment_identity_verification_step_profile"/>
+    <fragment
+        android:name="com.transsnet.palmpay.account.ui.fragment.identify.IdentityVerificationGetBvnFragment"
+        android:id="@+id/fragment_identity_verification_get_bvn"/>
+    <fragment
+        android:name="com.transsnet.palmpay.account.ui.fragment.identify.IdentityVerificationAccountActivateSuccessFragment"
+        android:id="@+id/fragment_identity_verification_account_activate_success"/>
+</navigation>

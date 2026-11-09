@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="@color/ppColorBackgroundLight"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <com.palmpay.lib.ui.titlebar.PpTitleBar
+        android:id="@+id/oc_bill_mtb"
+        android:background="@color/transparent"
+        android:layout_width="match_parent"
+        android:layout_height="?android:attr/actionBarSize"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:title_bar_show_right_2_iv="false"
+        app:title_bar_title="Loan Records"/>
+    <com.google.android.material.tabs.TabLayout
+        android:id="@+id/record_tl"
+        android:background="@color/ppColorBackgroundLight"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp52"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/oc_bill_mtb"
+        app:tabIndicator="@drawable/cs_cl_record_indicator"
+        app:tabIndicatorColor="@color/cs_cl_main_color"
+        app:tabIndicatorFullWidth="true"
+        app:tabRippleColor="@color/transparent"
+        app:tabSelectedTextColor="@color/cs_cl_main_color"
+        app:tabTextAppearance="@style/csClRecordTabStyle"
+        app:tabTextColor="@color/ppColorTextPrimary"/>
+    <androidx.viewpager2.widget.ViewPager2
+        android:id="@+id/record_vp2"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/record_tl"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

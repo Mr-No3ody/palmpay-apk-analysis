@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:id="@+id/parentInvite"
+    android:background="@drawable/cs_refer_earn_invite_bg"
+    android:layout_width="match_parent"
+    android:layout_height="127dp">
+    <ImageView
+        android:layout_width="@dimen/dp46"
+        android:layout_height="@dimen/dp46"
+        android:layout_marginTop="@dimen/dp25"
+        android:src="@drawable/cs_refer_earn_add"
+        android:layout_centerHorizontal="true"/>
+    <TextView
+        android:textSize="@dimen/dp10"
+        android:textColor="@color/ppColorTextBase"
+        android:gravity="center"
+        android:background="@drawable/cs_refer_earn_discover"
+        android:paddingLeft="@dimen/dp6"
+        android:paddingRight="@dimen/dp6"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/dp24"
+        android:layout_marginTop="@dimen/dp17"
+        android:text="@string/cs_discover"
+        android:drawableStart="@drawable/cs_refer_earn_eye"
+        android:fontFamily="sans-serif-medium"
+        android:paddingHorizontal="@dimen/dp6"/>
+</LinearLayout>

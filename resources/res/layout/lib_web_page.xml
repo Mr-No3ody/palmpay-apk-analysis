@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:id="@+id/ll_container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <FrameLayout
+        android:id="@+id/pp_title_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <com.palmpay.lib.ui.titlebar.PpTitleBar
+            android:id="@+id/pp_title_bar"
+            android:layout_width="match_parent"
+            android:layout_height="?android:attr/actionBarSize"
+            app:title_bar_back_icon="@drawable/lib_web_icon_back_202046_24dp"
+            app:title_bar_left_icon="@drawable/lib_web_icon_close_202046_24dp"
+            app:title_bar_right_icon_1="@drawable/lib_web_icon_more_202046_24dp"
+            app:title_bar_show_right_1_iv="true"
+            app:title_bar_show_right_text_arrow_down="false"
+            app:title_bar_title="Title"/>
+    </FrameLayout>
+</LinearLayout>

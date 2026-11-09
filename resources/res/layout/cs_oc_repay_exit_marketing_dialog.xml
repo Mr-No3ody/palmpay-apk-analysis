@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <ImageView
+        android:id="@+id/ivBg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <Button
+        android:textSize="16sp"
+        android:textColor="@color/ppColorTextPrimary"
+        android:id="@+id/repay_now_bt"
+        android:background="@drawable/cs_oc_repay_exit_dialog_bt_bg"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp44"
+        android:layout_marginLeft="@dimen/dp42"
+        android:layout_marginRight="@dimen/dp42"
+        android:minHeight="0dp"
+        android:text="@string/cs_oc_repay_now"
+        android:textAllCaps="false"
+        android:layout_marginHorizontal="@dimen/dp42"/>
+    <Button
+        android:textColor="@color/ppColorTextBase"
+        android:id="@+id/stop_discount"
+        android:background="@android:color/transparent"
+        android:paddingBottom="@dimen/dp18"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dp16"
+        android:minHeight="0dp"
+        android:text="@string/cs_cl_stop_discount"
+        android:textAllCaps="false"/>
+</LinearLayout>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:height="115dp"
+    android:width="328dp"
+    android:viewportWidth="328"
+    android:viewportHeight="115">
+    <path
+        android:fillColor="@color/ppColorBackgroundLight"
+        android:pathData="M12,0L316,0A12,12 0,0 1,328 12L328,103A12,12 0,0 1,316 115L12,115A12,12 0,0 1,0 103L0,12A12,12 0,0 1,12 0z"/>
+    <path
+        android:fillColor="@color/ppColorBackgroundDark"
+        android:pathData="M19,16L109,16A3,3 0,0 1,112 19L112,27A3,3 0,0 1,109 30L19,30A3,3 0,0 1,16 27L16,19A3,3 0,0 1,19 16z"/>
+    <path
+        android:fillColor="@color/ppColorBackgroundDark"
+        android:pathData="M251,16L309,16A3,3 0,0 1,312 19L312,27A3,3 0,0 1,309 30L251,30A3,3 0,0 1,248 27L248,19A3,3 0,0 1,251 16z"/>
+    <path
+        android:fillColor="@color/ppColorBackgroundDark"
+        android:pathData="M24,46L138,46A8,8 0,0 1,146 54L146,90A8,8 0,0 1,138 98L24,98A8,8 0,0 1,16 90L16,54A8,8 0,0 1,24 46z"/>
+    <path
+        android:fillColor="@color/ppColorBackgroundDark"
+        android:pathData="M166,46L280,46A8,8 0,0 1,288 54L288,90A8,8 0,0 1,280 98L166,98A8,8 0,0 1,158 90L158,54A8,8 0,0 1,166 46z"/>
+</vector>

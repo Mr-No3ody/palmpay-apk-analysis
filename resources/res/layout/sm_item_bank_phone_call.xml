@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:gravity="center_vertical"
+    android:orientation="horizontal"
+    android:id="@+id/ll_bank_customer_service"
+    android:background="@drawable/sm_bg_bubble_bank_customer_service"
+    android:padding="@dimen/dp10"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <TextView
+        android:textSize="@dimen/dp11"
+        android:gravity="start"
+        android:id="@+id/tv_customer_service_tips"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:lineHeight="@dimen/dp16"
+        style="@style/Text.6f7b85.12"/>
+</LinearLayout>

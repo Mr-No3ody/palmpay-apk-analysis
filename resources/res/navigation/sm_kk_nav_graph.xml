@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/sm_kk_nav_graph"
+    app:startDestination="@+id/kkCarOnboardingFragment">
+    <fragment
+        android:name="com.transsnet.palmpay.send_money.ui.fragment.kkcar.KkCarOnboardingFragment"
+        android:id="@+id/kkCarOnboardingFragment"/>
+    <fragment
+        android:name="com.transsnet.palmpay.send_money.ui.fragment.kkcar.KkCarPassengerFragment"
+        android:id="@+id/kkCarPassengerFragment"/>
+</navigation>

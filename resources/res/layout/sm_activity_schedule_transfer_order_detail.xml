@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <com.palmpay.lib.ui.titlebar.PpTitleBar
+        android:id="@+id/titleBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:title_bar_title="@string/sm_schedule_detail"/>
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rv_orders"
+        android:paddingLeft="@dimen/dp16"
+        android:paddingRight="@dimen/dp16"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:paddingHorizontal="@dimen/dp16"/>
+    <FrameLayout
+        android:background="@color/ppColorBackgroundLight"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:textSize="16dp"
+            android:textColor="@color/ppColorPrimary"
+            android:gravity="center"
+            android:layout_gravity="center_horizontal"
+            android:id="@+id/tv_turn_off"
+            android:background="@drawable/core_next_btn_selector_corner_12dp_gray_bg"
+            android:visibility="gone"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/ppButtonHeight"
+            android:layout_marginLeft="@dimen/dp16"
+            android:layout_marginTop="@dimen/dp12"
+            android:layout_marginRight="@dimen/dp16"
+            android:layout_marginBottom="@dimen/dp12"
+            android:text="@string/sm_turn_off_schedule_plan"
+            android:textAllCaps="false"
+            android:layout_marginHorizontal="@dimen/dp16"
+            android:layout_marginVertical="@dimen/dp12"/>
+    </FrameLayout>
+</LinearLayout>

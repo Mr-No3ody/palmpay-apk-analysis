@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:gravity="center_vertical"
+    android:orientation="horizontal"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+    <ImageView
+        android:id="@+id/iv_flexi_guide_benefit_icon"
+        android:layout_width="@dimen/dp12"
+        android:layout_height="@dimen/dp12"/>
+    <TextView
+        android:textSize="@dimen/dp10"
+        android:textColor="@color/ppColorTextNormal"
+        android:id="@+id/tv_flexi_guide_benefit_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/txt_s_b"/>
+</LinearLayout>

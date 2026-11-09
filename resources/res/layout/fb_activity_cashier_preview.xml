@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:id="@+id/fb_cl_cashier_preview"
+    android:visibility="gone"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <View
+        android:id="@+id/fb_view_top_transparent_bg"
+        android:background="@android:color/transparent"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        app:layout_constraintHeight_percent="0.12"
+        app:layout_constraintTop_toTopOf="parent"/>
+    <include
+        android:id="@+id/fb_previewBodyLayout"
+        layout="@layout/fb_activity_cashier_preview_sub_1"/>
+    <LinearLayout
+        android:id="@+id/fb_ll_cashier_confirm_to_pay"
+        android:background="@color/ppColorBackgroundLight"
+        android:paddingLeft="@dimen/fb_dp16"
+        android:paddingTop="@dimen/fb_dp12"
+        android:paddingRight="@dimen/fb_dp16"
+        android:paddingBottom="@dimen/fb_dp12"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingHorizontal="@dimen/fb_dp16"
+        android:paddingVertical="@dimen/fb_dp12"
+        app:layout_constraintBottom_toBottomOf="parent">
+        <TextView
+            android:textColor="@color/lib_ui_button_white_text_color"
+            android:gravity="center"
+            android:id="@+id/fb_tv_confirm_to_pay"
+            android:background="@drawable/fb_shape_rect_corner_8_bg_primary"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/fb_dp44"
+            android:text="@string/fb_confirm_to_pay"
+            style="@style/fb_txt_me_w"/>
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

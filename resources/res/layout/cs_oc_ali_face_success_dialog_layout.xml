@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:background="@drawable/cv_shape_rect_corner_16_bg_white"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <ImageView
+        android:layout_width="@dimen/dp48"
+        android:layout_height="@dimen/dp48"
+        android:layout_marginTop="@dimen/dp32"
+        android:src="@drawable/cs_success_icon"/>
+    <TextView
+        android:textSize="16sp"
+        android:textColor="@color/ppColorTextPrimary"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dp16"
+        android:text="@string/cs_oc_face_recognition_successful"
+        android:fontFamily="sans-serif-medium"/>
+    <TextView
+        android:textSize="16sp"
+        android:textColor="@color/cs_main_color"
+        android:gravity="center"
+        android:id="@+id/countdown_tv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dp28"
+        android:layout_marginBottom="@dimen/dp36"
+        android:text="@string/cs_continue_to_loan"
+        android:fontFamily="sans-serif-medium"/>
+</LinearLayout>

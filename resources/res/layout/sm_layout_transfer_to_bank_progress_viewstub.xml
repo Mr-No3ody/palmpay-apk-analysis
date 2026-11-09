@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.transsnet.palmpay.send_money.ui.view.TransferToBankProgressModel xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/v_progress_to_bank"
+    android:paddingTop="@dimen/dp16"
+    android:visibility="gone"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"/>

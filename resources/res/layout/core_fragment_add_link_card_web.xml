@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <com.transsnet.palmpay.custom_view.model.ModelPageTitleArea
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cta_back_iv_iconfont="pay_Close"
+        app:cta_content_text="Bank"
+        app:cta_title="Confirm bank info"/>
+    <ProgressBar
+        android:id="@+id/aalaw_progressbar"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp4"
+        style="?android:attr/progressBarStyleHorizontal"/>
+    <com.transsnet.palmpay.core.viewmodel.AndroidXWebView
+        android:id="@+id/aalaw_webview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+</LinearLayout>

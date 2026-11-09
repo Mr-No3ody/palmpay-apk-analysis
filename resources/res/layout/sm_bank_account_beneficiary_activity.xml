@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="@color/ppColorBackgroundLight"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <com.palmpay.lib.ui.titlebar.PpTitleBar
+        android:id="@+id/titleBar"
+        android:layout_width="match_parent"
+        android:layout_height="?android:attr/actionBarSize"
+        app:title_bar_show_right_text_arrow_down="false"
+        app:title_bar_title="@string/sm_contact"/>
+    <com.google.android.material.tabs.TabLayout
+        android:id="@+id/tabLayout"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp50"
+        app:tabGravity="center"
+        app:tabIndicator="@drawable/core_tab_indicator_60"
+        app:tabIndicatorFullWidth="false"
+        app:tabMode="scrollable"
+        app:tabPaddingEnd="@dimen/dp16"
+        app:tabPaddingStart="@dimen/dp16"
+        app:tabRippleColor="@android:color/transparent"
+        app:tabSelectedTextColor="@color/ppColorPrimary"
+        app:tabTextAppearance="@style/NormalTextStyle"
+        app:tabTextColor="@color/ppColorTextPrimary"/>
+    <View style="@style/core_divider_horizontal"/>
+    <androidx.viewpager.widget.ViewPager
+        android:id="@+id/vp_beneficiary"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+</LinearLayout>

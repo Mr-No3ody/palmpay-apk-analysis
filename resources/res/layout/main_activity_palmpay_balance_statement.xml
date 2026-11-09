@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="@color/ppColorBackgroundDark"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <com.palmpay.lib.ui.titlebar.PpTitleBar
+        android:background="@color/ppColorBackgroundLight"
+        android:layout_width="match_parent"
+        android:layout_height="?android:attr/actionBarSize"
+        app:title_bar_title="@string/main_balance_statement_just"/>
+    <com.google.android.material.tabs.TabLayout
+        android:id="@+id/tabLayout"
+        android:background="@color/ppColorBackgroundLight"
+        android:paddingBottom="@dimen/dp2"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp40"
+        app:tabBackground="@color/transparent"
+        app:tabGravity="fill"
+        app:tabIndicator="@drawable/core_tab_indicator_h32_w4"
+        app:tabMode="fixed"
+        app:tabSelectedTextColor="@color/ppColorPrimary"
+        app:tabTextAppearance="@style/NormalTextStyle"
+        app:tabTextColor="@color/ppColorTextPrimary"/>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp12"/>
+    <androidx.viewpager.widget.ViewPager
+        android:id="@+id/viewPager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+</LinearLayout>

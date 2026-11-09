@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/cv_shape_rect_top_corner_white_20"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <TextView
+        android:textSize="@dimen/dp16"
+        android:textColor="@color/ppColorTextPrimary"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dp16"
+        android:text="@string/cv_detailed_status"
+        android:layout_centerHorizontal="true"
+        android:fontFamily="sans-serif-medium"/>
+    <com.mikepenz.iconics.view.IconicsImageView
+        android:id="@+id/ivClose"
+        android:padding="@dimen/dp16"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        app:iiv_color="@color/ppColorTextNormal"
+        app:iiv_icon="pay_Close"
+        app:iiv_size="24dp"/>
+    <com.transsnet.palmpay.core.ui.widget.BillDetailProcessDataWedgit
+        android:id="@+id/bdpd_bill_process"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ivClose"/>
+</RelativeLayout>

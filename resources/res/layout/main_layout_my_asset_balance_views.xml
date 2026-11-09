@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <TextView
+        android:id="@+id/tvTotalTitle"
+        android:layout_marginTop="@dimen/dp24"
+        android:text="@string/main_str_total_balance"
+        android:layout_marginStart="@dimen/dp16"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        style="@style/Text.medium.202046.14"/>
+    <LinearLayout
+        android:orientation="vertical"
+        android:id="@+id/layoutViews"
+        android:background="@drawable/cv_shape_rect_corner_8_bg_dark"
+        android:paddingBottom="12dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/dp16"
+        android:layout_marginTop="@dimen/dp8"
+        android:layout_marginRight="@dimen/dp16"
+        android:layout_marginHorizontal="@dimen/dp16"
+        app:layout_constraintTop_toBottomOf="@+id/tvTotalTitle"/>
+    <TextView
+        android:textSize="@dimen/dp10"
+        android:textColor="@color/ppColorTextAssist"
+        android:gravity="center_vertical"
+        android:id="@+id/tvMsg"
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/dp16"
+        android:layout_marginTop="6dp"
+        android:layout_marginRight="@dimen/dp16"
+        android:layout_marginHorizontal="@dimen/dp16"
+        app:layout_constraintTop_toBottomOf="@+id/layoutViews"
+        style="@style/txt_s_lg"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

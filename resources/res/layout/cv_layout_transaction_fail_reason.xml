@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:paddingLeft="15dp"
+    android:paddingTop="13dp"
+    android:paddingRight="@dimen/dp15"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingStart="15dp"
+    android:paddingEnd="@dimen/dp15">
+    <TextView
+        android:textSize="11dp"
+        android:gravity="center_vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/cv_failure_analysis"
+        style="@style/txt_s_lg"/>
+    <TextView
+        android:gravity="center_vertical"
+        android:id="@+id/textViewFailReason"
+        android:paddingTop="6dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/txt_mi_lg"/>
+    <View
+        android:background="@color/ppColorDividerLine"
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:layout_marginTop="14dp"/>
+</LinearLayout>

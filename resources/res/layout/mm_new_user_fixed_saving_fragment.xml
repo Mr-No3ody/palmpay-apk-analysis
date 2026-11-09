@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="@color/mm_color_f6f6fa"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <com.transsnet.adsdk.widgets.MarqueeTextView.MarqueeView
+        android:ellipsize="marquee"
+        android:gravity="center_vertical"
+        android:id="@+id/viewMarquee"
+        android:background="@color/ppColorBackgroundLight"
+        android:paddingLeft="@dimen/dp12"
+        android:paddingRight="@dimen/dp12"
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp32"
+        android:drawableLeft="@drawable/mm_icon_notification"
+        android:drawablePadding="4dp"
+        android:paddingHorizontal="@dimen/dp12"
+        app:slot_id="@string/fixed_savings_new_user_text_slot_id"/>
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rvProductList"
+        android:paddingTop="@dimen/dp8"
+        android:paddingBottom="@dimen/dp24"
+        android:clipChildren="false"
+        android:clipToPadding="false"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <com.transsnet.palmpay.custom_view.EmptyView
+        android:id="@+id/emptyView"
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:cv_ev_icon_res="@drawable/cv_empty_no_transaction_history"
+        app:cv_ev_tips="@string/mm_no_product_for_sale"/>
+</LinearLayout>

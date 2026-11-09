@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:id="@+id/bottomViewContainer"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <com.transsnet.adsdk.widgets.SingleAdView
+        android:id="@+id/homeCouponPackage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dp12"
+        android:scaleType="fitXY"
+        android:adjustViewBounds="true"/>
+    <com.transsnet.adsdk.widgets.SingleAdView
+        android:id="@+id/homeBanner1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dp12"
+        android:scaleType="fitXY"
+        android:adjustViewBounds="true"
+        app:ad_use_coroutine="true"/>
+    <com.transsnet.adsdk.widgets.SingleAdView
+        android:id="@+id/homeBanner2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dp12"
+        android:scaleType="fitXY"
+        android:adjustViewBounds="true"
+        app:ad_use_coroutine="true"/>
+</LinearLayout>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/layoutEmptyView"
+    android:visibility="gone"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:layout_marginTop="88dp"
+        android:text="@string/cs_cl_no_credit_change_record"
+        android:drawableTop="@drawable/cs_cl_no_credit_management_icon"
+        android:drawablePadding="@dimen/dp12"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        style="@style/Text.9ca2aa.14"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:height="72dp"
+    android:width="92dp"
+    android:viewportWidth="92"
+    android:viewportHeight="72">
+    <path
+        android:fillColor="@color/main_color_reward_coupon_bg"
+        android:pathData="M80,0.646C86.627,0.646 92,6.018 92,12.646V17.84C88.686,17.84 86,20.526 86,23.84C86,27.05 88.521,29.671 91.691,29.832L92,29.84L92,60C92,66.627 86.627,72 80,72L12,72C5.373,72 0,66.627 0,60L0,29.816C3.08,29.562 5.5,26.985 5.5,23.84C5.5,20.695 3.08,18.115 0,17.861L0,12.646C0,6.018 5.373,0.646 12,0.646L80,0.646Z"/>
+</vector>

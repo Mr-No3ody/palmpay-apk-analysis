@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <com.palmpay.lib.ui.titlebar.PpTitleBar
+        android:id="@+id/titleBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:title_bar_title="@string/sm_booking_history"/>
+    <com.transsnet.adsdk.widgets.MarqueeTextView.MarqueeView
+        android:gravity="center_vertical"
+        android:id="@+id/marqueeView"
+        android:paddingLeft="@dimen/dp10"
+        android:paddingTop="@dimen/dp12"
+        android:paddingRight="@dimen/dp10"
+        android:paddingBottom="@dimen/dp12"
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawablePadding="8dp"
+        android:drawableStart="@drawable/cv_notify_icon"
+        android:paddingHorizontal="@dimen/dp10"
+        android:paddingVertical="@dimen/dp12"
+        app:layout_constraintTop_toBottomOf="@+id/titleBar"
+        app:slot_id="@string/ad_schedule_order_list_slot_id"/>
+    <com.transsnet.palmpay.custom_view.PpSwipeRefreshLayout
+        android:id="@+id/srl_refresh"
+        android:paddingLeft="@dimen/dp16"
+        android:paddingRight="@dimen/dp16"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingHorizontal="@dimen/dp16">
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/rv_schedule_transfer_list"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+    </com.transsnet.palmpay.custom_view.PpSwipeRefreshLayout>
+</LinearLayout>

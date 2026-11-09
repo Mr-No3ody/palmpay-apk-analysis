@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" app:startDestination="@+id/fragment_empty">
+    <fragment
+        android:name="com.transsnet.palmpay.core.ui.fragment.EmptyFragment"
+        android:id="@+id/fragment_empty"/>
+    <fragment
+        android:name="com.transsnet.palmpay.account.ui.fragment.verify.VerifyAccountFaceFragment"
+        android:id="@+id/fragment_verify_account_face"/>
+    <fragment
+        android:name="com.transsnet.palmpay.account.ui.fragment.verify.VerifyAccountPinFragment"
+        android:id="@+id/fragment_verify_account_pin"/>
+    <fragment
+        android:name="com.transsnet.palmpay.account.ui.fragment.verify.VerifyAccountPswFragment"
+        android:id="@+id/fragment_verify_account_psw"/>
+    <fragment
+        android:name="com.transsnet.palmpay.account.ui.fragment.verify.VerifyAccountOtpFragment"
+        android:id="@+id/fragment_verify_account_otp"/>
+    <fragment
+        android:name="com.transsnet.palmpay.account.ui.fragment.verify.VerifyAccountIdFragment"
+        android:id="@+id/fragment_verify_account_id"/>
+    <fragment
+        android:name="com.transsnet.palmpay.account.ui.fragment.verify.VerifyAccountIdTypeFragment"
+        android:id="@+id/fragment_verify_account_id_type"/>
+</navigation>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_selected="true">
+        <layer-list>
+            <item
+                android:drawable="@drawable/cv_rect_checked_purple"
+                android:left="@dimen/dp10"
+                android:bottom="10dp"
+                android:end="@dimen/dp10"/>
+        </layer-list>
+    </item>
+    <item android:state_checked="true">
+        <layer-list>
+            <item
+                android:drawable="@drawable/cv_rect_checked_purple"
+                android:left="@dimen/dp10"
+                android:bottom="10dp"
+                android:end="@dimen/dp10"/>
+        </layer-list>
+    </item>
+    <item>
+        <layer-list>
+            <item
+                android:drawable="@drawable/cv_rect_unchecked"
+                android:left="@dimen/dp10"
+                android:bottom="10dp"
+                android:end="@dimen/dp10"/>
+        </layer-list>
+    </item>
+</selector>

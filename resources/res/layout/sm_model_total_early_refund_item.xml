@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/cv_rect_corner_12_bg_white"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <ImageView
+        android:id="@+id/ivTop"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/dp16"
+        android:layout_marginTop="@dimen/dp12"
+        android:scaleType="fitXY"
+        android:adjustViewBounds="true"
+        android:layout_marginStart="@dimen/dp16"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
+    <TextView
+        android:textColor="@color/ppColorSuccess"
+        android:id="@+id/tvStatus"
+        android:paddingLeft="@dimen/dp4"
+        android:paddingRight="@dimen/dp4"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/dp16"
+        android:text="@string/core_free"
+        android:layout_marginEnd="@dimen/dp16"
+        android:paddingHorizontal="@dimen/dp4"
+        app:layout_constraintBottom_toBottomOf="@+id/ivTop"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/ivTop"
+        style="@style/Text.medium.6306b2.12"/>
+    <TextView
+        android:gravity="start"
+        android:id="@+id/tvTips"
+        android:paddingBottom="@dimen/dp12"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/dp16"
+        android:layout_marginTop="@dimen/dp8"
+        android:layout_marginRight="@dimen/dp16"
+        android:layout_marginHorizontal="@dimen/dp16"
+        app:layout_constraintTop_toBottomOf="@+id/ivTop"
+        style="@style/Text.6f7b85.12"/>
+</merge>

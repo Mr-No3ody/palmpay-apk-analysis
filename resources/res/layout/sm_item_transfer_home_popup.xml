@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:gravity="center_vertical"
+    android:orientation="horizontal"
+    android:layout_width="wrap_content"
+    android:layout_height="@dimen/dp52"
+    android:paddingStart="@dimen/dp8">
+    <ImageView
+        android:id="@+id/ivPopupIcon"
+        android:layout_width="@dimen/dp20"
+        android:layout_height="@dimen/dp20"/>
+    <TextView
+        android:gravity="center_vertical"
+        android:id="@+id/tvPopupName"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp52"
+        android:maxLines="1"
+        android:singleLine="true"
+        android:includeFontPadding="false"
+        android:drawablePadding="@dimen/dp4"
+        android:layout_marginStart="@dimen/dp4"
+        style="@style/Text.202046.14"/>
+</LinearLayout>

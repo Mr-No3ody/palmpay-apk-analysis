@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <TextView
+        android:layout_marginTop="@dimen/dp42"
+        android:text="@string/core_congratulations"
+        style="@style/Text.medium.202046.20"/>
+    <TextView
+        android:layout_marginLeft="@dimen/dp24"
+        android:layout_marginTop="@dimen/dp16"
+        android:layout_marginRight="@dimen/dp24"
+        android:text="@string/cs_oc_no_frozen_account_tips"
+        android:layout_marginHorizontal="@dimen/dp24"
+        style="@style/Text.202046.14"/>
+    <com.transsnet.palmpay.custom_view.RoundedTextView
+        android:id="@+id/rtvOk"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp48"
+        android:layout_marginLeft="@dimen/dp16"
+        android:layout_marginTop="@dimen/dp32"
+        android:layout_marginRight="@dimen/dp16"
+        android:text="@string/core_ok"
+        android:layout_marginHorizontal="@dimen/dp16"
+        app:rtv_background_color="@color/cs_main_color"
+        app:rtv_corner_radius="@dimen/dp12"
+        style="@style/Text.medium.ffffff.16"/>
+</LinearLayout>

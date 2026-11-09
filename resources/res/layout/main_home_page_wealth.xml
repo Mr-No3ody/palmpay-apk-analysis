@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/cv_rect_corner_12_bg_white"
+    android:paddingBottom="@dimen/dp12"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/wealthList"
+        android:scrollbars="none"
+        android:layout_width="match_parent"
+        android:layout_height="159dp"
+        android:layout_marginLeft="@dimen/dp16"
+        android:layout_marginRight="@dimen/dp16"
+        android:layout_marginHorizontal="@dimen/dp16"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
+    <TextView
+        android:textColor="@color/ppColorTextAssist"
+        android:id="@+id/itvMore"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="More Wealth Product"
+        app:layout_constraintEnd_toStartOf="@+id/itvArrow"
+        app:layout_constraintHorizontal_chainStyle="packed"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/wealthList"
+        style="@style/txt_mi_g"/>
+    <com.mikepenz.iconics.view.IconicsImageView
+        android:id="@+id/itvArrow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:iiv_color="@color/ppColorTextAssist"
+        app:iiv_icon="pay_ArrowCenterRight"
+        app:iiv_size="@dimen/dp16"
+        app:layout_constraintBottom_toBottomOf="@+id/itvMore"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_chainStyle="packed"
+        app:layout_constraintStart_toEndOf="@+id/itvMore"
+        app:layout_constraintTop_toTopOf="@+id/itvMore"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:id="@+id/fb_llCashierCalculationDtoEmptyBody"
+    android:paddingLeft="@dimen/fb_dp24"
+    android:paddingRight="@dimen/fb_dp24"
+    android:paddingBottom="@dimen/fb_dp12"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingHorizontal="@dimen/fb_dp24">
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/fb_repayment_account_icon"/>
+    <TextView
+        android:gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/fb_dp16"
+        android:text="@string/fb_cashier_empty_tips"
+        style="@style/fb_Text.6f7b85.16"/>
+    <TextView
+        android:textColor="@color/lib_ui_button_white_text_color"
+        android:gravity="center"
+        android:id="@+id/fb_tvConfirmToCancel"
+        android:background="@drawable/fb_shape_rect_corner_8_bg_primary"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/fb_dp44"
+        android:layout_marginTop="@dimen/fb_dp60"
+        android:text="@string/fb_confirm"
+        style="@style/fb_txt_me_w"/>
+</LinearLayout>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <com.transsnet.palmpay.custom_view.FaceRecognitionGuideView
+        android:id="@+id/faceGuideView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dp12"
+        app:layout_constraintTop_toTopOf="parent"/>
+    <include
+        android:id="@+id/layoutScanFaceBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/dp24"
+        android:layout_marginRight="@dimen/dp24"
+        android:layout_marginBottom="@dimen/dp16"
+        android:layout_marginHorizontal="@dimen/dp24"
+        app:layout_constraintBottom_toBottomOf="parent"
+        layout="@layout/cv_layout_face_scan_button_with_tips"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

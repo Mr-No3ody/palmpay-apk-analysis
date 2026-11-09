@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/dp70">
+    <LinearLayout
+        android:gravity="center"
+        android:layout_gravity="bottom"
+        android:orientation="vertical"
+        android:id="@+id/ira_root"
+        android:background="@drawable/cv_shape_rect_corner_8_bg_dark"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp65">
+        <TextView
+            android:textSize="@dimen/dp16"
+            android:textColor="@color/ppColorTextPrimary"
+            android:layout_gravity="center_horizontal"
+            android:id="@+id/ira_amount_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@style/txt_number_s_b_b"/>
+        <TextView
+            android:textSize="@dimen/dp12"
+            android:textColor="@color/ppColorPrimary"
+            android:ellipsize="end"
+            android:layout_gravity="center_horizontal"
+            android:id="@+id/ira_discount_amount_tv"
+            android:paddingLeft="2dp"
+            android:paddingTop="2dp"
+            android:paddingRight="2dp"
+            android:visibility="gone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:maxLines="1"
+            android:paddingHorizontal="2dp"/>
+    </LinearLayout>
+</FrameLayout>

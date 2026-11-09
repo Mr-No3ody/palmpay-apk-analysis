@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.transsnet.adsdk.widgets.banner.BannerAdView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/topBannerView"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:ad_rounded_corners="@dimen/dp12"
+    app:slot_id="@string/main_home_palm_zone_top_slot_id"/>

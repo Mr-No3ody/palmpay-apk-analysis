@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.flexibank.sdk.cashier.ui.view.FlexiBankModelPaymentInfoItem xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/fb_previewEarlyRefundItem"
+    android:visibility="gone"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:fb_item_key="@string/fb_early_refund"
+    app:fb_item_style="normal_with_value_icon"
+    app:fb_item_value="@string/fb_in_effect"
+    app:fb_item_value_icon="@drawable/fb_check_green"
+    app:fb_item_value_icon_visible="true"/>

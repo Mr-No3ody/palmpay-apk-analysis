@@ -1,0 +1,81 @@
+package com.flexibank.sdk;
+
+/* JADX INFO: loaded from: classes.dex */
+public final class q {
+    public static int fb_activity_cashier_preview = 2131559363;
+    public static int fb_activity_cashier_preview_sub_1 = 2131559364;
+    public static int fb_activity_pay_verification = 2131559365;
+    public static int fb_check_bank_pin_fragment = 2131559366;
+    public static int fb_check_cvv_fragment = 2131559367;
+    public static int fb_check_mobile_fragment = 2131559368;
+    public static int fb_check_voucher_code_fragment = 2131559369;
+    public static int fb_dialog_cashier_coupon_list = 2131559370;
+    public static int fb_dialog_cashier_select_payment_method = 2131559371;
+    public static int fb_dialog_payment_reward = 2131559372;
+    public static int fb_dialog_select_bank_method_v2 = 2131559373;
+    public static int fb_fragment_add_link_card_web = 2131559374;
+    public static int fb_fragment_check_bank_account_otp = 2131559375;
+    public static int fb_fragment_check_bank_otp = 2131559376;
+    public static int fb_fragment_check_face_recognition = 2131559377;
+    public static int fb_fragment_check_palm_pay_otp = 2131559378;
+    public static int fb_fragment_check_palm_pay_pin = 2131559379;
+    public static int fb_fragment_confirm_birthday = 2131559380;
+    public static int fb_item_cashier_apply_flexi = 2131559381;
+    public static int fb_item_cashier_preview_payment_method = 2131559382;
+    public static int fb_item_coupon_in_list = 2131559383;
+    public static int fb_item_pick_time = 2131559384;
+    public static int fb_layout_cashier_payment_method_add_item = 2131559385;
+    public static int fb_layout_cashier_payment_method_balance_item = 2131559386;
+    public static int fb_layout_cashier_payment_method_bank_item = 2131559387;
+    public static int fb_layout_cashier_payment_method_cashbox_item = 2131559388;
+    public static int fb_layout_cashier_payment_method_empty_item = 2131559389;
+    public static int fb_layout_cashier_payment_method_flexi_item = 2131559390;
+    public static int fb_layout_cashier_payment_method_mobile_wallet_item = 2131559391;
+    public static int fb_layout_cashier_preview_early_refund_item = 2131559392;
+    public static int fb_layout_cashier_preview_fee_item = 2131559393;
+    public static int fb_layout_cashier_preview_order_amount_item = 2131559394;
+    public static int fb_layout_cashier_preview_promotion = 2131559395;
+    public static int fb_layout_check_face_recognition_1 = 2131559396;
+    public static int fb_layout_check_face_recognition_2 = 2131559397;
+    public static int fb_layout_custom_action_bar = 2131559398;
+    public static int fb_layout_debug_info_view = 2131559399;
+    public static int fb_layout_fee_detail_item = 2131559400;
+    public static int fb_layout_how_to_get_cvv = 2131559401;
+    public static int fb_layout_list_empty_view_2 = 2131559402;
+    public static int fb_layout_model_apply_okcard = 2131559403;
+    public static int fb_layout_okcard_tips_item = 2131559404;
+    public static int fb_layout_one_time_code_view = 2131559405;
+    public static int fb_layout_payment_earn_item = 2131559406;
+    public static int fb_layout_payment_earn_layout = 2131559407;
+    public static int fb_layout_payment_fee_detail_dialog = 2131559408;
+    public static int fb_layout_payment_flexi_layout = 2131559409;
+    public static int fb_layout_payment_flexi_tag = 2131559410;
+    public static int fb_layout_payment_info_item = 2131559411;
+    public static int fb_layout_payment_promotion_item = 2131559412;
+    public static int fb_layout_payment_promotion_layout = 2131559413;
+    public static int fb_layout_payment_tax_detail_dialog = 2131559414;
+    public static int fb_layout_preview_page_payment_method_header = 2131559415;
+    public static int fb_layout_success_fail_dialog = 2131559416;
+    public static int fb_layout_success_fail_v2_dialog = 2131559417;
+    public static int fb_layout_tax_detail_item = 2131559418;
+    public static int fb_layout_title_input = 2131559419;
+    public static int fb_mobile_wallet_guide_dialog = 2131559420;
+    public static int fb_model_add_bank_card = 2131559421;
+    public static int fb_model_bank_info_item = 2131559422;
+    public static int fb_model_cashier_payment_item = 2131559423;
+    public static int fb_model_day_pick = 2131559424;
+    public static int fb_model_fee_item = 2131559425;
+    public static int fb_model_page_title_area = 2131559426;
+    public static int fb_number_keyboard_layout = 2131559427;
+    public static int fb_pay_loading_fragment = 2131559428;
+    public static int fb_send_sms = 2131559429;
+    public static int fb_tips_dialog = 2131559430;
+    public static int fb_title_textview1 = 2131559431;
+    public static int fb_toast_dialog = 2131559432;
+    public static int fb_toast_dialog_v2 = 2131559433;
+    public static int fb_view_cashier_empty_sub = 2131559434;
+    public static int fb_vs_payment_flexi_layout = 2131559435;
+
+    private q() {
+    }
+}

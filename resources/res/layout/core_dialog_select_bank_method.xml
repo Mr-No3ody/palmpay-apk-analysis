@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:id="@+id/viewRoot"
+    android:background="@drawable/cv_dialog_top_left_right_corner_white_bg"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp50">
+        <com.mikepenz.iconics.view.IconicsImageView
+            android:id="@+id/cdspm_close_iv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="@dimen/dp15"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginEnd="@dimen/dp15"
+            android:layout_alignParentEnd="true"
+            app:iiv_color="@color/ppColorTextNormal"
+            app:iiv_icon="pay_Close"
+            app:iiv_size="24dp"/>
+        <TextView
+            android:textSize="@dimen/dp16"
+            android:textStyle="bold"
+            android:textColor="@color/ppColorTextPrimary"
+            android:id="@+id/cdspm_title_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/core_select_bank_text"
+            android:layout_centerInParent="true"/>
+    </RelativeLayout>
+    <View
+        android:background="@color/ppColorBackgroundDark"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp1"/>
+    <com.transsnet.palmpay.custom_view.indexrecycleview.IndexFastScrollRecyclerView
+        android:id="@+id/cdspm_rcv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+</LinearLayout>

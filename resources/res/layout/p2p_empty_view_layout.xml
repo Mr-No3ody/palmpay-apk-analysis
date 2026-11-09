@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/p2p_img"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/cv_empty_no_agent"/>
+    <TextView
+        android:textSize="18sp"
+        android:textColor="@color/ppColorTextPrimary"
+        android:id="@+id/p2p_txt1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="@string/p2p_str_no_agent_nearby"/>
+    <TextView
+        android:textSize="14sp"
+        android:textColor="#858a8f"
+        android:gravity="center"
+        android:id="@+id/p2p_txt2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:maxWidth="280dp"
+        android:text="@string/p2p_str_agent_is_currently___"/>
+</LinearLayout>

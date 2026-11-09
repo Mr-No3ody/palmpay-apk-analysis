@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/dp40">
+    <ImageView
+        android:layout_gravity="center_vertical"
+        android:id="@+id/iv_icon"
+        android:layout_width="@dimen/dp16"
+        android:layout_height="@dimen/dp16"/>
+    <TextView
+        android:ellipsize="end"
+        android:gravity="start|center_vertical"
+        android:layout_gravity="center_vertical"
+        android:id="@+id/tv_name"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:maxLines="1"
+        android:layout_weight="1"
+        android:layout_marginStart="@dimen/dp4"
+        style="@style/Text.202046.12"/>
+    <TextView
+        android:gravity="center"
+        android:layout_gravity="center_vertical"
+        android:id="@+id/tvAvailableCount"
+        android:background="@drawable/cv_red_point"
+        android:paddingLeft="@dimen/dp2"
+        android:paddingRight="@dimen/dp2"
+        android:visibility="gone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:minWidth="16dp"
+        android:paddingHorizontal="@dimen/dp2"
+        style="@style/Text.ffffff.12"/>
+    <com.mikepenz.iconics.view.IconicsImageView
+        android:layout_gravity="center_vertical"
+        android:id="@+id/iv_arrow"
+        android:layout_width="@dimen/dp20"
+        android:layout_height="@dimen/dp20"
+        app:iiv_color="@color/ppColorTextDisable"
+        app:iiv_icon="pay_ArrowRight"
+        app:iiv_size="@dimen/dp16"/>
+</merge>

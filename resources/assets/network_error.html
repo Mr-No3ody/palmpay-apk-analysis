@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Error page</title>
+  <style>
+    * {margin: 0; padding: 0}
+    .desc1 {font-family: PingFangSC-Semibold;  font-size: 16px;  color: #263138;  letter-spacing: 0;  text-align: center; padding-top: 30px}
+    .desc2 {font-family: Avenir-Medium;  font-size: 14px;  color: #95A1AB;  letter-spacing: 0;  text-align: center; margin: 0 30px; padding-top:10px}
+    img {display: block; width: 190px; height: 150px; margin: 35px auto 0}
+    .title {height: 50px;font-size: 16px; line-height: 50px; padding-left: 50px; font-weight: 300;position: relative;}
+    .title:after {height: 1px;width: 200%;content:"";transform-origin: 0 0;transform: scale(0.5);position: absolute;left:0;bottom:0;background: rgba(0,0,0,0.4);}
+    .icon {position: absolute; display: block; width: 30px; height: 30px; background: url('./back_purple.png') no-repeat center; background-size: 25px 25px; left: 10px; top: 10px;}
+  </style>
+</head>
+<body>
+  <div id="gap" style="height:90px;"></div>
+  <h1 class="title"><span class="icon" id="close"></span>Back</h1>
+  <p class="desc1">You are offline</p>
+  <p class="desc2">We couldn’t open this page because it looks like you are offline. Please check your network and try again</p>
+</body>
+<script>
+  window.onload = function() {
+    var gap = document.getElementById('gap');
+    var closeButton = document.getElementById('close');
+    var height = 0;
+    try{
+      var toolBarHeight = window.palmpay.getStatusBarHeight() || 24;
+      window.palmpay.setTheme('black');
+      gap.style.height = toolBarHeight + 'px';
+    } catch(e) {
+      gap.style.height = '24px';
+    }
+
+    closeButton.addEventListener('click', function() {
+      try {
+        window.palmpay.onBack();
+      } catch(e) {
+        window.history.back();
+      }
+    })
+  }
+</script>
+</html>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="ac_msg_agree_t3_quota_agreement">I agree the &lt;font color=#875cff&gt;&amp;lt;Indemnity&amp;gt;&lt;/font&gt; and change daily transaction limit.</string>
+    <string name="ac_msg_quit_sign_up_1">Licenced by CBN | Insured By NDIC&lt;br/&gt;Trusted by &lt;font color=#FFFFFF&gt;10 Million&lt;/font&gt; Users.</string>
+    <string name="ac_msg_sms_will_sent_2">A verification code has been sent to &lt;font color=#FFFFFF&gt;%s&lt;/font&gt;. </string>
+    <string name="ac_msg_update_t3_quota">Adjust the slider to set your desired daily transaction limit &lt;font color=#875cff&gt;(up to ₦%s)&lt;/font&gt;. </string>
+    <string name="main_msg_check_summary">Daily check-ins &lt;font color=#875cff&gt;%s&lt;/font&gt; days, daily wins!</string>
+    <string name="main_up_to_xx_rewards">Up to &lt;font color=#875cff&gt;%d&lt;/font&gt; Rewards</string>
+    <string name="sm_book_transfer_timely_money_delivery">Book Transfer, &lt;font color=\"#875cff\"&gt;Timely Money Delivery&lt;/font&gt;</string>
+</resources>

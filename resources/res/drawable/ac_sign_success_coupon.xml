@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aapt="http://schemas.android.com/aapt"
+    android:height="212dp"
+    android:width="360dp"
+    android:viewportWidth="360"
+    android:viewportHeight="212">
+    <group>
+        <clip-path android:pathData="M0,0h360v212H0z"/>
+        <group>
+            <clip-path android:pathData="M0,-88h360v300H0z"/>
+            <path
+                android:fillColor="@drawable/_ac_sign_success_coupon__0_res_0x7f08000a"
+                android:pathData="M60.54,53.01 L54.1,2l-21.48,9.66L43.9,25.09 -9.26,234.5h34.37L54.1,39.05z"
+                android:strokeAlpha="0.6"
+                android:fillAlpha="0.6"/>
+            <path
+                android:fillColor="@drawable/_ac_sign_success_coupon__1_res_0x7f08000b"
+                android:pathData="M38.53,25.63 L32.62,11.66l11.28,13.42L-9.8,234.5 -20,226.98z"
+                android:strokeAlpha="0.6"
+                android:fillAlpha="0.6"/>
+            <path
+                android:fillColor="@drawable/_ac_sign_success_coupon__2_res_0x7f08000c"
+                android:pathData="M306.59,111.19 L311.29,74l15.66,7.05 -8.22,9.79L357.48,243.5h-25.05l-21.14,-142.49z"
+                android:strokeAlpha="0.6"
+                android:fillAlpha="0.6"/>
+            <path
+                android:fillColor="@drawable/_ac_sign_success_coupon__3_res_0x7f08000d"
+                android:pathData="m322.64,91.22 l4.31,-10.18 -8.22,9.79L357.87,243.5l7.44,-5.48z"
+                android:strokeAlpha="0.6"
+                android:fillAlpha="0.6"/>
+        </group>
+    </group>
+</vector>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/ppColorBackgroundLight"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <com.transsnet.palmpay.core.viewmodel.ModelPageTitleAreaInPayVerifyPage
+        android:id="@+id/cmf_title_area"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cta_back_iv_iconfont="pay_Close"
+        app:cta_content_text="@string/core_confirm_mobile"
+        app:cta_title="Confirm Mobile Number"/>
+    <LinearLayout
+        android:orientation="vertical"
+        android:background="@drawable/cv_shape_rect_corner_lt_rt_8_bg_white"
+        android:paddingTop="@dimen/dp8"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="@dimen/dp172">
+        <com.transsnet.palmpay.custom_view.TitleEditView
+            android:id="@+id/cmf_mobile_item"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/dp15"
+            android:layout_marginTop="@dimen/dp50"
+            android:layout_marginRight="@dimen/dp15"
+            app:cv_te_inputType="number"
+            app:cv_te_title="Mobile Number"/>
+        <Button
+            android:textSize="@dimen/dp18"
+            android:textColor="@color/lib_ui_button_white_text_color"
+            android:layout_gravity="center_horizontal"
+            android:id="@+id/cmf_next_btn"
+            android:background="@drawable/cv_button_bg_purple_corner"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dp50"
+            android:layout_marginLeft="@dimen/dp45"
+            android:layout_marginTop="@dimen/dp40"
+            android:layout_marginRight="@dimen/dp45"
+            android:text="@string/core_next"
+            android:textAllCaps="false"
+            android:elevation="@dimen/dp5"/>
+    </LinearLayout>
+</RelativeLayout>

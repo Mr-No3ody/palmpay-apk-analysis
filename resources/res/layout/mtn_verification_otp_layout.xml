@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <TextView
+        android:textSize="12sp"
+        android:textColor="#202046"
+        android:gravity="center"
+        android:id="@+id/mtn_info"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="6dp"
+        android:layout_marginBottom="40dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/mtn_verification_code"/>
+    <com.transsnet.mtn.sdk.ui.view.InputView
+        android:id="@+id/mtn_input_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:mtn_input_view_hint="@string/mtn_str_hint_please_enter_the_otp"
+        app:mtn_input_view_input_type="number"/>
+    <com.transsnet.mtn.sdk.ui.view.MTNButton
+        android:id="@+id/mtn_confirm_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        app:mtn_button_status="disable"
+        app:mtn_button_text="@string/mtn_str_confirm"/>
+    <TextView
+        android:textSize="12sp"
+        android:id="@+id/mtn_resend"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="@string/mtn_str_resend"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/mtn_error"/>
+</LinearLayout>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="horizontal"
+    android:paddingLeft="@dimen/dp12"
+    android:paddingRight="@dimen/dp12"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/dp40"
+    android:paddingHorizontal="@dimen/dp12">
+    <TextView
+        android:textColor="@color/ppColorTextAssist"
+        android:ellipsize="end"
+        android:gravity="start|center_vertical"
+        android:layout_gravity="center_vertical"
+        android:id="@+id/tvName"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:maxLines="1"
+        android:layout_weight="1"
+        style="@style/Text.202046.14"/>
+    <com.palmpay.lib.ui.button.PpButton
+        android:textSize="12dp"
+        android:textColor="@color/ppColorButtonTextWhite"
+        android:layout_gravity="center_vertical"
+        android:id="@+id/tvConfirm"
+        android:background="@drawable/lib_ui_button_bg_corner_primary_4"
+        android:paddingLeft="@dimen/dp4"
+        android:paddingRight="@dimen/dp4"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/dp24"
+        android:text="@string/core_claim"
+        android:paddingHorizontal="@dimen/dp4"
+        app:loading_size="8dp"
+        style="@style/ppSmallButtonNoPaddingStyle"/>
+</merge>

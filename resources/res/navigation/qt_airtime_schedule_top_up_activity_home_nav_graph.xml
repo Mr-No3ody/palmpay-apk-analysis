@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/scheduleActivityHomeNavGraph"
+    app:startDestination="@+id/emptyViewPlaceholder">
+    <fragment
+        android:name="com.transsnet.palmpay.airtime.ui.fragment.ScheduleTopUpGuideFragment"
+        android:id="@+id/fragmentGuide"/>
+    <fragment
+        android:name="com.transsnet.palmpay.airtime.ui.fragment.ScheduleTopUpTaskListFragment"
+        android:id="@+id/fragmentManager"/>
+    <fragment
+        android:name="com.transsnet.palmpay.core.ui.fragment.EmptyFragment"
+        android:id="@+id/emptyViewPlaceholder"/>
+</navigation>

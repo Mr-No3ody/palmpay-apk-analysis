@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:background="@color/ppColorBackgroundDark"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <com.palmpay.lib.ui.titlebar.PpTitleBar
+        android:id="@+id/titleBar"
+        android:background="@color/transparent"
+        android:layout_width="match_parent"
+        android:layout_height="?android:attr/actionBarSize"
+        app:title_bar_title=""/>
+    <ImageView
+        android:id="@+id/success_icon"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="48dp"
+        android:src="@drawable/cv_result_success"/>
+    <TextView
+        android:textSize="20sp"
+        android:textColor="@color/ppColorTextPrimary"
+        android:gravity="center"
+        android:id="@+id/success_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:text="Extend Successfully"/>
+    <TextView
+        android:textSize="12sp"
+        android:textColor="@color/ppColorTextNormal"
+        android:gravity="center"
+        android:id="@+id/valid_until"
+        android:visibility="gone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="Valid Until 30/07/2026"/>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"/>
+    <TextView
+        android:textSize="@dimen/dp16"
+        android:textColor="#fff"
+        android:gravity="center"
+        android:layout_gravity="bottom"
+        android:id="@+id/complete_button"
+        android:background="@drawable/cv_shape_rect_corner_12_bg_primary"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_margin="16dp"
+        android:text="Complete"/>
+</LinearLayout>

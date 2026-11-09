@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:padding="@dimen/dp16"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/dp80">
+    <ImageView
+        android:id="@+id/ivIcon"
+        android:layout_width="@dimen/dp48"
+        android:layout_height="@dimen/dp48"
+        android:src="@drawable/cv_fixed_saving"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
+    <TextView
+        android:ellipsize="end"
+        android:gravity="left"
+        android:id="@+id/tvTransactionName"
+        android:layout_width="0dp"
+        android:layout_marginLeft="@dimen/dp8"
+        android:layout_marginRight="@dimen/dp40"
+        android:singleLine="true"
+        app:layout_constrainedWidth="true"
+        app:layout_constraintLeft_toRightOf="@+id/ivIcon"
+        app:layout_constraintRight_toLeftOf="@+id/tvTransactionAmount"
+        app:layout_constraintTop_toTopOf="parent"
+        style="@style/Text.medium.202046.14"/>
+    <TextView
+        android:textColor="@color/mm_color_95a1ab"
+        android:id="@+id/tvTransactionTime"
+        android:layout_marginLeft="@dimen/dp8"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toRightOf="@+id/ivIcon"
+        style="@style/Text.ffffff.12"/>
+    <TextView
+        android:textColor="@color/mm_color_38d79f"
+        android:id="@+id/tvTransactionStatus"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        style="@style/Text.medium.6306b2.12"/>
+    <TextView
+        android:textColor="@color/mm_color_263138"
+        android:id="@+id/tvTransactionAmount"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        style="@style/Text.medium.ffffff.16"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

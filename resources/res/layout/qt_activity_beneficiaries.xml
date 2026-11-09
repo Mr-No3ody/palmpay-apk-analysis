@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="@color/ppColorBackgroundDark"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <com.palmpay.lib.ui.titlebar.PpTitleBar
+        android:id="@+id/aqth_title_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:title_bar_title="Utilities history"/>
+    <com.transsnet.palmpay.custom_view.SwipeRecyclerView
+        android:id="@+id/aqth_record_rcv"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginLeft="@dimen/dp16"
+        android:layout_marginTop="@dimen/dp8"
+        android:layout_marginRight="@dimen/dp16"
+        android:layout_weight="1"
+        android:layout_marginHorizontal="@dimen/dp16"/>
+    <com.palmpay.lib.ui.button.PpButton
+        android:gravity="center"
+        android:id="@+id/qt_add_more_beneficiaries_btn"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp48"
+        android:layout_marginLeft="@dimen/dp16"
+        android:layout_marginTop="@dimen/dp12"
+        android:layout_marginRight="@dimen/dp16"
+        android:layout_marginBottom="@dimen/dp16"
+        android:text="@string/core_add_more_beneficiary"
+        android:layout_marginHorizontal="@dimen/dp16"
+        style="@style/ppButtonStyle"/>
+</LinearLayout>

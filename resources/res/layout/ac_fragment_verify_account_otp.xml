@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="@color/ppColorBackgroundLight"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <com.palmpay.lib.ui.titlebar.PpTitleBar
+        android:id="@+id/titleBar"
+        android:background="@color/transparent"
+        android:layout_width="match_parent"
+        android:layout_height="?android:attr/actionBarSize"
+        app:title_bar_show_right_2_iv="false"
+        app:title_bar_title="Verify Phone Number"/>
+    <TextView
+        android:gravity="center_vertical"
+        android:id="@+id/tvMessage"
+        android:background="@drawable/cv_shape_rect_corner_12_bg_dark"
+        android:padding="@dimen/dp12"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/dp24"
+        android:layout_marginRight="@dimen/dp24"
+        android:layout_marginHorizontal="@dimen/dp24"
+        style="@style/txt_s_g"/>
+    <TextView
+        android:gravity="start"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/dp24"
+        android:layout_marginTop="@dimen/dp24"
+        android:layout_marginRight="@dimen/dp24"
+        android:text="Enter the Code"
+        android:layout_marginHorizontal="@dimen/dp24"
+        style="@style/txt_s_b"/>
+    <com.transsnet.palmpay.core.viewmodel.OneTimeCodeV4View
+        android:id="@+id/viewOTC"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="6dp"
+        android:layout_marginStart="@dimen/dp24"/>
+    <TextView
+        android:gravity="center_vertical"
+        android:visibility="gone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/cv_default_horizontal_margin"
+        android:layout_marginTop="@dimen/dp24"
+        android:layout_marginRight="@dimen/cv_default_horizontal_margin"
+        android:text="@string/core_tips"
+        android:layout_marginHorizontal="@dimen/cv_default_horizontal_margin"
+        style="@style/txt_mi_b_b"/>
+    <TextView
+        android:gravity="center_vertical"
+        android:visibility="gone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/cv_default_horizontal_margin"
+        android:layout_marginRight="@dimen/cv_default_horizontal_margin"
+        android:text="If you do not see the email in your inbox, please check your spam or junk folder."
+        android:layout_marginHorizontal="@dimen/cv_default_horizontal_margin"
+        style="@style/txt_mi_g"/>
+</LinearLayout>

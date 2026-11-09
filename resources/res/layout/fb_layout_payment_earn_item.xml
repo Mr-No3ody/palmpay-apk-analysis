@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:paddingLeft="@dimen/fb_dp12"
+    android:paddingTop="@dimen/fb_dp4"
+    android:paddingRight="@dimen/fb_dp12"
+    android:paddingBottom="@dimen/fb_dp4"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingHorizontal="@dimen/fb_dp12"
+    android:paddingVertical="@dimen/fb_dp4">
+    <TextView
+        android:ellipsize="end"
+        android:gravity="start"
+        android:id="@+id/fb_tv_earn_title"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:maxLines="1"
+        android:layout_weight="1"
+        style="@style/fb_Text.6f7b85.14"/>
+    <TextView
+        android:textColor="@color/fb_color_ffaa0c"
+        android:ellipsize="end"
+        android:gravity="end"
+        android:id="@+id/fb_tv_earn_content"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:maxLines="1"
+        android:layout_weight="1"
+        style="@style/fb_txt_s_b_b"/>
+</LinearLayout>

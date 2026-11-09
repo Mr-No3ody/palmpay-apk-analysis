@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/p2p_bg1"
+    android:layout_width="wrap_content"
+    android:layout_height="18dp"
+    app:cardBackgroundColor="@color/p2p_theme_color"
+    app:cardCornerRadius="4dp"
+    app:cardElevation="0dp">
+    <androidx.cardview.widget.CardView
+        android:layout_gravity="center"
+        android:id="@+id/p2p_bg2"
+        android:layout_width="wrap_content"
+        android:layout_height="16dp"
+        android:layout_marginLeft="1dp"
+        android:layout_marginRight="1dp"
+        app:cardBackgroundColor="@color/ppColorBackgroundLight"
+        app:cardCornerRadius="3dp"
+        app:cardElevation="0dp">
+        <TextView
+            android:textSize="10sp"
+            android:textColor="@color/p2p_theme_color"
+            android:layout_gravity="center"
+            android:id="@+id/p2p_txt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="3dp"
+            android:layout_marginRight="3dp"/>
+    </androidx.cardview.widget.CardView>
+</androidx.cardview.widget.CardView>

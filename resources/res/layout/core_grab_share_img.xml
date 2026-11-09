@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="@dimen/dp102"
+    android:layout_height="@dimen/dp102">
+    <ImageView
+        android:id="@+id/ivShareImg"
+        android:layout_width="@dimen/dp90"
+        android:layout_height="@dimen/dp90"
+        android:scaleType="centerCrop"
+        android:layout_alignParentBottom="true"/>
+    <com.mikepenz.iconics.view.IconicsImageView
+        android:id="@+id/ivShareClose"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        app:iiv_color="@color/ppColorTextNormal"
+        app:iiv_icon="pay_CloseFill"
+        app:iiv_size="24dp"/>
+</RelativeLayout>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="horizontal"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        android:background="@drawable/cv_shape_rect_corner_16_bg_white"
+        android:paddingTop="@dimen/dp68"
+        android:paddingBottom="@dimen/dp16"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dp56"
+        app:layout_constraintTop_toTopOf="parent">
+        <TextView
+            android:textSize="@dimen/dp40"
+            android:textStyle="bold"
+            android:textColor="@color/ppColorSuccess"
+            android:id="@+id/tvCouponAmount"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="₦20"/>
+        <TextView
+            android:textColor="@color/cv_color_252b37"
+            android:id="@+id/tvCouponTitle"
+            android:text="Has been paid into your CashBox"
+            style="@style/Text.medium.202046.14"/>
+        <TextView
+            android:id="@+id/tvCouponContent"
+            android:layout_marginLeft="@dimen/dp16"
+            android:layout_marginTop="@dimen/dp4"
+            android:layout_marginRight="@dimen/dp16"
+            android:text="Save with CashBox and grow your money every day"
+            android:lineHeight="@dimen/dp18"
+            style="@style/Text.6f7b85.12"/>
+        <com.transsnet.palmpay.custom_view.RoundedTextView
+            android:id="@+id/rtvSaveNow"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dp32"
+            android:layout_marginLeft="@dimen/dp20"
+            android:layout_marginTop="@dimen/dp16"
+            android:layout_marginRight="@dimen/dp20"
+            android:text="@string/mm_action_save_now"
+            app:rtv_background_color="@color/ppColorPrimary"
+            app:rtv_corner_radius="@dimen/dp100"
+            style="@style/Text.medium.ffffff.12"/>
+    </LinearLayout>
+    <ImageView
+        android:id="@+id/ivOrderResult"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/mm_icon_rocket_success"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

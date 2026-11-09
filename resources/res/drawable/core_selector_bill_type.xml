@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@drawable/core_shape_rect_corner_2_stroke_gray_width_0_5"/>
+    <item
+        android:state_selected="true"
+        android:drawable="@drawable/cv_bill_type_selected"/>
+</selector>

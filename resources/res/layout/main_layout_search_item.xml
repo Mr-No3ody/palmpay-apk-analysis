@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:background="@drawable/cv_shape_rect_corner_12_bg_dark"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/dp35"
+    android:paddingStart="@dimen/dp10"
+    android:paddingEnd="@dimen/dp10">
+    <ImageView
+        android:layout_gravity="center_vertical"
+        android:layout_width="@dimen/dp16"
+        android:layout_height="@dimen/dp16"
+        android:src="@drawable/cv_search_icon"/>
+    <TextView
+        android:textSize="@dimen/dp14"
+        android:textColor="@color/ppColorTextDisable"
+        android:gravity="center_vertical"
+        android:id="@+id/ma_search_et"
+        android:background="@null"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:text="@string/main_search_for_a_biller"
+        android:layout_weight="1"
+        android:paddingStart="@dimen/dp10"/>
+    <ImageView
+        android:layout_gravity="center_vertical"
+        android:id="@+id/ma_clear_iv"
+        android:padding="@dimen/dp10"
+        android:visibility="gone"
+        android:layout_width="@dimen/dp36"
+        android:layout_height="@dimen/dp36"
+        android:src="@drawable/cv_circle_gray_cross"/>
+</LinearLayout>

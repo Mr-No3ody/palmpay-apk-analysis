@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.transsnet.palmpay.betting.ui.view.ModelBettingRaceScheduleView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/bettingRaceSchedule"
+    android:visibility="gone"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="@dimen/dp16"
+    android:layout_marginTop="@dimen/dp16"
+    android:layout_marginRight="@dimen/dp16"
+    android:layout_marginHorizontal="@dimen/dp16"/>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="@drawable/cv_rect_corner_12_bg_white"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <TextView
+        android:id="@+id/tvTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dp12"
+        android:text="@string/main_palm_prize"
+        android:layout_marginStart="16dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        style="@style/Text.medium.202046.16"/>
+    <com.palmpay.lib.ui.text.ImageTextView
+        android:gravity="center_vertical"
+        android:id="@+id/tvMore"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/core_more"
+        android:layout_marginEnd="@dimen/dp12"
+        app:itv_color="@color/ppColorTextNormal"
+        app:itv_icon="pay_ArrowCenterRight"
+        app:itv_img_gravity="right_center"
+        app:itv_img_size="@dimen/dp14"
+        app:itv_img_top_margin="2dp"
+        app:layout_constraintBottom_toBottomOf="@+id/tvTitle"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/tvTitle"
+        style="@style/txt_mi_g"/>
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rvPalmPrize"
+        android:layout_width="match_parent"
+        android:layout_height="128dp"
+        android:layout_marginTop="@dimen/dp12"
+        android:layout_marginBottom="@dimen/dp12"
+        android:layout_marginStart="@dimen/dp16"
+        app:layout_constraintTop_toBottomOf="@+id/tvTitle"/>
+</merge>

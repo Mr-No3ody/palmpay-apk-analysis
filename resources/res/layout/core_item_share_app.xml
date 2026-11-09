@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:paddingTop="@dimen/dp12"
+    android:paddingBottom="@dimen/dp8"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/dp82">
+    <ImageView
+        android:id="@+id/cisa_iv"
+        android:layout_width="@dimen/dp40"
+        android:layout_height="@dimen/dp40"/>
+    <TextView
+        android:textSize="@dimen/dp10"
+        android:textColor="@color/ppColorTextPrimary"
+        android:ellipsize="end"
+        android:gravity="center"
+        android:id="@+id/cisa_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dp8"
+        android:text="@string/core_more"
+        android:maxLines="1"/>
+</LinearLayout>

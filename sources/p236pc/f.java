@@ -1,0 +1,83 @@
+package p236pc;
+
+/* JADX INFO: loaded from: classes4.dex */
+public final class f {
+    public static int jp_1_user = 2132020656;
+    public static int jp_2_user = 2132020657;
+    public static int jp_3_user = 2132020658;
+    public static int jp_authentication_rate_s = 2132020659;
+    public static int jp_claim_more = 2132020660;
+    public static int jp_congratulations = 2132020661;
+    public static int jp_copy = 2132020662;
+    public static int jp_copy_successful = 2132020663;
+    public static int jp_dont_miss_out = 2132020664;
+    public static int jp_earned = 2132020665;
+    public static int jp_earnings = 2132020666;
+    public static int jp_hide = 2132020667;
+    public static int jp_history = 2132020668;
+    public static int jp_history_invite_friends1 = 2132020669;
+    public static int jp_history_invite_friends2 = 2132020670;
+    public static int jp_how_to_complete_real_name = 2132020671;
+    public static int jp_invite_new_users = 2132020672;
+    public static int jp_invite_new_users_2 = 2132020673;
+    public static int jp_invite_new_users_expire = 2132020674;
+    public static int jp_invite_now = 2132020675;
+    public static int jp_invite_now_n = 2132020676;
+    public static int jp_invite_reason_transferred_recently = 2132020677;
+    public static int jp_invitee_example = 2132020678;
+    public static int jp_invitees = 2132020679;
+    public static int jp_keep_inviting_n = 2132020680;
+    public static int jp_maybe_later = 2132020681;
+    public static int jp_maybe_later_n = 2132020682;
+    public static int jp_my_cash_reward = 2132020683;
+    public static int jp_my_invitees = 2132020684;
+    public static int jp_my_invitees_s = 2132020685;
+    public static int jp_no_invitees = 2132020686;
+    public static int jp_number_added = 2132020687;
+    public static int jp_original_record = 2132020688;
+    public static int jp_processing = 2132020689;
+    public static int jp_ranking = 2132020690;
+    public static int jp_rate_palmpay = 2132020691;
+    public static int jp_receive_jara_history = 2132020692;
+    public static int jp_receiving_method = 2132020693;
+    public static int jp_refer_earn = 2132020694;
+    public static int jp_refer_earn_s = 2132020695;
+    public static int jp_refer_remind = 2132020696;
+    public static int jp_resolve = 2132020697;
+    public static int jp_resolve_tip_1 = 2132020698;
+    public static int jp_resolve_tip_2 = 2132020699;
+    public static int jp_reward = 2132020700;
+    public static int jp_reward_history = 2132020701;
+    public static int jp_reward_upgrade = 2132020702;
+    public static int jp_rules = 2132020703;
+    public static int jp_s_user = 2132020704;
+    public static int jp_s_users = 2132020705;
+    public static int jp_sb_got_money = 2132020706;
+    public static int jp_share_again = 2132020707;
+    public static int jp_share_earn = 2132020708;
+    public static int jp_share_invitation_code = 2132020709;
+    public static int jp_share_invite = 2132020710;
+    public static int jp_share_title = 2132020711;
+    public static int jp_signed_up = 2132020712;
+    public static int jp_signed_up_s = 2132020713;
+    public static int jp_surpassed_s_users = 2132020714;
+    public static int jp_surpassed_zero = 2132020715;
+    public static int jp_this_will_automatically_close_in_s = 2132020716;
+    public static int jp_tips = 2132020717;
+    public static int jp_top_up_airtime = 2132020718;
+    public static int jp_top_up_airtime_s = 2132020719;
+    public static int jp_view_now = 2132020720;
+    public static int jp_waiting2 = 2132020721;
+    public static int jp_who_i_can_invite = 2132020722;
+    public static int jp_who_invite_nick_format = 2132020723;
+    public static int jp_winner_testimonial = 2132020724;
+    public static int jp_withdraw = 2132020725;
+    public static int jp_withdraw_failed = 2132020726;
+    public static int jp_withdraw_has_submitted = 2132020727;
+    public static int jp_withdraw_s_n = 2132020728;
+    public static int jp_withdrawal = 2132020729;
+    public static int jp_your_invitees = 2132020730;
+
+    private f() {
+    }
+}

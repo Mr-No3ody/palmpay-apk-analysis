@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="@color/ppColorBackgroundLight"
+    android:fitsSystemWindows="true"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <com.palmpay.lib.ui.titlebar.PpTitleBar
+        android:id="@+id/title_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:title_bar_title="@string/qt_betting_history"/>
+    <com.google.android.material.tabs.TabLayout
+        android:id="@+id/categroy_tabs"
+        android:background="@color/ppColorBackgroundLight"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp56"
+        app:tabBackground="@color/ppColorBackgroundLight"
+        app:tabIndicator="@drawable/qt_tab_indicator"
+        app:tabIndicatorColor="@color/ppColorPrimary"
+        app:tabIndicatorFullWidth="false"
+        app:tabMode="fixed"
+        app:tabRippleColor="@color/ppColorBackgroundLight"
+        app:tabSelectedTextColor="@color/ppColorPrimary"
+        app:tabTextAppearance="@style/QTTabLayoutTextAppearance"
+        app:tabTextColor="@color/ppColorTextPrimary"/>
+    <androidx.viewpager2.widget.ViewPager2
+        android:id="@+id/vp2_history"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+</LinearLayout>

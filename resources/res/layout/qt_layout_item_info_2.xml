@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:gravity="center_vertical"
+    android:paddingTop="@dimen/dp6"
+    android:paddingBottom="@dimen/dp6"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <TextView
+        android:textColor="@color/ppColorTextAssist"
+        android:ellipsize="end"
+        android:id="@+id/qli_title_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:maxWidth="@dimen/dp120"
+        android:singleLine="true"
+        style="@style/txt_s_g"/>
+    <TextView
+        android:textColor="@color/ppColorTextPrimary"
+        android:ellipsize="middle"
+        android:gravity="end"
+        android:id="@+id/qli_content_tv"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:singleLine="true"
+        android:layout_weight="1"
+        android:layout_marginStart="@dimen/dp20"
+        style="@style/txt_s_b"/>
+    <com.mikepenz.iconics.view.IconicsImageView
+        android:id="@+id/iv_more"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:iiv_color="@color/ppColorTextNormal"
+        app:iiv_icon="pay_InformationOutline"
+        app:iiv_size="20dp"/>
+</LinearLayout>

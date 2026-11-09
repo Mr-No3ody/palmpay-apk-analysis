@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/ppColorBackgroundLight"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <com.transsnet.palmpay.core.viewmodel.ModelPageTitleAreaInPayVerifyPage
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cta_back_iv_iconfont="pay_Close"
+        app:cta_content_text="Please enter your birthday to continue."
+        app:cta_title="Confirm Birthday"/>
+    <LinearLayout
+        android:orientation="vertical"
+        android:background="@drawable/cv_shape_rect_corner_lt_rt_8_bg_white"
+        android:paddingTop="@dimen/dp8"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="@dimen/dp172">
+        <com.palmpay.lib.ui.form.PpFormVertical
+            android:id="@+id/inputBirthday"
+            android:clickable="true"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:form_edit_enable="false"
+            app:form_edit_input_type="text"
+            app:form_hide_text="DD/YY/MM"
+            app:form_icon_edit_right="@drawable/cv_arrow_down_black"
+            app:form_layout_background="@color/transparent"
+            app:layout_constraintTop_toTopOf="parent"/>
+        <com.palmpay.lib.ui.button.PpButton
+            android:gravity="center"
+            android:id="@+id/tvNext"
+            android:layout_width="match_parent"
+            android:layout_marginLeft="@dimen/dp16"
+            android:layout_marginTop="@dimen/dp40"
+            android:layout_marginRight="@dimen/dp16"
+            android:text="@string/core_next"
+            android:layout_marginHorizontal="@dimen/dp16"
+            style="@style/ppButtonStyle"/>
+    </LinearLayout>
+</RelativeLayout>

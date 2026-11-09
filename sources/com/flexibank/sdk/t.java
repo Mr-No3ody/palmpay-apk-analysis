@@ -1,0 +1,97 @@
+package com.flexibank.sdk;
+
+import com.transsnet.palmpay.R;
+
+/* JADX INFO: loaded from: classes.dex */
+public final class t {
+    public static int fb_BaseModel_fb_bm_amount_sign = 0;
+    public static int fb_BaseModel_fb_bm_default_text = 1;
+    public static int fb_BaseModel_fb_bm_show_amount_sign = 2;
+    public static int fb_BaseModel_fb_bm_show_tips = 3;
+    public static int fb_BaseModel_fb_bm_text_color = 4;
+    public static int fb_BaseModel_fb_bm_tips_text = 5;
+    public static int fb_BaseModel_fb_bm_title = 6;
+    public static int fb_EmptyView_fb_empty_icon = 0;
+    public static int fb_EmptyView_fb_empty_text = 1;
+    public static int fb_ModelPaymentInfoItem_fb_item_key = 0;
+    public static int fb_ModelPaymentInfoItem_fb_item_key_icon = 1;
+    public static int fb_ModelPaymentInfoItem_fb_item_key_icon_visible = 2;
+    public static int fb_ModelPaymentInfoItem_fb_item_style = 3;
+    public static int fb_ModelPaymentInfoItem_fb_item_value = 4;
+    public static int fb_ModelPaymentInfoItem_fb_item_value_icon = 5;
+    public static int fb_ModelPaymentInfoItem_fb_item_value_icon_visible = 6;
+    public static int fb_PinEntryView_fb_accentRequiresFocus = 0;
+    public static int fb_PinEntryView_fb_accentType = 1;
+    public static int fb_PinEntryView_fb_accentWidth = 2;
+    public static int fb_PinEntryView_fb_digitBackground = 3;
+    public static int fb_PinEntryView_fb_digitElevation = 4;
+    public static int fb_PinEntryView_fb_digitHeight = 5;
+    public static int fb_PinEntryView_fb_digitRadius = 6;
+    public static int fb_PinEntryView_fb_digitSelectStrokeColor = 7;
+    public static int fb_PinEntryView_fb_digitSpacing = 8;
+    public static int fb_PinEntryView_fb_digitStrokeColor = 9;
+    public static int fb_PinEntryView_fb_digitStrokeWidth = 10;
+    public static int fb_PinEntryView_fb_digitTextColor = 11;
+    public static int fb_PinEntryView_fb_digitTextSize = 12;
+    public static int fb_PinEntryView_fb_digitWidth = 13;
+    public static int fb_PinEntryView_fb_hideEyesForever = 14;
+    public static int fb_PinEntryView_fb_leftMargin = 15;
+    public static int fb_PinEntryView_fb_mask = 16;
+    public static int fb_PinEntryView_fb_numDigits = 17;
+    public static int fb_PinEntryView_fb_pinAccentColor = 18;
+    public static int fb_PinEntryView_fb_pinInputType = 19;
+    public static int fb_SideBarView_fb_sidebar_item_padding = 0;
+    public static int fb_SideBarView_fb_sidebar_normal_background_color = 1;
+    public static int fb_SideBarView_fb_sidebar_pressed_background_color = 2;
+    public static int fb_SideBarView_fb_sidebar_selected_text_color = 3;
+    public static int fb_SideBarView_fb_sidebar_selected_text_size = 4;
+    public static int fb_SideBarView_fb_sidebar_text_color = 5;
+    public static int fb_SideBarView_fb_sidebar_text_size = 6;
+    public static int fb_TitleEditView_fb_max_length = 0;
+    public static int fb_TitleEditView_fb_set_same_text_size = 1;
+    public static int fb_TitleEditView_fb_te_always_show_title_color = 2;
+    public static int fb_TitleEditView_fb_te_collapse = 3;
+    public static int fb_TitleEditView_fb_te_default_text = 4;
+    public static int fb_TitleEditView_fb_te_drawable_right = 5;
+    public static int fb_TitleEditView_fb_te_enable = 6;
+    public static int fb_TitleEditView_fb_te_error_text = 7;
+    public static int fb_TitleEditView_fb_te_hint = 8;
+    public static int fb_TitleEditView_fb_te_hint_color = 9;
+    public static int fb_TitleEditView_fb_te_inputType = 10;
+    public static int fb_TitleEditView_fb_te_no_focus_title_color = 11;
+    public static int fb_TitleEditView_fb_te_required = 12;
+    public static int fb_TitleEditView_fb_te_show_clear_button = 13;
+    public static int fb_TitleEditView_fb_te_show_divider = 14;
+    public static int fb_TitleEditView_fb_te_show_title = 15;
+    public static int fb_TitleEditView_fb_te_text_color = 16;
+    public static int fb_TitleEditView_fb_te_text_size = 17;
+    public static int fb_TitleEditView_fb_te_title = 18;
+    public static int fb_TitleEditView_fb_te_title_color = 19;
+    public static int fb_TitleEditView_fb_te_title_text_size = 20;
+    public static int fb_TransactionCountdownView_fb_circleRadius1 = 0;
+    public static int fb_TransactionCountdownView_fb_circleRadius2 = 1;
+    public static int fb_TransactionCountdownView_fb_circleRadius3 = 2;
+    public static int fb_TransactionCountdownView_fb_circleRadius4 = 3;
+    public static int fb_TransactionCountdownView_fb_circleStrokeWidth = 4;
+    public static int fb_TransactionCountdownView_fb_colorPrimary = 5;
+    public static int fb_TransactionCountdownView_fb_colorSecondary = 6;
+    public static int fb_TransactionCountdownView_fb_countDownTextSize = 7;
+    public static int fb_TransactionCountdownView_fb_lineStrokeWidth = 8;
+    public static int fb_TransactionCountdownView_fb_maxCountdown = 9;
+    public static int fb_TransactionCountdownView_fb_pointStrokeWidth = 10;
+    public static int fb_title_area_fb_cta_back_iv = 0;
+    public static int fb_title_area_fb_cta_content_text = 1;
+    public static int fb_title_area_fb_cta_show_bottom_line = 2;
+    public static int fb_title_area_fb_cta_title = 3;
+    public static int[] fb_BaseModel = {R.attr.fb_bm_amount_sign, R.attr.fb_bm_default_text, R.attr.fb_bm_show_amount_sign, R.attr.fb_bm_show_tips, R.attr.fb_bm_text_color, R.attr.fb_bm_tips_text, R.attr.fb_bm_title};
+    public static int[] fb_EmptyView = {R.attr.fb_empty_icon, R.attr.fb_empty_text};
+    public static int[] fb_ModelPaymentInfoItem = {R.attr.fb_item_key, R.attr.fb_item_key_icon, R.attr.fb_item_key_icon_visible, R.attr.fb_item_style, R.attr.fb_item_value, R.attr.fb_item_value_icon, R.attr.fb_item_value_icon_visible};
+    public static int[] fb_PinEntryView = {R.attr.fb_accentRequiresFocus, R.attr.fb_accentType, R.attr.fb_accentWidth, R.attr.fb_digitBackground, R.attr.fb_digitElevation, R.attr.fb_digitHeight, R.attr.fb_digitRadius, R.attr.fb_digitSelectStrokeColor, R.attr.fb_digitSpacing, R.attr.fb_digitStrokeColor, R.attr.fb_digitStrokeWidth, R.attr.fb_digitTextColor, R.attr.fb_digitTextSize, R.attr.fb_digitWidth, R.attr.fb_hideEyesForever, R.attr.fb_leftMargin, R.attr.fb_mask, R.attr.fb_numDigits, R.attr.fb_pinAccentColor, R.attr.fb_pinInputType};
+    public static int[] fb_SideBarView = {R.attr.fb_sidebar_item_padding, R.attr.fb_sidebar_normal_background_color, R.attr.fb_sidebar_pressed_background_color, R.attr.fb_sidebar_selected_text_color, R.attr.fb_sidebar_selected_text_size, R.attr.fb_sidebar_text_color, R.attr.fb_sidebar_text_size};
+    public static int[] fb_TitleEditView = {R.attr.fb_max_length, R.attr.fb_set_same_text_size, R.attr.fb_te_always_show_title_color, R.attr.fb_te_collapse, R.attr.fb_te_default_text, R.attr.fb_te_drawable_right, R.attr.fb_te_enable, R.attr.fb_te_error_text, R.attr.fb_te_hint, R.attr.fb_te_hint_color, R.attr.fb_te_inputType, R.attr.fb_te_no_focus_title_color, R.attr.fb_te_required, R.attr.fb_te_show_clear_button, R.attr.fb_te_show_divider, R.attr.fb_te_show_title, R.attr.fb_te_text_color, R.attr.fb_te_text_size, R.attr.fb_te_title, R.attr.fb_te_title_color, R.attr.fb_te_title_text_size};
+    public static int[] fb_TransactionCountdownView = {R.attr.fb_circleRadius1, R.attr.fb_circleRadius2, R.attr.fb_circleRadius3, R.attr.fb_circleRadius4, R.attr.fb_circleStrokeWidth, R.attr.fb_colorPrimary, R.attr.fb_colorSecondary, R.attr.fb_countDownTextSize, R.attr.fb_lineStrokeWidth, R.attr.fb_maxCountdown, R.attr.fb_pointStrokeWidth};
+    public static int[] fb_title_area = {R.attr.fb_cta_back_iv, R.attr.fb_cta_content_text, R.attr.fb_cta_show_bottom_line, R.attr.fb_cta_title};
+
+    private t() {
+    }
+}

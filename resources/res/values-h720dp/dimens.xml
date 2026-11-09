@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="abc_alert_dialog_button_bar_height">54dp</dimen>
+    <dimen name="ac_face_scan_vertical_margin">24dp</dimen>
+    <dimen name="ac_keyboard_height">47dp</dimen>
+    <dimen name="ac_sign_up_scan_face_vertical_margin">44dp</dimen>
+    <dimen name="core_pin_kb_font_size">24dp</dimen>
+    <dimen name="core_pin_kb_item_height">48dp</dimen>
+    <dimen name="fb_pin_kb_font_size">24dp</dimen>
+    <dimen name="fb_pin_kb_item_height">48dp</dimen>
+    <dimen name="main_scan_face_vertical_margin">44dp</dimen>
+    <dimen name="main_scan_face_vertical_margin_2">24dp</dimen>
+</resources>

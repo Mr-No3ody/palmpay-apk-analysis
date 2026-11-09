@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="@drawable/jp_refer_earn_bg"
+    android:paddingTop="@dimen/dp12"
+    android:paddingBottom="@dimen/dp12"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <TextView
+        android:gravity="center"
+        android:id="@+id/tvWhoInviteTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/jp_who_i_can_invite"
+        android:textAlignment="center"
+        android:layout_marginStart="@dimen/dp12"
+        android:layout_marginEnd="@dimen/dp12"
+        style="@style/txt_me_w_b"/>
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rvWhoInvite"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dp12"
+        android:overScrollMode="never"
+        android:nestedScrollingEnabled="false"/>
+    <com.palmpay.lib.ui.text.ImageTextView
+        android:textColor="@color/ppColorTextDisable"
+        android:gravity="center_vertical"
+        android:layout_gravity="center_horizontal"
+        android:id="@+id/jpWhoInviteExpand"
+        android:visibility="gone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dp8"
+        android:text="@string/core_more"
+        app:itv_color="@color/ppColorTextDisable"
+        app:itv_icon="pay_Arrowdown"
+        app:itv_img_gravity="right_center"
+        app:itv_img_size="@dimen/dp14"
+        app:itv_img_top_margin="2dp"
+        style="@style/txt_mi_w"/>
+</LinearLayout>

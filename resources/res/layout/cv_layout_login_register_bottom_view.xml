@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:gravity="center"
+    android:orientation="horizontal"
+    android:paddingBottom="@dimen/dp12"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <TextView
+        android:textSize="@dimen/dp10"
+        android:textColor="@color/ppColorTextDisable"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/cv_login_regist_text_mmo"/>
+    <ImageView
+        android:layout_width="@dimen/dp12"
+        android:layout_height="@dimen/dp16"
+        android:src="@drawable/cv_mmo_icon"
+        android:layout_marginStart="@dimen/dp2"/>
+    <TextView
+        android:textSize="@dimen/dp10"
+        android:textColor="@color/ppColorTextDisable"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/cv_login_regist_text_ndic"
+        android:layout_marginStart="@dimen/dp16"/>
+    <ImageView
+        android:layout_width="@dimen/dp38"
+        android:layout_height="@dimen/dp15"
+        android:src="@drawable/cv_ndic_icon"
+        android:layout_marginStart="@dimen/dp2"/>
+</LinearLayout>

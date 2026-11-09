@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/layout_btn_container"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/ppButtonHeight"
+    android:layout_marginLeft="@dimen/ppDialogHorizontalMargin"
+    android:layout_marginTop="20dp"
+    android:layout_marginRight="@dimen/ppDialogHorizontalMargin"
+    android:layout_marginHorizontal="@dimen/ppDialogHorizontalMargin"
+    app:layout_constraintHorizontal_chainStyle="spread">
+    <androidx.appcompat.widget.AppCompatTextView
+        android:gravity="center"
+        android:id="@+id/tv_cancel"
+        android:background="@drawable/lib_ui_button_bg_corner_secondary"
+        android:visibility="visible"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:elevation="0dp"
+        app:autoSizeMaxTextSize="@dimen/ppButtonTextSize"
+        app:autoSizeMinTextSize="@dimen/ppButtonMinTextSize"
+        app:autoSizeTextType="uniform"
+        app:layout_constraintEnd_toStartOf="@+id/view_gap"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintWidth_max="400dp"
+        style="@style/ppButtonPositiveStyle"/>
+    <View
+        android:id="@+id/view_gap"
+        android:layout_width="@dimen/ppDialogButtonHorizontalGap"
+        android:layout_height="match_parent"
+        app:layout_constraintEnd_toStartOf="@+id/tv_confirm"
+        app:layout_constraintStart_toEndOf="@+id/tv_cancel"/>
+    <androidx.appcompat.widget.AppCompatTextView
+        android:gravity="center"
+        android:id="@+id/tv_confirm"
+        android:background="@drawable/lib_ui_button_bg_corner_primary"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:elevation="0dp"
+        app:autoSizeMaxTextSize="@dimen/ppButtonTextSize"
+        app:autoSizeMinTextSize="@dimen/ppButtonMinTextSize"
+        app:autoSizeTextType="uniform"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/view_gap"
+        app:layout_constraintWidth_max="400dp"
+        style="@style/ppButtonNegativeStyle"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/fragmentContainer"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <com.palmpay.lib.ui.titlebar.PpTitleBar
+        android:id="@+id/titleBar"
+        android:background="@color/ppColorBackgroundLight"
+        android:layout_width="match_parent"
+        android:layout_height="?android:attr/actionBarSize"
+        app:title_bar_show_right_2_iv="false"
+        app:title_bar_title="@string/main_merchant_payment"/>
+    <TextView
+        android:gravity="center_vertical"
+        android:id="@+id/textViewMessage"
+        android:paddingLeft="@dimen/large_margin"
+        android:paddingTop="10dp"
+        android:paddingRight="@dimen/large_margin"
+        android:paddingBottom="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/main_msg_merchant_payment_info"
+        android:layout_below="@+id/titleBar"
+        android:paddingStart="@dimen/large_margin"
+        android:paddingEnd="@dimen/large_margin"
+        android:paddingHorizontal="@dimen/large_margin"
+        style="@style/txt_s_lg"/>
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/merchantList"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="2dp"
+        android:layout_below="@+id/textViewMessage"/>
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/imageViewEmpty"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:scaleType="fitXY"
+        android:layout_centerInParent="true"
+        app:srcCompat="@drawable/cv_empty_no_transaction_history"/>
+</RelativeLayout>

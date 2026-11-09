@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <com.transsnet.palmpay.credit.ui.view.BorrowCLInfoView
+        android:id="@+id/borrow_cl_info_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dp16">
+        <TextView
+            android:textSize="@dimen/dp10"
+            android:textColor="@color/cs_cl_borrow_all_top_text_color"
+            android:gravity="center_horizontal"
+            android:id="@+id/borrow_tips_tv"
+            android:background="@drawable/cs_cl_shape_borrow_all_top"
+            android:paddingTop="@dimen/dp2"
+            android:visibility="visible"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dp62"
+            android:text="@string/cs_click_here_to_borrow_total"/>
+        <com.palmpay.lib.ui.button.PpButton
+            android:textSize="@dimen/dp14"
+            android:textColor="@color/md_white_1000"
+            android:gravity="center"
+            android:id="@+id/borrow_tv"
+            android:background="@drawable/cs_cl_borrow_txt_bg"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dp44"
+            android:layout_marginTop="@dimen/dp22"
+            android:text="@string/cs_borrow_all"
+            android:fontFamily="sans-serif-medium"
+            android:backgroundTint="@color/ppColorFlexiCashPrimary"/>
+    </RelativeLayout>
+    <TextView
+        android:textSize="@dimen/dp12"
+        android:textColor="@color/cv_flexi_cash_base_color"
+        android:layout_gravity="center"
+        android:id="@+id/agreement_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dp10"
+        android:text="@string/cs_click_to_see_loan_agreement"/>
+</LinearLayout>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <com.flexibank.sdk.customview.model.FlexiBankModelPageTitleArea
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:fb_cta_title="Payment"/>
+    <RelativeLayout
+        android:background="@drawable/fb_shape_rect_corner_lt_rt_8_bg_white"
+        android:paddingTop="@dimen/fb_dp8"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="@dimen/fb_dp172">
+        <ProgressBar
+            android:id="@+id/fb_payment_loading"
+            android:visibility="gone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            style="?android:attr/progressBarStyleSmallInverse"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/fb_msg_please_wait_for_pay"
+            android:layout_centerInParent="true"/>
+    </RelativeLayout>
+</RelativeLayout>

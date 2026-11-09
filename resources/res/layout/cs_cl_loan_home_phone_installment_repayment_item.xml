@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <com.transsnet.palmpay.credit.view.PhoneInstallmentLoanView
+        android:id="@+id/phoneInstallmentLoanView"
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <com.transsnet.palmpay.credit.view.PhoneInstallmentDailyLoanView
+        android:id="@+id/phoneInstallmentDailyLoanView"
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+</FrameLayout>

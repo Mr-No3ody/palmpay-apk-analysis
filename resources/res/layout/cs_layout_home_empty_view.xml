@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/layoutEmptyView"
+    android:background="@color/ppColorBackgroundDark"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/ivIcon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toTopOf="@+id/tvTitle"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.4"
+        app:layout_constraintVertical_chainStyle="packed"
+        app:srcCompat="@drawable/cv_empty_no_network"/>
+    <TextView
+        android:id="@+id/tvTitle"
+        android:layout_marginTop="@dimen/dp12"
+        android:text="Connect to the network"
+        app:layout_constraintBottom_toTopOf="@+id/tvSubTitle"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ivIcon"
+        style="@style/Text.202046.14"/>
+    <TextView
+        android:id="@+id/tvSubTitle"
+        android:text="Get the free data &amp; free airtime coupons"
+        app:layout_constraintBottom_toTopOf="@+id/rtvRefresh"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvTitle"
+        style="@style/Text.6f7b85.12"/>
+    <com.transsnet.palmpay.custom_view.RoundedTextView
+        android:textColor="@color/ppColorTextBase"
+        android:id="@+id/rtvRefresh"
+        android:layout_width="118dp"
+        android:layout_height="36dp"
+        android:layout_marginTop="@dimen/dp12"
+        android:text="Refresh"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvSubTitle"
+        app:rtv_background_color="@color/ppColorFlexiCashPrimary"
+        app:rtv_corner_radius="@dimen/ppButtonHeight"
+        style="@style/Text.medium.202046.16"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

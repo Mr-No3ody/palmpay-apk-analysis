@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.palmpay.lib.ui.picker.picker.PickerView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/v_picker"
+    android:paddingTop="@dimen/ppPickerPaddingVertical"
+    android:paddingBottom="@dimen/ppPickerPaddingVertical"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/ppPickerHeight"
+    android:layout_marginLeft="@dimen/ppPickerMarginHorizontal"
+    android:layout_marginTop="@dimen/ppPickerMarginTop"
+    android:layout_marginRight="@dimen/ppPickerMarginHorizontal"
+    android:layout_marginBottom="@dimen/ppPickerMarginBottom"
+    android:layout_marginHorizontal="@dimen/ppPickerMarginHorizontal"
+    android:paddingVertical="@dimen/ppPickerPaddingVertical"/>

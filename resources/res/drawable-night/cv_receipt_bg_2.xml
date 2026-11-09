@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:gravity="top|fill_horizontal">
+        <bitmap
+            android:src="@drawable/cv_receipt_bg_top"
+            android:tint="@color/ppColorBackgroundLight"/>
+    </item>
+    <item
+        android:gravity="fill_horizontal"
+        android:top="@dimen/dp20"
+        android:bottom="20dp">
+        <color android:color="@color/ppColorBackgroundLight"/>
+    </item>
+    <item
+        android:top="@dimen/dp20"
+        android:bottom="20dp">
+        <bitmap
+            android:src="@drawable/cv_receipt_bg_watermark"
+            android:tileMode="repeat"
+            android:alpha="0.04"/>
+    </item>
+    <item android:gravity="bottom|fill_horizontal">
+        <bitmap
+            android:src="@drawable/cv_receipt_bg_bottom"
+            android:tint="@color/ppColorBackgroundLight"/>
+    </item>
+</layer-list>

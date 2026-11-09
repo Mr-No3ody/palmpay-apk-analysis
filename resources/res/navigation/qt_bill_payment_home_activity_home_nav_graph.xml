@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/bill_activity_home_nav_graph"
+    app:startDestination="@+id/emptyViewPlaceholder">
+    <fragment
+        android:name="com.transsnet.palmpay.teller.ui.fragment.BillPaymentHomeNGFragment"
+        android:id="@+id/fragment_bill_home_ng"/>
+    <fragment
+        android:name="com.transsnet.palmpay.teller.ui.fragment.BillPaymentElectricityHomeFragment"
+        android:id="@+id/fragment_bill_home_grid_electricity"/>
+    <fragment
+        android:name="com.transsnet.palmpay.teller.ui.fragment.BillPaymentTvHomeFragment"
+        android:id="@+id/fragment_bill_home_tv"/>
+    <fragment
+        android:name="com.transsnet.palmpay.core.ui.fragment.EmptyFragment"
+        android:id="@+id/emptyViewPlaceholder"/>
+</navigation>

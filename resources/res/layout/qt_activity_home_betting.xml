@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <com.palmpay.lib.ui.titlebar.PpTitleBar
+        android:id="@+id/titleBar"
+        android:background="@color/ppColorBackgroundDark"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:title_bar_show_right_1_iv="true"
+        app:title_bar_title="@string/core_betting"/>
+    <com.transsnet.palmpay.core.viewmodel.ModelBillNoticeItem
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cv_notice_category_id="8"
+        app:cv_notice_slot_id="@string/betting_super_league_text_ad"/>
+    <androidx.core.widget.NestedScrollView
+        android:id="@+id/betting_deposit_scroll_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:orientation="vertical"
+            android:id="@+id/bettingRootLinearLayout"
+            android:paddingLeft="@dimen/dp16"
+            android:paddingRight="@dimen/dp16"
+            android:paddingBottom="@dimen/dp40"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingHorizontal="@dimen/dp16"/>
+    </androidx.core.widget.NestedScrollView>
+</LinearLayout>

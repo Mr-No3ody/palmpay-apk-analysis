@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.flexibank.sdk.customview.model.ModelPaymentFlexiLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/fb_model_payment_flexi_layout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="@dimen/fb_dp16"
+    android:layout_marginRight="@dimen/fb_dp16"
+    android:layout_marginHorizontal="@dimen/fb_dp16"/>

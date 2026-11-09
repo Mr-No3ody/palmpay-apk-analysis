@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/ctlOverView"
+    android:background="@drawable/cv_shape_round_corner_secondary"
+    android:paddingLeft="@dimen/dp8"
+    android:paddingTop="@dimen/dp3"
+    android:paddingRight="@dimen/dp8"
+    android:paddingBottom="@dimen/dp3"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:paddingHorizontal="@dimen/dp8"
+    android:paddingVertical="@dimen/dp3">
+    <com.mikepenz.iconics.view.IconicsTextView
+        android:id="@+id/tv_content"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=" Monthly Overview"
+        android:includeFontPadding="false"
+        app:iiv_start_color="@color/ppColorPrimary"
+        app:iiv_start_icon="pay_Assets"
+        app:iiv_start_size="@dimen/dp14"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        style="@style/Text.medium.6306b2.10"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.transsnet.adsdk.widgets.MarqueeTextView.MarqueeViewV2 xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/topTextAd"
+    android:paddingLeft="@dimen/dp16"
+    android:paddingTop="8dp"
+    android:paddingRight="@dimen/dp16"
+    android:paddingBottom="8dp"
+    android:visibility="gone"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:drawablePadding="@dimen/dp5"
+    android:paddingHorizontal="@dimen/dp16"
+    android:paddingVertical="8dp"
+    app:ad_use_coroutine="true"/>

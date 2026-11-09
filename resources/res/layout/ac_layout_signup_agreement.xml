@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/viewAgreement"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <com.mikepenz.iconics.view.IconicsCheckBox
+        android:id="@+id/checkAgreement"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:checked="false"
+        app:iiv_checked_color="@color/ppColorTextPrimary"
+        app:iiv_checked_icon="pay_Checkbox"
+        app:iiv_checked_size="16dp"
+        app:iiv_unchecked_color="@color/ppColorTextPrimary"
+        app:iiv_unchecked_icon="pay_CheckboxOutline"
+        app:iiv_unchecked_size="16dp"
+        app:layout_constraintBottom_toBottomOf="@+id/textViewAgreement"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/textViewAgreement"/>
+    <TextView
+        android:textAppearance="@style/txt_mi_g"
+        android:gravity="center"
+        android:layout_gravity="center_horizontal"
+        android:id="@+id/textViewAgreement"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/ac_msg_terms_line1"
+        android:paddingEnd="3dp"
+        android:layout_marginStart="4dp"
+        app:layout_constraintStart_toEndOf="@+id/checkAgreement"
+        app:layout_constraintTop_toTopOf="parent"/>
+    <TextView
+        android:gravity="center_vertical"
+        android:id="@+id/tvTerms"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/ac_msg_terms_line21"
+        android:paddingStart="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/textViewAgreement"
+        app:layout_constraintTop_toTopOf="parent"
+        style="@style/txt_mi_b"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

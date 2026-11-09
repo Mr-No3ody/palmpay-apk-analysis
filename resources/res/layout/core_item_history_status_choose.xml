@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/dp48">
+    <TextView
+        android:ellipsize="end"
+        android:gravity="start|center_vertical"
+        android:id="@+id/tvContent"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:maxLines="1"
+        android:layout_weight="1"
+        android:paddingStart="@dimen/dp24"
+        style="@style/txt_s_b"/>
+    <com.mikepenz.iconics.view.IconicsImageView
+        android:layout_gravity="center_vertical"
+        android:id="@+id/iivIcon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="@dimen/dp21"
+        app:iiv_color="@color/ppColorPrimary"
+        app:iiv_icon="pay_Selected"
+        app:iiv_size="@dimen/dp16"/>
+</LinearLayout>

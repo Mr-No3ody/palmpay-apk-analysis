@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/cl_root"
+    android:background="@drawable/cv_shape_rect_corner_12_bg_white"
+    android:layout_width="@dimen/dp270"
+    android:layout_height="418dp">
+    <TextView
+        android:id="@+id/tv_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dp8"
+        android:text="@string/sm_payme_number"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        style="@style/txt_mi_b"/>
+    <ImageView
+        android:id="@+id/iv_empty"
+        android:layout_width="226dp"
+        android:layout_height="332dp"
+        android:layout_marginTop="@dimen/dp8"
+        android:scaleType="fitXY"
+        android:adjustViewBounds="true"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_title"/>
+    <TextView
+        android:gravity="center"
+        android:id="@+id/tv_get_now"
+        android:background="@drawable/core_rect_round_corner_bg_ffbf13"
+        android:layout_width="106dp"
+        android:layout_height="@dimen/dp30"
+        android:text="@string/cv_get_now"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/iv_empty"
+        style="@style/txt_s_b"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

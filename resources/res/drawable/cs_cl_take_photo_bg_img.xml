@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aapt="http://schemas.android.com/aapt"
+    android:height="269dp"
+    android:width="360dp"
+    android:viewportWidth="360"
+    android:viewportHeight="269">
+    <path
+        android:fillColor="@drawable/_cs_cl_take_photo_bg_img__0_res_0x7f08002f"
+        android:pathData="M0,0h360v269h-360z"
+        android:strokeAlpha="0.5"
+        android:fillAlpha="0.5"/>
+</vector>

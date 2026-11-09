@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="@color/ppColorBackgroundLight"
+    android:paddingTop="0dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <com.palmpay.lib.ui.titlebar.PpTitleBar
+        android:id="@+id/titleBar"
+        android:background="@color/transparent"
+        android:layout_width="match_parent"
+        android:layout_height="?android:attr/actionBarSize"
+        app:title_bar_show_right_2_iv="false"
+        app:title_bar_title="Verify Mobile Number"/>
+    <TextView
+        android:gravity="center_vertical"
+        android:id="@+id/tvMessage"
+        android:background="@drawable/cv_shape_rect_corner_8_bg_dark"
+        android:padding="@dimen/dp12"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/dp16"
+        android:layout_marginRight="@dimen/dp16"
+        android:layout_marginHorizontal="@dimen/dp16"
+        style="@style/txt_s_g"/>
+    <TextView
+        android:gravity="center_vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:text="Enter the code"
+        android:layout_marginStart="@dimen/dp16"
+        style="@style/txt_s_b"/>
+    <com.transsnet.palmpay.core.viewmodel.OneTimeCodeV4View
+        android:layout_gravity="center_horizontal"
+        android:id="@+id/viewOTC"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:layout_marginStart="@dimen/dp12"/>
+</LinearLayout>

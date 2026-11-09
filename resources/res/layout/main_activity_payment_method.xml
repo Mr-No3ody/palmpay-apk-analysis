@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <com.palmpay.lib.ui.titlebar.PpTitleBar
+        android:id="@+id/titleBar"
+        android:background="@color/ppColorBackgroundLight"
+        android:layout_width="match_parent"
+        android:layout_height="?android:attr/actionBarSize"
+        app:title_bar_title="@string/main_preferred_payment_method"/>
+    <TextView
+        android:textSize="@dimen/dp12"
+        android:textColor="@color/ppColorTextNormal"
+        android:id="@+id/tv_top_remark"
+        android:background="@color/ppColorBackgroundLight"
+        android:paddingLeft="16dp"
+        android:paddingTop="@dimen/dp10"
+        android:paddingRight="16dp"
+        android:paddingBottom="@dimen/dp10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/main_payment_method_notice_top"
+        android:lineSpacingMultiplier="1.1"
+        android:paddingHorizontal="16dp"
+        android:paddingVertical="@dimen/dp10"/>
+    <View
+        android:background="@color/ppColorDividerLine"
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"/>
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recycler_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dp1"/>
+    <TextView
+        android:textSize="@dimen/dp12"
+        android:textColor="@color/ppColorTextNormal"
+        android:paddingLeft="@dimen/dp16"
+        android:paddingRight="@dimen/dp16"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dp12"
+        android:text="@string/main_payment_method_notice"
+        android:lineSpacingMultiplier="1.1"
+        android:paddingHorizontal="@dimen/dp16"/>
+</LinearLayout>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:id="@+id/tvGoalAutoDesc"
+        android:layout_marginTop="@dimen/dp4"
+        android:text="Would You Like to Enable Auto-Renewal?"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        style="@style/Text.202046.12"/>
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/layoutAutoSaveOp"
+        android:background="@drawable/cv_shape_rect_corner_8_bg_dark"
+        android:paddingLeft="@dimen/dp16"
+        android:paddingTop="@dimen/dp12"
+        android:paddingRight="@dimen/dp16"
+        android:paddingBottom="@dimen/dp12"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dp12"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvGoalAutoDesc">
+        <com.mikepenz.iconics.view.IconicsTextView
+            android:gravity="center"
+            android:id="@+id/tvBalanceAmount"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Auto-Renewal "
+            app:iiv_end_color="@color/ppColorTextPrimary"
+            app:iiv_end_icon="pay_InformationOutline"
+            app:iiv_end_size="@dimen/dp16"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            style="@style/Text.medium.202046.12"/>
+        <androidx.appcompat.widget.AppCompatImageView
+            android:enabled="true"
+            android:layout_gravity="center_vertical"
+            android:id="@+id/switchWidget"
+            android:layout_width="@dimen/dp36"
+            android:layout_height="@dimen/dp20"
+            android:src="@drawable/cv_switch_close_gray"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent"/>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <TextView
+        android:textColor="@color/ppColorTextAssist"
+        android:gravity="left"
+        android:id="@+id/tvAutoRemark"
+        android:visibility="visible"
+        android:layout_marginTop="4dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/layoutAutoSaveOp"
+        style="@style/Text.ffffff.12"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

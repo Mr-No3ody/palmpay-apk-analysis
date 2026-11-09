@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:id="@+id/llTenureItem"
+    android:background="@drawable/cs_cl_transfer_by_loan_tenure_unselected"
+    android:paddingLeft="@dimen/dp12"
+    android:paddingRight="@dimen/dp12"
+    android:layout_width="wrap_content"
+    android:layout_height="@dimen/dp48"
+    android:minWidth="@dimen/dp72"
+    android:paddingHorizontal="@dimen/dp12">
+    <TextView
+        android:textSize="@dimen/dp12"
+        android:textColor="@color/ppColorTextPrimary"
+        android:id="@+id/tvTenureDays"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:maxLines="1"
+        android:singleLine="true"
+        android:includeFontPadding="false"
+        android:fontFamily="sans-serif-medium"/>
+    <TextView
+        android:textSize="@dimen/dp12"
+        android:textColor="@color/ppColorTextNormal"
+        android:id="@+id/tvTenureTerms"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dp2"
+        android:maxLines="1"
+        android:includeFontPadding="false"/>
+</LinearLayout>

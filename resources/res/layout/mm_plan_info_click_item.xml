@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/layoutParent"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <TextView
+        android:id="@+id/tvInfoTitle"
+        android:drawableRight="@drawable/mm_icon_warn_gray"
+        android:drawablePadding="@dimen/dp2"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        style="@style/Text.858a8f.14"/>
+    <com.mikepenz.iconics.view.IconicsTextView
+        android:gravity="center"
+        android:id="@+id/tvInfoValue"
+        android:paddingLeft="12dp"
+        android:paddingTop="@dimen/dp5"
+        android:paddingRight="12dp"
+        android:paddingBottom="@dimen/dp5"
+        android:layout_width="wrap_content"
+        android:layout_marginLeft="@dimen/dp16"
+        android:includeFontPadding="false"
+        android:paddingHorizontal="12dp"
+        android:paddingVertical="@dimen/dp5"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintBottom_toTopOf="@+id/tvInfoSubValue"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_chainStyle="packed"
+        style="@style/Text.medium.202046.14"/>
+    <TextView
+        android:id="@+id/tvInfoSubValue"
+        android:visibility="gone"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvInfoValue"
+        style="@style/Text.858a8f.12"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

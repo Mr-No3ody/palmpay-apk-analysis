@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="@color/ppColorBackgroundLight"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <com.palmpay.lib.ui.titlebar.PpTitleBar
+        android:id="@+id/titleBar"
+        android:layout_width="match_parent"
+        android:layout_height="?android:attr/actionBarSize"
+        app:title_bar_show_right_1_iv="true"
+        app:title_bar_title=""/>
+    <include
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        layout="@layout/ct_personal_info_layout"/>
+    <com.palmpay.lib.ui.button.PpButton
+        android:gravity="center"
+        android:id="@+id/add_status_bt"
+        android:layout_width="match_parent"
+        android:layout_marginLeft="@dimen/dp16"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="@dimen/dp16"
+        android:text=""
+        android:layout_marginHorizontal="@dimen/dp16"
+        style="@style/ppButtonStyle"/>
+</LinearLayout>

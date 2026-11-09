@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aapt="http://schemas.android.com/aapt"
+    android:height="88dp"
+    android:width="328dp"
+    android:viewportWidth="328"
+    android:viewportHeight="88">
+    <path
+        android:fillColor="@drawable/_ac_sign_up_button_container_bg__0_res_0x7f08000f"
+        android:pathData="m0,0 l112.11,11.18a523,523 0,0 0,103.77 0L328,0v76c0,6.63 -5.37,12 -12,12H12C5.37,88 0,82.63 0,76z"/>
+</vector>

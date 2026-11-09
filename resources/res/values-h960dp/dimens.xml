@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="core_pin_kb_font_size">32dp</dimen>
+    <dimen name="core_pin_kb_item_height">60dp</dimen>
+    <dimen name="fb_pin_kb_font_size">32dp</dimen>
+    <dimen name="fb_pin_kb_item_height">60dp</dimen>
+</resources>

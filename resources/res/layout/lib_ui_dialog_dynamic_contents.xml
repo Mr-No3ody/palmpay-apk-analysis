@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:id="@+id/layoutRows"
+    android:background="@drawable/lib_ui_rect_corner_12_bg_dark"
+    android:paddingLeft="12dp"
+    android:paddingTop="4dp"
+    android:paddingRight="12dp"
+    android:paddingBottom="4dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="@dimen/ppDialogHorizontalMargin"
+    android:layout_marginRight="@dimen/ppDialogHorizontalMargin"
+    android:layout_marginHorizontal="@dimen/ppDialogHorizontalMargin"
+    android:paddingHorizontal="12dp"
+    android:paddingVertical="4dp"/>

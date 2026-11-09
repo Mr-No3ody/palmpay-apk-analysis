@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="@color/ppColorBackgroundLight"
+    android:padding="30dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:gravity="center"
+        android:paddingTop="56dp"
+        android:paddingBottom="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/core_msg_transaction_in_progress"
+        style="@style/txt_l_b"/>
+    <com.transsnet.palmpay.custom_view.countdown.TransactionCountdownView
+        android:layout_gravity="center_horizontal"
+        android:id="@+id/countDownView"
+        android:layout_width="229dp"
+        android:layout_height="229dp"
+        android:layout_marginTop="15dp"
+        app:circleRadius1="113dp"
+        app:circleRadius2="105dp"
+        app:circleRadius3="95dp"
+        app:circleRadius4="80dp"
+        app:circleStrokeWidth="1dp"
+        app:colorPrimary="@color/ppColorPrimary"
+        app:colorSecondary="@color/ppColorTextDisable"
+        app:countDownTextSize="45dp"
+        app:lineStrokeWidth="2dp"
+        app:maxCountdown="10"
+        app:pointStrokeWidth="4dp"/>
+</LinearLayout>

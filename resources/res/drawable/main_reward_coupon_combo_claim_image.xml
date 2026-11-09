@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:height="84dp"
+    android:width="216dp"
+    android:viewportWidth="216"
+    android:viewportHeight="84">
+    <path
+        android:fillColor="@color/main_color_reward_coupon_combo_bg"
+        android:pathData="M180.92,0.02C187.04,0.02 192,4.98 192,11.1V27.01C191.9,27 191.79,27 191.69,27C187.27,27 183.69,30.58 183.69,35C183.69,39.42 187.27,43 191.69,43C191.79,43 191.9,43 192,42.99V70.13H15.69V42.98C15.87,42.99 16.05,43 16.23,43C20.65,43 24.23,39.42 24.23,35C24.23,30.58 20.65,27 16.23,27C16.05,27 15.87,27.01 15.69,27.02V11.1C15.69,4.98 20.65,0.02 26.77,0.02H180.92Z"/>
+    <path
+        android:fillColor="@color/main_color_reward_coupon_combo_bottom_bg"
+        android:pathData="M0,32.31L14.2,35.12C76.13,47.39 139.87,47.39 201.8,35.12L216,32.31V72.92C216,79.04 211.04,84 204.92,84H11.08C4.96,84 0,79.04 0,72.92V32.31Z"/>
+</vector>

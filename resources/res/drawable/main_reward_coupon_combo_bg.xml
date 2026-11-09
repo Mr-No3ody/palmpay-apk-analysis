@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android" android:shape="rectangle">
+    <corners android:radius="@dimen/dp16"/>
+    <gradient
+        android:startColor="@color/main_color_reward_coupon_local_end_bg"
+        android:endColor="@color/main_color_reward_coupon_local_start_bg"
+        android:angle="90"/>
+</shape>

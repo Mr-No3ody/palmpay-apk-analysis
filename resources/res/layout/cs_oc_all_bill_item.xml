@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/cv_shape_rect_corner_12_bg_white"
+    android:padding="@dimen/dp16"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/dp70"
+    android:layout_marginBottom="@dimen/dp12">
+    <TextView
+        android:textSize="14sp"
+        android:textColor="@color/ppColorTextPrimary"
+        android:id="@+id/bill_name_tv"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toTopOf="@+id/bill_overdue_tv"
+        app:layout_constraintEnd_toStartOf="@+id/bill_amount_tv"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
+    <TextView
+        android:textSize="12sp"
+        android:textColor="@color/cs_overdue_txt_color"
+        android:id="@+id/bill_overdue_tv"
+        android:background="@drawable/cs_oc_all_bill_overdue_txt_bg"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="@string/cs_days_overdue"
+        android:paddingStart="@dimen/dp4"
+        android:paddingEnd="@dimen/dp4"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/bill_name_tv"
+        app:layout_constraintTop_toBottomOf="@+id/bill_name_tv"/>
+    <TextView
+        android:textSize="16sp"
+        android:textColor="@color/ppColorTextPrimary"
+        android:id="@+id/bill_amount_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:drawableEnd="@drawable/cs_oc_bill_right_arrow_grey_icon"
+        android:fontFamily="@font/cv_palmpay_number_bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

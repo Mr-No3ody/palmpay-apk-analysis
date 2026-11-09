@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <com.mikepenz.iconics.view.IconicsTextView
+        android:layout_gravity="top"
+        android:background="@drawable/cv_shape_rect_top_corner_white_12"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp44"
+        android:backgroundTint="@color/ppColorSuccessBackground"/>
+    <com.mikepenz.iconics.view.IconicsTextView
+        android:textSize="@dimen/dp12"
+        android:textColor="@color/ppColorSuccess"
+        android:ellipsize="end"
+        android:gravity="center"
+        android:layout_gravity="center_horizontal"
+        android:id="@+id/tvFaceScanSecurityTips"
+        android:layout_width="wrap_content"
+        android:layout_height="32dp"
+        android:text="@string/cv_face_scan_security_tips"
+        android:maxLines="1"
+        android:includeFontPadding="false"
+        android:drawablePadding="4dp"
+        app:iiv_start_color="@color/ppColorSuccess"
+        app:iiv_start_icon="pay_Security"
+        app:iiv_start_size="@dimen/dp16"/>
+    <com.palmpay.lib.ui.button.PpButton
+        android:gravity="center"
+        android:layout_gravity="top"
+        android:id="@+id/btnScan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dp32"
+        android:text="@string/cv_let_s_start"
+        android:textAllCaps="false"
+        style="@style/ppButtonStyle"/>
+</FrameLayout>

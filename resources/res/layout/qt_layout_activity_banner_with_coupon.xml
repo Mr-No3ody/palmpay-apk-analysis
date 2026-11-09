@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:gravity="center_vertical"
+    android:orientation="vertical"
+    android:padding="@dimen/dp8"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <androidx.viewpager2.widget.ViewPager2
+        android:id="@+id/bannerVp"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp88"/>
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_gravity="center_horizontal"
+        android:orientation="horizontal"
+        android:id="@+id/indicatorRv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/dp4"
+        app:layout_constraintBottom_toBottomOf="@+id/bannerVp"
+        app:layout_constraintEnd_toEndOf="@+id/bannerVp"
+        app:layout_constraintStart_toStartOf="@+id/bannerVp"/>
+</merge>

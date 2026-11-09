@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/sm_bg_clipboard_account_prompt"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/dp38">
+    <TextView
+        android:ellipsize="end"
+        android:gravity="center_vertical"
+        android:id="@+id/tv_copied_account"
+        android:layout_width="0dp"
+        android:layout_height="@dimen/dp18"
+        android:layout_marginBottom="@dimen/dp8"
+        android:maxLines="1"
+        android:includeFontPadding="false"
+        android:layout_marginStart="@dimen/dp8"
+        android:layout_marginEnd="@dimen/dp8"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/tv_paste"
+        app:layout_constraintStart_toStartOf="parent"
+        style="@style/Text.202046.12"/>
+    <TextView
+        android:textColor="@color/ppColorPrimary"
+        android:gravity="center_vertical"
+        android:id="@+id/tv_paste"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/dp18"
+        android:layout_marginBottom="@dimen/dp8"
+        android:text="@string/sm_clipboard_paste_up"
+        android:includeFontPadding="false"
+        android:layout_marginEnd="@dimen/dp8"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        style="@style/Text.202046.12"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

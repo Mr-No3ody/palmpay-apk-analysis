@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="ac_login_step1_msg_bottom_margin">12dp</dimen>
+    <dimen name="ac_login_step1_msg_top_margin">4dp</dimen>
+    <dimen name="core_digit_keyboard_height">140dp</dimen>
+    <dimen name="core_pin_kb_font_size">20dp</dimen>
+    <dimen name="core_pin_kb_item_height">36dp</dimen>
+    <dimen name="sm_to_palmpay_bottom_padding">200dp</dimen>
+</resources>

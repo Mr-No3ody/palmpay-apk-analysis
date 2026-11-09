@@ -1,0 +1,17 @@
+package com.transsnet.adsdk.data.local.Migrates;
+
+import J0.a;
+import androidx.annotation.NonNull;
+import androidx.sqlite.db.SupportSQLiteDatabase;
+
+/* JADX INFO: loaded from: classes3.dex */
+public class Migrate2To3 extends a {
+    public Migrate2To3(int startVersion, int endVersion) {
+        super(startVersion, endVersion);
+    }
+
+    @Override // J0.a
+    public void migrate(@NonNull SupportSQLiteDatabase database) {
+        database.execSQL("ALTER TABLE ad_detail  ADD COLUMN show_dates TEXT");
+    }
+}

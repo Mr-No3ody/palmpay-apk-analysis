@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/atubd_contact_service_area"
+    android:background="@color/ppColorBackgroundDark"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/dp62">
+    <LinearLayout
+        android:orientation="horizontal"
+        android:paddingLeft="@dimen/dp15"
+        android:paddingTop="@dimen/dp14"
+        android:paddingRight="@dimen/dp15"
+        android:paddingBottom="@dimen/dp14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true">
+        <com.mikepenz.iconics.view.IconicsTextView
+            android:textSize="@dimen/dp11"
+            android:textColor="@color/ppColorTextDisable"
+            android:gravity="center_vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/cv_msg_contact_customer_service_1"
+            android:drawablePadding="4dp"
+            app:iiv_end_color="@color/ppColorTextDisable"
+            app:iiv_end_icon="pay_CustomerService"
+            app:iiv_end_size="@dimen/dp16"/>
+        <TextView
+            android:textSize="@dimen/dp12"
+            android:textColor="@color/ppColorPrimary"
+            android:id="@+id/atubd_contact_service_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/cv_msg_contact_customer_service_2"/>
+    </LinearLayout>
+</RelativeLayout>

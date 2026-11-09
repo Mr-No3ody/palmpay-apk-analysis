@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="48dp"
+    app:cardBackgroundColor="#f6f6fa"
+    app:cardCornerRadius="12dp"
+    app:cardElevation="0dp">
+    <LinearLayout
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:paddingLeft="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <androidx.appcompat.widget.AppCompatEditText
+            android:textSize="14sp"
+            android:textColor="#202046"
+            android:textColorHint="#c0c3c8"
+            android:gravity="center_vertical"
+            android:id="@+id/mtn_edit"
+            android:background="@android:color/transparent"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:hint="@string/mtn_str_hint_account_use_id"
+            android:singleLine="true"
+            android:layout_weight="1"
+            android:textCursorDrawable="@drawable/mtn_cursor_line"/>
+        <ImageView
+            android:id="@+id/mtn_clear"
+            android:visibility="gone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="16dp"
+            android:src="@mipmap/mtn_edit_close"/>
+        <ImageView
+            android:id="@+id/mtn_eye"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="16dp"
+            android:src="@mipmap/mtn_edit_eye_close"/>
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

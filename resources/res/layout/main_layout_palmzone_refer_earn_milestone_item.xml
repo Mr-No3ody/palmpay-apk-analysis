@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <TextView
+        android:textSize="@dimen/dp10"
+        android:textColor="@color/ppColorTextPrimary"
+        android:gravity="center"
+        android:id="@+id/tvMilestoneAmt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:includeFontPadding="false"
+        android:fontFamily="@font/lib_ui_palmpaynum_bold_ttf"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        style="@style/txt_s_b"/>
+    <ImageView
+        android:id="@+id/ivMilestoneCash"
+        android:layout_width="@dimen/dp28"
+        android:layout_height="@dimen/dp28"
+        android:layout_marginTop="@dimen/dp2"
+        android:scaleType="centerInside"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvMilestoneAmt"
+        app:srcCompat="@drawable/main_ic_refer_earn_cash_milestone"/>
+    <TextView
+        android:textSize="@dimen/dp10"
+        android:textColor="@color/ppColorTextNormal"
+        android:gravity="center"
+        android:id="@+id/tvMilestoneUser"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dp2"
+        android:includeFontPadding="false"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ivMilestoneCash"
+        style="@style/Text.6f7b85.10"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

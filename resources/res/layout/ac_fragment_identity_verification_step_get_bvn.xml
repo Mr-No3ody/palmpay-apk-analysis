@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:paddingLeft="@dimen/dp16"
+    android:paddingRight="@dimen/dp16"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingHorizontal="@dimen/dp16">
+    <TextView
+        android:gravity="center_vertical"
+        android:layout_gravity="start"
+        android:id="@+id/tvTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dp12"
+        android:text="Via Bank Account to get BVN"
+        style="@style/txt_bb_b_b"/>
+    <TextView
+        android:gravity="center_vertical"
+        android:id="@+id/tvMessage"
+        android:paddingTop="4dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Please enter your own NIN/BVN to open an account."
+        style="@style/txt_s_g"/>
+    <TextView
+        android:gravity="center_vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:text="Bank Account Number"
+        style="@style/txt_s_b"/>
+    <com.palmpay.lib.ui.form.PpFormVertical
+        android:id="@+id/inputAccountNo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        app:form_edit_input_type="bankcode"
+        app:form_edit_max_length="10"
+        app:form_hide_text="Enter 10 digits account number"
+        app:form_layout_background="@color/transparent"
+        style="@style/AcPpFormStyle"/>
+    <TextView
+        android:gravity="center_vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Bank"
+        style="@style/txt_s_b"/>
+    <com.palmpay.lib.ui.form.PpFormVertical
+        android:id="@+id/inputBankName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        app:form_edit_enable="false"
+        app:form_edit_input_type="text"
+        app:form_hide_text="@string/core_select_bank"
+        app:form_layout_background="@color/transparent"
+        app:layout_constraintTop_toBottomOf="@+id/inputIdType"
+        style="@style/AcPpFormStyle"/>
+    <View
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="1"/>
+    <com.palmpay.lib.ui.button.PpButton
+        android:enabled="false"
+        android:gravity="center"
+        android:id="@+id/textViewNext"
+        android:layout_width="match_parent"
+        android:layout_marginBottom="@dimen/dp16"
+        android:text="Get"
+        app:layout_constraintBottom_toBottomOf="parent"
+        style="@style/ppButtonStyle"/>
+    <include
+        android:layout_gravity="center_horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="4dp"
+        layout="@layout/cv_layout_login_register_bottom_view"/>
+</LinearLayout>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:gravity="center_vertical"
+    android:id="@+id/ll_root"
+    android:background="@drawable/cv_rect_corner_bl_br_12_bg_white"
+    android:paddingLeft="@dimen/dp16"
+    android:paddingRight="@dimen/dp16"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/dp42"
+    android:paddingHorizontal="@dimen/dp16">
+    <TextView
+        android:id="@+id/tv_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        style="@style/Text.9ca2aa.14"/>
+    <TextView
+        android:textSize="@dimen/dp10"
+        android:id="@+id/tv_status"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/dp14"
+        android:layout_marginLeft="@dimen/dp4"
+        android:layout_marginRight="@dimen/dp4"
+        android:scaleType="fitXY"
+        android:adjustViewBounds="true"
+        android:layout_marginHorizontal="@dimen/dp4"/>
+    <TextView
+        android:gravity="end|center_vertical"
+        android:id="@+id/tv_amount"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        style="@style/txt_number_s_b_b"/>
+</LinearLayout>

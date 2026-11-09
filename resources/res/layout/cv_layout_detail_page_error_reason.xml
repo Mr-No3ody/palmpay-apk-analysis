@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:id="@+id/atubd_error_reason_area"
+    android:paddingLeft="@dimen/dp15"
+    android:paddingTop="@dimen/dp14"
+    android:paddingRight="@dimen/dp15"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <TextView
+        android:textSize="@dimen/dp11"
+        android:textColor="@color/ppColorTextDisable"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/cv_failure_analysis"/>
+    <TextView
+        android:textSize="@dimen/dp12"
+        android:textColor="@color/ppColorTextDisable"
+        android:id="@+id/atubd_error_reason_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dp6"/>
+    <View
+        android:id="@+id/content_divider1"
+        android:background="#ffe2e8ed"
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:layout_marginTop="@dimen/dp14"/>
+</LinearLayout>

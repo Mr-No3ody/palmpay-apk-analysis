@@ -1,0 +1,35 @@
+package p189me.jessyan.autosize;
+
+import android.app.Application;
+import com.alibaba.android.alpha.Task;
+import com.palmpay.init.annotation.InitTask;
+import com.transsnet.palmpay.core.init.BaseInitTask;
+import com.transsnet.palmpay.core.init.BaseInitTaskKt;
+import kotlin.Metadata;
+import kotlin.jvm.internal.Intrinsics;
+import org.jetbrains.annotations.NotNull;
+
+/* JADX INFO: loaded from: classes4.dex */
+@InitTask(background = true, name = BaseInitTaskKt.TASK_AUTO_SIZE_CONFIG)
+@Metadata(d1 = {"\u0000\u001e\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0002\b\u0003\n\u0002\u0018\u0002\n\u0000\n\u0002\u0018\u0002\n\u0000\n\u0002\u0010\u000e\n\u0000\b\u0007\u0018\u00002\u00020\u0001B\u0007¢\u0006\u0004\b\u0002\u0010\u0003J\u0010\u0010\u0004\u001a\u00020\u00052\u0006\u0010\u0006\u001a\u00020\u0007H\u0016J\b\u0010\b\u001a\u00020\tH\u0016¨\u0006\n"}, d2 = {"Lme/jessyan/autosize/AutoSizeTask;", "Lcom/transsnet/palmpay/core/init/BaseInitTask;", "<init>", "()V", "getTask", "Lcom/alibaba/android/alpha/Task;", "application", "Landroid/app/Application;", "getTaskName", "", "module_main_impl_release"}, k = 1, mv = {2, 1, 0}, xi = 48)
+public final class AutoSizeTask extends BaseInitTask {
+    @Override // com.palmpay.init.api.IInitTask
+    @NotNull
+    public Task getTask(@NotNull final Application application) {
+        Intrinsics.checkNotNullParameter(application, "application");
+        return new Task(getTaskName()) { // from class: me.jessyan.autosize.AutoSizeTask.getTask.1
+            @Override // com.alibaba.android.alpha.Task
+            public void run() {
+                BaseInitTask.beginSection$default(AutoSizeTask.this, null, 1, null);
+                AutoSizeConfig.getInstance().setLog(false).init(application).setUseDeviceSize(false);
+                BaseInitTask.endSection$default(AutoSizeTask.this, null, 1, null);
+            }
+        };
+    }
+
+    @Override // com.palmpay.init.api.IInitTask
+    @NotNull
+    public String getTaskName() {
+        return BaseInitTaskKt.TASK_AUTO_SIZE_CONFIG;
+    }
+}

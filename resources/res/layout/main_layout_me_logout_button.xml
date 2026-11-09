@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.palmpay.lib.ui.button.PpButton xmlns:android="http://schemas.android.com/apk/res/android"
+    android:gravity="center"
+    android:id="@+id/btnLogOut"
+    android:layout_width="match_parent"
+    android:text="@string/main_log_out"
+    style="@style/ppSecondaryButtonStyle"/>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <corners android:radius="@dimen/dp24"/>
+    <stroke
+        android:width="@dimen/dp1"
+        android:color="@color/cs_cl_high_quality_dialog_stroke"/>
+    <gradient
+        android:startColor="@color/cs_cl_high_quality_dialog_start"
+        android:endColor="@color/cs_cl_high_quality_dialog_end"
+        android:angle="-90"/>
+</shape>

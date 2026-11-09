@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:gravity="center"
+    android:orientation="horizontal"
+    android:id="@+id/footer_view_loading"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <ProgressBar
+        android:id="@+id/footer_view_progressbar"
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        style="?android:attr/progressBarStyleSmallInverse"/>
+    <TextView
+        android:textSize="14sp"
+        android:textColor="#ff6f7b85"
+        android:id="@+id/footer_view_loading_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/cv_loading"
+        android:layout_marginStart="4dp"/>
+</LinearLayout>

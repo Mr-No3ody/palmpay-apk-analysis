@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.transsnet.palmpay.core.ui.widget.DragView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/ch_act_img_dragview"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+    <com.transsnet.adsdk.widgets.SingleAdView
+        android:id="@+id/floatAdView"
+        android:layout_width="@dimen/dp50"
+        android:layout_height="@dimen/dp50"
+        android:adjustViewBounds="true"
+        app:ad_use_coroutine="true"/>
+</com.transsnet.palmpay.core.ui.widget.DragView>

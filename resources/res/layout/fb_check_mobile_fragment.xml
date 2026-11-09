@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/ppColorBackgroundLight"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <com.flexibank.sdk.cashier.ui.view.FlexiBankModelPageTitleAreaInPayVerifyPage
+        android:id="@+id/fb_cmf_title_area"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:fb_cta_content_text="@string/fb_confirm_mobile"
+        app:fb_cta_title="Confirm Mobile Number"/>
+    <LinearLayout
+        android:orientation="vertical"
+        android:background="@drawable/fb_shape_rect_corner_lt_rt_8_bg_white"
+        android:paddingTop="@dimen/fb_dp8"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="@dimen/fb_dp172">
+        <com.flexibank.sdk.customview.FlexiBankTitleEditView
+            android:id="@+id/fb_cmf_mobile_item"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/fb_dp15"
+            android:layout_marginTop="@dimen/fb_dp50"
+            android:layout_marginRight="@dimen/fb_dp15"
+            app:fb_te_inputType="number"
+            app:fb_te_title="Mobile Number"/>
+        <com.palmpay.lib.ui.button.PpButton
+            android:layout_gravity="center_horizontal"
+            android:id="@+id/fb_cmf_next_btn"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/fb_dp50"
+            android:layout_marginLeft="@dimen/fb_dp45"
+            android:layout_marginTop="@dimen/fb_dp40"
+            android:layout_marginRight="@dimen/fb_dp45"
+            android:text="@string/fb_core_next"
+            style="@style/fbButtonStyle"/>
+    </LinearLayout>
+</RelativeLayout>

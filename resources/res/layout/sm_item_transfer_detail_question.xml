@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.mikepenz.iconics.view.IconicsTextView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:gravity="start"
+    android:id="@+id/tv_questions"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:iiv_end_color="@color/ppColorTextAssist"
+    app:iiv_end_icon="pay_ArrowCenterRight"
+    app:iiv_end_size="@dimen/dp16"
+    app:layout_constraintTop_toTopOf="parent"
+    style="@style/Text.6f7b85.12"/>

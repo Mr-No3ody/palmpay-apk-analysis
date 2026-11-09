@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/viewAllAgreement"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <com.mikepenz.iconics.view.IconicsCheckBox
+        android:id="@+id/checkAllAgreement"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:checked="false"
+        app:iiv_checked_color="@color/ppColorTextPrimary"
+        app:iiv_checked_icon="pay_CheckboxFill"
+        app:iiv_checked_padding="6dp"
+        app:iiv_checked_size="28dp"
+        app:iiv_unchecked_color="@color/ppColorTextPrimary"
+        app:iiv_unchecked_icon="pay_CheckboxOutline"
+        app:iiv_unchecked_padding="@dimen/dp6"
+        app:iiv_unchecked_size="28dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
+    <TextView
+        android:gravity="start"
+        android:id="@+id/textViewAllAgreement"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:lineSpacingMultiplier="1.2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/checkAllAgreement"
+        app:layout_constraintTop_toTopOf="parent"
+        style="@style/txt_mi_b"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

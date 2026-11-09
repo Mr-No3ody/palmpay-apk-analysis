@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:clipChildren="false"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/dp90"
+    app:cardBackgroundColor="@color/ppColorBackgroundLight"
+    app:cardCornerRadius="@dimen/dp12"
+    app:cardElevation="0dp"
+    app:contentPadding="0dp">
+    <com.transsnet.adsdk.widgets.banner.bannerview.BannerViewPager
+        android:id="@+id/bannerView"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp90"/>
+    <com.zhpan.indicator.IndicatorView
+        android:layout_gravity="bottom|center_horizontal"
+        android:id="@+id/bannerIndicatorView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="6dp"
+        android:layout_alignParentBottom="true"/>
+</androidx.cardview.widget.CardView>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:paddingLeft="@dimen/dp12"
+    android:paddingTop="@dimen/dp16"
+    android:paddingRight="@dimen/dp12"
+    android:paddingBottom="@dimen/dp16"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:minHeight="@dimen/dp48"
+    android:paddingHorizontal="@dimen/dp12"
+    android:paddingVertical="@dimen/dp16">
+    <TextView
+        android:id="@+id/tv_item_key"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/cv_earn"
+        app:layout_constrainedHeight="true"
+        app:layout_constrainedWidth="true"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        style="@style/txt_s_b"/>
+    <com.mikepenz.iconics.view.IconicsImageView
+        android:id="@+id/iv_earn_tips_icon"
+        android:visibility="gone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/dp5"
+        android:layout_marginEnd="@dimen/dp7"
+        app:iiv_color="@color/ppColorTextNormal"
+        app:iiv_icon="pay_InformationOutline"
+        app:iiv_size="16dp"
+        app:layout_constraintBottom_toBottomOf="@+id/tv_item_key"
+        app:layout_constraintStart_toEndOf="@+id/tv_item_key"
+        app:layout_constraintTop_toTopOf="@+id/tv_item_key"/>
+    <androidx.recyclerview.widget.RecyclerView
+        android:orientation="vertical"
+        android:id="@+id/ry_payment_earn_list"
+        android:background="@drawable/cv_shape_rect_corner_12_bg_white"
+        android:paddingTop="@dimen/dp8"
+        android:paddingBottom="@dimen/dp8"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dp12"
+        android:paddingVertical="@dimen/dp8"
+        app:layout_constraintTop_toBottomOf="@+id/tv_item_key"/>
+</merge>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:gravity="center_vertical"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/dp64">
+    <com.mikepenz.iconics.view.IconicsTextView
+        android:ellipsize="end"
+        android:id="@+id/tv_merchant"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:maxLines="1"
+        app:iiv_end_color="@color/ppColorTextAssist"
+        app:iiv_end_icon="pay_ArrowCenterRight"
+        app:iiv_end_size="@dimen/dp16"
+        style="@style/txt_s_b_b"/>
+    <TextView
+        android:id="@+id/tv_account_date"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dp4"
+        style="@style/txt_mi_b"/>
+</LinearLayout>

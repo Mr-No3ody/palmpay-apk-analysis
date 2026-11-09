@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:paddingBottom="12dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <include
+        android:id="@+id/layoutHeader2"
+        android:layout_width="match_parent"
+        android:layout_height="?android:attr/actionBarSize"
+        layout="@layout/ac_layout_login_header"/>
+    <TextView
+        android:gravity="center_vertical"
+        android:paddingLeft="@dimen/dp16"
+        android:paddingRight="@dimen/dp16"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Please select an authentication method to verify your identity."
+        android:paddingHorizontal="@dimen/dp16"
+        style="@style/txt_mi_g"/>
+    <LinearLayout
+        android:orientation="vertical"
+        android:id="@+id/itemContainer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"/>
+    <com.mikepenz.iconics.view.IconicsTextView
+        android:gravity="center_vertical"
+        android:layout_gravity="center_horizontal"
+        android:id="@+id/tvOtherMethod"
+        android:visibility="gone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:text="More Verification Methods"
+        android:includeFontPadding="false"
+        android:drawablePadding="2dp"
+        app:iiv_end_color="@color/ppColorTextNormal"
+        app:iiv_end_icon="pay_Arrowdown"
+        app:iiv_end_size="@dimen/dp12"
+        style="@style/txt_mi_g"/>
+    <View
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="1"/>
+    <include layout="@layout/cv_layout_login_register_bottom_view"/>
+</LinearLayout>

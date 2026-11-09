@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android" android:id="@android:id/background">
+    <item
+        android:height="@dimen/dp28"
+        android:width="@dimen/dp28">
+        <shape android:shape="oval">
+            <solid android:color="@color/ppColorPrimary"/>
+        </shape>
+    </item>
+    <item
+        android:gravity="center"
+        android:height="8dp"
+        android:width="8dp">
+        <shape android:shape="oval">
+            <solid android:color="@color/ppColorSecondary"/>
+        </shape>
+    </item>
+</layer-list>

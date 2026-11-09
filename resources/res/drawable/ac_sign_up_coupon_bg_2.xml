@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aapt="http://schemas.android.com/aapt"
+    android:height="130dp"
+    android:width="146dp"
+    android:viewportWidth="146"
+    android:viewportHeight="130">
+    <path
+        android:fillColor="@drawable/_ac_sign_up_coupon_bg_2__0_res_0x7f080011"
+        android:pathData="M0,12C0,5.37 5.37,0 12,0h122c6.63,0 12,5.37 12,12v54c-5.52,0 -10,4.48 -10,10s4.48,10 10,10v44L0,130L0,86c5.52,0 10,-4.48 10,-10S5.52,66 0,66zM12,76.5h2.03v-1L12,75.5zM18.1,76.5h4.07v-1L18.1,75.5zM26.23,76.5L30.3,76.5v-1h-4.07zM34.37,76.5h4.07v-1h-4.07zM42.5,76.5h4.07v-1L42.5,75.5zM50.63,76.5L54.7,76.5v-1h-4.07zM58.77,76.5h4.07v-1h-4.07zM66.9,76.5h4.07v-1L66.9,75.5zM75.03,76.5L79.1,76.5v-1h-4.07zM83.17,76.5h4.07v-1h-4.07zM91.3,76.5h4.07v-1L91.3,75.5zM99.43,76.5h4.07v-1h-4.07zM107.57,76.5h4.07v-1h-4.07zM115.7,76.5h4.07v-1L115.7,75.5zM123.83,76.5h4.07v-1h-4.07zM131.97,76.5L134,76.5v-1h-2.03z"
+        android:fillType="evenOdd"/>
+</vector>

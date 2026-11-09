@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:background="@color/ppColorBackgroundDark"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <TextView
+        android:textSize="@dimen/dp12"
+        android:textColor="@color/ppColorTextDisable"
+        android:gravity="center"
+        android:background="@drawable/cv_rect_bg_white_corner_bl_br_12"
+        android:paddingTop="@dimen/dp24"
+        android:paddingBottom="@dimen/dp12"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/qt_data_bundle_wallet_foot"/>
+    <com.transsnet.palmpay.core.viewmodel.ModelBillQuickAccessItem
+        android:id="@+id/model_quick_access_item"
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dp12"/>
+</LinearLayout>

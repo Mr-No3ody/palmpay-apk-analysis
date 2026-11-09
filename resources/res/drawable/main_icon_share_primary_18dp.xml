@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.mikepenz.iconics.IconicsDrawable xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:ico_color="@color/ppColorPrimary"
+    app:ico_icon="pay_Share"
+    app:ico_size="18dp"/>

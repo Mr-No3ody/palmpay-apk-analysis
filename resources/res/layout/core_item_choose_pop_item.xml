@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/dp48">
+    <TextView
+        android:textSize="@dimen/dp15"
+        android:ellipsize="end"
+        android:gravity="center"
+        android:id="@+id/tvContent"
+        android:paddingLeft="@dimen/dp24"
+        android:paddingRight="@dimen/dp21"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:maxLines="1"
+        style="@style/txt_s_b"/>
+    <TextView
+        android:textSize="@dimen/dp14"
+        android:textColor="@color/md_black_1000"
+        android:ellipsize="end"
+        android:gravity="center"
+        android:id="@+id/tvLabel"
+        android:paddingLeft="@dimen/dp15"
+        android:paddingRight="@dimen/dp15"
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="44dp"
+        android:maxLines="1"/>
+</FrameLayout>

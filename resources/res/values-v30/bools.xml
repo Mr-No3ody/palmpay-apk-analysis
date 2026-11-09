@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <bool name="core_enable_hw_accelerated">true</bool>
+    <bool name="core_enable_hw_accelerated_2">true</bool>
+    <bool name="fb_enable_hw_accelerated">true</bool>
+</resources>

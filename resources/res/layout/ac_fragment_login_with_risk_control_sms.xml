@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <include
+        android:id="@+id/layoutHeader"
+        android:layout_width="match_parent"
+        android:layout_height="?android:attr/actionBarSize"
+        layout="@layout/ac_layout_login_header"/>
+    <TextView
+        android:gravity="center"
+        android:id="@+id/tvMessage"
+        android:paddingLeft="@dimen/dp20"
+        android:paddingTop="20dp"
+        android:paddingRight="@dimen/dp20"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingHorizontal="@dimen/dp20"
+        style="@style/txt_s_g"/>
+    <com.transsnet.palmpay.core.viewmodel.OneTimeCodeV3View
+        android:layout_gravity="center_horizontal"
+        android:id="@+id/viewOTC"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"/>
+</LinearLayout>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <ViewStub
+        android:id="@+id/viewStubWithoutOutstanding"
+        android:layout="@layout/cs_cl_installment_loan_without_outstanding_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <ViewStub
+        android:id="@+id/viewStubWithOutstanding"
+        android:layout="@layout/cs_cl_installment_loan_with_outstading_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+</FrameLayout>

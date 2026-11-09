@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@color/ppColorBackgroundLight"
+    android:paddingLeft="@dimen/dp15"
+    android:paddingRight="@dimen/dp15"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/dp50">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_alignParentBottom="true">
+        <TextView
+            android:textSize="@dimen/dp14"
+            android:textColor="@color/ppColorTextDisable"
+            android:id="@+id/cmrlta_content_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/dp15"
+            android:text=""
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"/>
+        <TextView
+            android:textSize="@dimen/dp14"
+            android:textColor="@color/ppColorTextDisable"
+            android:id="@+id/cmrlta_title_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="@dimen/dp11"
+            android:text="@string/cv_this_month"
+            android:layout_centerVertical="true"
+            android:fontFamily="sans-serif-medium"/>
+    </RelativeLayout>
+</RelativeLayout>

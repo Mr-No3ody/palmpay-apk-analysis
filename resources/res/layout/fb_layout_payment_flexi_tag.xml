@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:textSize="@dimen/fb_dp8"
+    android:ellipsize="end"
+    android:gravity="center"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:maxLines="1"
+    android:drawablePadding="@dimen/fb_dp2"
+    android:drawableStart="@drawable/fb_payment_flexi_tag_icon"
+    android:paddingEnd="@dimen/fb_dp8"
+    style="@style/fb_txt_s_g"/>

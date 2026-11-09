@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="@color/ppColorBackgroundDark"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <com.palmpay.lib.ui.titlebar.PpTitleBar
+        android:id="@+id/titleBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:title_bar_right_text="@string/core_payment_method"
+        app:title_bar_title="@string/qt_schedule_top_up"/>
+    <com.transsnet.adsdk.widgets.MarqueeTextView.MarqueeViewV2
+        android:id="@+id/tvNotice"
+        android:background="@color/ppColorBackgroundDark"
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp32"
+        android:drawablePadding="4dp"
+        android:drawableStart="@drawable/cv_notify_icon"
+        android:paddingStart="@dimen/dp10"
+        android:paddingEnd="@dimen/dp10"
+        app:ad_text_color="@color/ppColorTextPrimary"
+        app:ad_text_size="@dimen/dp12"
+        app:slot_id="@string/ad_payment_schedule_top_text_slot_id"/>
+    <androidx.fragment.app.FragmentContainerView
+        android:name="androidx.navigation.fragment.NavHostFragment"
+        android:id="@+id/navHostFragment"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        app:defaultNavHost="true"
+        app:navGraph="@navigation/qt_airtime_schedule_top_up_activity_home_nav_graph"/>
+</LinearLayout>

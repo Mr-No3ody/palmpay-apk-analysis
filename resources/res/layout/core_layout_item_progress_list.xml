@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:gravity="center"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <com.mikepenz.iconics.view.IconicsImageView
+        android:id="@+id/iv_done"
+        android:visibility="gone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:iiv_color="@color/ppColorPrimary"
+        app:iiv_icon="pay_Selected"
+        app:iiv_size="12dp"/>
+    <com.google.android.material.progressindicator.CircularProgressIndicator
+        android:layout_gravity="center"
+        android:id="@+id/cpi_loading"
+        android:visibility="gone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:indeterminate="true"
+        app:indicatorColor="@color/ppColorPrimary"
+        app:indicatorSize="@dimen/dp12"
+        app:trackThickness="@dimen/dp1"/>
+    <TextView
+        android:ellipsize="end"
+        android:id="@+id/tv_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:maxLines="1"
+        android:layout_marginStart="@dimen/dp4"
+        style="@style/Text.202046.14"/>
+</LinearLayout>

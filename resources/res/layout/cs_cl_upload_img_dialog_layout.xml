@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:background="@drawable/cv_shape_rect_corner_24_bg_white"
+    android:paddingTop="@dimen/dp76"
+    android:paddingBottom="@dimen/dp76"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <com.wang.avi.AVLoadingIndicatorView
+        android:id="@+id/indicatorView"
+        android:layout_width="@dimen/dp70"
+        android:layout_height="@dimen/dp70"
+        app:indicatorColor="@color/cs_main_color"
+        app:indicatorName="BallSpinFadeLoaderIndicator"
+        style="@style/AVLoadingIndicatorView.Large"/>
+    <TextView
+        android:textSize="22sp"
+        android:textColor="#263138"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dp20"
+        android:text="@string/cs_cl_compare_uploading"
+        android:fontFamily="sans-serif-medium"/>
+    <TextView
+        android:textSize="14sp"
+        android:textColor="@color/ppColorTextDisable"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dp6"
+        android:text="@string/cs_your_selfie_is_uploading"/>
+</LinearLayout>

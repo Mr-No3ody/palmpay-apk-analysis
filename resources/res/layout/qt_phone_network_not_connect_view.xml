@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/ppColorBackgroundDark"
+    android:padding="@dimen/dp16"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:orientation="vertical"
+        android:background="@drawable/cv_shape_rect_corner_12_bg_white"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <com.transsnet.palmpay.custom_view.input.ModelMobileWithIconInputLayout
+            android:id="@+id/atuaInputPhoneNumArea"
+            android:background="@drawable/cv_shape_rect_corner_12_bg_white"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cv_list_item_full_screen="false"/>
+        <com.transsnet.palmpay.common.export.view.NetworkNotConnectView
+            android:id="@+id/networkView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:id="@+id/cl_open_failed_ll"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        android:background="@drawable/cv_shape_rect_corner_12_bg_white"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/dp16"
+        android:layout_marginRight="@dimen/dp16"
+        android:layout_marginHorizontal="@dimen/dp16">
+        <LinearLayout
+            android:gravity="center"
+            android:orientation="vertical"
+            android:background="@drawable/cv_shape_rect_corner_12_bg_dark"
+            android:paddingTop="@dimen/dp6"
+            android:paddingBottom="@dimen/dp6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/dp12"
+            android:layout_marginTop="@dimen/dp12"
+            android:layout_marginRight="@dimen/dp12"
+            android:layout_marginHorizontal="@dimen/dp12"
+            android:paddingVertical="@dimen/dp6">
+            <LinearLayout
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <com.mikepenz.iconics.view.IconicsImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:iiv_color="#fe5455"
+                    app:iiv_icon="pay_WarningFill"
+                    app:iiv_size="@dimen/dp20"/>
+                <TextView
+                    android:textSize="@dimen/dp14"
+                    android:textColor="@color/ppColorTextPrimary"
+                    android:id="@+id/text1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Application failed"/>
+            </LinearLayout>
+            <TextView
+                android:textSize="@dimen/dp14"
+                android:textColor="@color/ppColorTextAssist"
+                android:id="@+id/text2"
+                android:visibility="gone"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/dp6"/>
+        </LinearLayout>
+        <include layout="@layout/cs_layout_cl_open_result_fail_top"/>
+    </LinearLayout>
+    <com.transsnet.palmpay.credit.view.OpenResultTaskView
+        android:id="@+id/apply_result_task_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:o_businessType="cash"/>
+</LinearLayout>

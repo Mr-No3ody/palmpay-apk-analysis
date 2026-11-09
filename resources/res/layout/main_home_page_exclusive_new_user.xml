@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/container_new_user"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        android:gravity="center"
+        android:orientation="vertical"
+        android:background="@drawable/cv_shape_rect_corner_12_bg_secondary"
+        android:paddingLeft="@dimen/dp10"
+        android:paddingTop="@dimen/dp28"
+        android:paddingRight="@dimen/dp10"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp145"
+        android:layout_marginTop="@dimen/dp5"
+        android:paddingHorizontal="@dimen/dp10"
+        app:layout_constraintTop_toTopOf="parent">
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/rc_exclusive"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/main_exclusive_title"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
+    <com.mikepenz.iconics.view.IconicsImageView
+        android:id="@+id/iv_arrow"
+        android:paddingLeft="@dimen/dp20"
+        android:paddingTop="@dimen/dp14"
+        android:paddingRight="@dimen/dp20"
+        android:paddingBottom="@dimen/dp14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingHorizontal="@dimen/dp20"
+        android:paddingVertical="@dimen/dp14"
+        app:iiv_color="@color/ppColorPrimary"
+        app:iiv_icon="pay_ArrowRight"
+        app:iiv_size="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

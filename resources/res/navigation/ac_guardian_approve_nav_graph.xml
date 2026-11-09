@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/ac_guardian_approve_nav_graph"
+    app:startDestination="@+id/fragment_guardian_approve_auth_confirm">
+    <fragment
+        android:name="com.transsnet.palmpay.account.ui.fragment.guardian.GuardianApproveAuthorizationConfirmFragment"
+        android:id="@+id/fragment_guardian_approve_auth_confirm"/>
+    <fragment
+        android:name="com.transsnet.palmpay.account.ui.fragment.guardian.GuardianApproveBirthCertificateFragment"
+        android:id="@+id/fragment_guardian_approve_birth_certificate"/>
+    <fragment
+        android:name="com.transsnet.palmpay.account.ui.fragment.guardian.GuardianApproveActivationSuccessFragment"
+        android:id="@+id/fragment_guardian_approve_activation_success"/>
+    <fragment
+        android:name="com.transsnet.palmpay.account.ui.fragment.guardian.GuardianApproveReviewPendingFragment"
+        android:id="@+id/fragment_guardian_approve_review_pending"/>
+</navigation>

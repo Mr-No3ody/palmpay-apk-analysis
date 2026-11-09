@@ -1,0 +1,83 @@
+package Vd;
+
+/* JADX INFO: loaded from: classes4.dex */
+public final class a {
+    public static int ad_payment_gift_card_banner_slot_id = 2132017631;
+    public static int ad_payment_jamb_top_text_slot_id = 2132017634;
+    public static int ad_payment_popu_gift_card_result_slot_id = 2132017638;
+    public static int ad_payment_popu_trip_result_slot_id = 2132017639;
+    public static int ad_payment_schedule_new_user_top_banner_slot_id = 2132017640;
+    public static int ad_payment_schedule_old_user_top_banner_slot_id = 2132017641;
+    public static int ad_payment_schedule_top_text_slot_id = 2132017642;
+    public static int ad_payment_trip_result_slot_id = 2132017645;
+    public static int ad_payment_waec_top_text_slot_id = 2132017647;
+    public static int qt_account_name = 2132021960;
+    public static int qt_account_number = 2132021961;
+    public static int qt_ad_tv_pocker_banner_slot_id = 2132021962;
+    public static int qt_airtime_bill_provider = 2132021968;
+    public static int qt_airtime_bill_type = 2132021969;
+    public static int qt_airtime_customer_phone = 2132021977;
+    public static int qt_airtime_fee_vat = 2132021989;
+    public static int qt_airtime_payer_name = 2132021995;
+    public static int qt_airtime_payment_method = 2132021996;
+    public static int qt_airtime_recipient_phone = 2132021999;
+    public static int qt_airtime_transaction_coupon_used = 2132022018;
+    public static int qt_airtime_transaction_id = 2132022019;
+    public static int qt_airtime_transaction_point = 2132022020;
+    public static int qt_airtime_transaction_time = 2132022021;
+    public static int qt_associations_and_societies_home_page_banner = 2132022026;
+    public static int qt_betting = 2132022036;
+    public static int qt_betting_deposit = 2132022042;
+    public static int qt_betting_withdraw = 2132022050;
+    public static int qt_bill_provider = 2132022051;
+    public static int qt_biller = 2132022052;
+    public static int qt_billers = 2132022055;
+    public static int qt_bouquet = 2132022056;
+    public static int qt_bundle_bills = 2132022058;
+    public static int qt_bundle_details = 2132022059;
+    public static int qt_cable_tv = 2132022064;
+    public static int qt_commerce_retail_trade_home_page_banner = 2132022074;
+    public static int qt_credit_and_loans_home_page_banner = 2132022082;
+    public static int qt_dues_and_service_charge_home_page_banner = 2132022107;
+    public static int qt_education = 2132022109;
+    public static int qt_electricity = 2132022110;
+    public static int qt_electricity_customer_id = 2132022111;
+    public static int qt_enter_account_number = 2132022113;
+    public static int qt_enter_tv_customer_id = 2132022115;
+    public static int qt_event_ticket_home_page_banner = 2132022116;
+    public static int qt_exam_item = 2132022117;
+    public static int qt_favorite = 2132022118;
+    public static int qt_featured_games = 2132022119;
+    public static int qt_geniex_id = 2132022123;
+    public static int qt_gift_card = 2132022124;
+    public static int qt_history = 2132022134;
+    public static int qt_history_biller = 2132022135;
+    public static int qt_insurance = 2132022137;
+    public static int qt_internet = 2132022138;
+    public static int qt_internet_customer_id = 2132022139;
+    public static int qt_item = 2132022140;
+    public static int qt_item_amount = 2132022141;
+    public static int qt_jamb = 2132022142;
+    public static int qt_meter_name = 2132022152;
+    public static int qt_meter_number = 2132022153;
+    public static int qt_name_and_phone_number = 2132022171;
+    public static int qt_online_shopping_home_page_banner = 2132022178;
+    public static int qt_payment_item = 2132022181;
+    public static int qt_prepaid_card = 2132022187;
+    public static int qt_profile_code = 2132022188;
+    public static int qt_relay_page_title = 2132022194;
+    public static int qt_religious = 2132022195;
+    public static int qt_select_biller = 2132022215;
+    public static int qt_select_payment_item = 2132022219;
+    public static int qt_sports_codes = 2132022228;
+    public static int qt_total = 2132022237;
+    public static int qt_transport = 2132022238;
+    public static int qt_trip = 2132022239;
+    public static int qt_tv_customer_id = 2132022243;
+    public static int qt_user_id = 2132022244;
+    public static int qt_water = 2132022248;
+    public static int qt_water_customer_id = 2132022249;
+
+    private a() {
+    }
+}

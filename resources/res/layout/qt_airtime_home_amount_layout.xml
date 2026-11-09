@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:id="@+id/airtimeHomeTopUpAmountLayout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="@dimen/dp12">
+    <androidx.recyclerview.widget.RecyclerView
+        android:orientation="horizontal"
+        android:id="@+id/atuaPickAmountRcv"
+        android:paddingBottom="@dimen/dp5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <FrameLayout
+        android:background="@drawable/cv_rect_cornet_12_stroke_f2f2f2_bg_white"
+        android:paddingLeft="@dimen/dp12"
+        android:paddingRight="@dimen/dp12"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dp6"
+        android:paddingHorizontal="@dimen/dp12"
+        app:layout_constrainedHeight="true"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/atua_pick_amount_rcv">
+        <com.palmpay.lib.ui.edit.PpAmountEditText
+            android:id="@+id/inputAmount"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="numberDecimal"
+            app:am_edit_hint="@string/qt_airtime_other_amount_ng"
+            app:am_edit_show_lock="false"
+            app:am_edit_show_title="false"
+            app:am_edit_text_size="@dimen/dp16"/>
+    </FrameLayout>
+</LinearLayout>

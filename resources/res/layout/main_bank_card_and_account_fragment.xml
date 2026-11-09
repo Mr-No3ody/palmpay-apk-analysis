@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="@color/ppColorBackgroundDark"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <com.transsnet.adsdk.widgets.MarqueeTextView.MarqueeView
+        android:ellipsize="marquee"
+        android:id="@+id/mbc_marquee_ad"
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="@dimen/dp8"
+        android:layout_marginStart="@dimen/dp12"
+        android:layout_marginEnd="@dimen/dp12"
+        app:slot_id="@string/oc_bank_card_txt_slot_id"/>
+    <com.transsnet.palmpay.custom_view.SwipeRecyclerView
+        android:id="@+id/bank_card_or_account_rv"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"/>
+    <LinearLayout
+        android:gravity="center_vertical"
+        android:id="@+id/add_card_container"
+        android:background="@color/cv_color_ffffff"
+        android:paddingLeft="24dp"
+        android:paddingRight="24dp"
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp68">
+        <com.mikepenz.iconics.view.IconicsTextView
+            android:id="@+id/add_card_tv"
+            android:background="@drawable/cv_shape_rect_corner_12_bg_primary"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/cv_default_button_height"
+            style="@style/Text.medium.ffffff.16"/>
+    </LinearLayout>
+</LinearLayout>

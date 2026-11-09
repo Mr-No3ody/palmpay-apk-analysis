@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/flKkQrFrozenContent"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <FrameLayout
+        android:id="@+id/flKkQrFrozenIllustrationBg"
+        android:background="@drawable/lib_ui_rect_corner_12_bg_dark"
+        android:layout_width="@dimen/dp172"
+        android:layout_height="@dimen/dp172"
+        android:layout_marginTop="@dimen/dp16"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+        <ImageView
+            android:id="@+id/ivKkQrFrozenIllustration"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="fitCenter"
+            android:contentDescription="@string/sm_kk_paused_title"
+            android:importantForAccessibility="no"/>
+    </FrameLayout>
+    <com.palmpay.lib.ui.button.PpButton
+        android:textSize="@dimen/dp14"
+        android:id="@+id/btnKkQrEnable"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/dp36"
+        android:layout_marginTop="@dimen/dp16"
+        android:minWidth="@dimen/dp64"
+        android:text="@string/sm_kk_paused_enable"
+        android:textAllCaps="false"
+        android:paddingStart="@dimen/dp16"
+        android:paddingEnd="@dimen/dp16"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/flKkQrFrozenIllustrationBg"
+        style="@style/ppSmallButtonStyle"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

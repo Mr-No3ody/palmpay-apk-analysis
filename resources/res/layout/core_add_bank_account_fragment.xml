@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:background="@color/ppColorBackgroundLight"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:gravity="start"
+        android:id="@+id/tvTopTips"
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_marginLeft="@dimen/dp16"
+        android:layout_marginTop="@dimen/dp12"
+        android:layout_marginRight="@dimen/dp16"
+        android:text="@string/core_please_enter_your_card_details"
+        android:layout_marginHorizontal="@dimen/dp16"
+        style="@style/Text.medium.202046.12"/>
+    <FrameLayout
+        android:id="@+id/fragmentContainer"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+</LinearLayout>

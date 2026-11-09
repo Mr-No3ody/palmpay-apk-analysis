@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:id="@+id/model_payment_add_layout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <com.transsnet.palmpay.core.viewmodel.CashierPayMethodItem
+        android:id="@+id/model_payment_add_bank_card"
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <com.transsnet.palmpay.core.viewmodel.CashierPayMethodItem
+        android:id="@+id/model_payment_add_bank_account"
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <com.transsnet.palmpay.core.viewmodel.CashierPayMethodItem
+        android:id="@+id/model_payment_add_bank_card_and_bank_account"
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <com.transsnet.palmpay.core.viewmodel.CashierPayMethodItem
+        android:id="@+id/model_payment_add_ussd"
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+</LinearLayout>

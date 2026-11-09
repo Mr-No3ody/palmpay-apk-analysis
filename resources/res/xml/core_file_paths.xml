@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<paths>
+    <external-cache-path
+        name="take_photo"
+        path="/"/>
+    <external-files-path
+        name="my_images"
+        path="/"/>
+    <external-files-path
+        name="photo_picker_root"
+        path="/"/>
+    <cache-path
+        name="internal_cache"
+        path="/temp"/>
+    <files-path
+        name="internal_files"
+        path="/temp"/>
+</paths>

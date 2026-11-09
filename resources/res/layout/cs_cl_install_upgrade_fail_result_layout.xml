@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/framelayout"
+    android:background="@color/ppColorBackgroundDark"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <com.palmpay.lib.ui.titlebar.PpTitleBar
+        android:id="@+id/titleBar"
+        android:layout_width="match_parent"
+        android:layout_height="?android:attr/actionBarSize"
+        android:layout_marginTop="@dimen/dp24"
+        app:title_bar_show_right_text_arrow_down="false"
+        app:title_bar_title=" "/>
+    <LinearLayout
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dp110">
+        <com.mikepenz.iconics.view.IconicsImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            app:iiv_color="@color/cs_overdue_txt_color"
+            app:iiv_icon="pay_CloseFill"
+            app:iiv_size="@dimen/dp60"/>
+        <TextView
+            android:textSize="@dimen/dp18"
+            android:textColor="@color/ppColorTextPrimary"
+            android:gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dp16"
+            android:text="Failed "
+            android:fontFamily="sans-serif-medium"/>
+        <TextView
+            android:textSize="@dimen/dp14"
+            android:textColor="@color/ppColorTextPrimary"
+            android:gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/dp40"
+            android:layout_marginTop="@dimen/dp8"
+            android:layout_marginRight="@dimen/dp40"
+            android:text="Don&apos;t lose heart, use Flexi Cash more often and repay on time, which will give you a chance to upgrade"
+            android:layout_marginHorizontal="@dimen/dp40"/>
+        <TextView
+            android:textSize="@dimen/dp16"
+            android:textColor="@color/white"
+            android:gravity="center"
+            android:id="@+id/tvOk"
+            android:background="@drawable/cv_shape_rect_corner_12_bg_primary"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dp48"
+            android:layout_marginLeft="@dimen/dp32"
+            android:layout_marginTop="@dimen/dp24"
+            android:layout_marginRight="@dimen/dp32"
+            android:text="@string/core_ok"
+            android:fontFamily="sans-serif-medium"
+            android:layout_marginHorizontal="@dimen/dp32"/>
+    </LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/layoutAutoSaveOp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <com.mikepenz.iconics.view.IconicsTextView
+        android:gravity="center"
+        android:id="@+id/tvBalanceAmount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Automatic Renewal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        style="@style/Text.9ca2aa.12"/>
+    <com.mikepenz.iconics.view.IconicsImageView
+        android:id="@+id/iconImageInfo"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/dp16"
+        android:layout_marginLeft="@dimen/dp4"
+        app:iiv_color="@color/ppColorTextAssist"
+        app:iiv_icon="pay_InformationOutline"
+        app:iiv_size="@dimen/dp14"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toRightOf="@+id/tvBalanceAmount"
+        app:layout_constraintTop_toTopOf="parent"/>
+    <androidx.appcompat.widget.AppCompatImageView
+        android:layout_gravity="center_vertical"
+        android:id="@+id/switchWidget"
+        android:layout_width="@dimen/dp36"
+        android:layout_height="@dimen/dp20"
+        android:src="@drawable/cv_switch_close_gray"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
+    <TextView
+        android:textSize="@dimen/dp12"
+        android:textColor="@color/ppColorSuccess"
+        android:id="@+id/tvSwitchStatus"
+        android:visibility="gone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

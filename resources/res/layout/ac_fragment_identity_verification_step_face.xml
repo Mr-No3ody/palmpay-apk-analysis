@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="@color/ppColorBackgroundLight"
+    android:paddingBottom="@dimen/dp12"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <com.transsnet.palmpay.custom_view.FaceRecognitionGuideView
+        android:id="@+id/faceGuideView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dp12"
+        app:cv_frg_subtitle="@string/ac_msg_face_match_nin_bvn"
+        app:cv_frg_title="@string/ac_photo_capture"/>
+    <View
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="1"/>
+    <include
+        android:id="@+id/layoutScanFaceBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/dp24"
+        android:layout_marginRight="@dimen/dp24"
+        android:layout_marginBottom="@dimen/dp24"
+        android:layout_marginHorizontal="@dimen/dp24"
+        layout="@layout/cv_layout_face_scan_button_with_tips"/>
+    <include layout="@layout/cv_layout_login_register_bottom_view"/>
+</LinearLayout>

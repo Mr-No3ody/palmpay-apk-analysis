@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:state_focused="true"
+        android:color="@color/fb_base_colorAccent"/>
+    <item
+        android:color="@color/fb_base_colorAccent"
+        android:state_activated="true"/>
+    <item
+        android:state_selected="true"
+        android:color="@color/fb_base_colorAccent"/>
+    <item android:color="@color/fb_text_color_gray2"/>
+</selector>

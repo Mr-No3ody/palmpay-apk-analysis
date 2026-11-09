@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <com.palmpay.lib.ui.titlebar.PpTitleBar
+        android:id="@+id/titleBar"
+        android:background="@color/ppColorBackgroundLight"
+        android:layout_width="match_parent"
+        android:layout_height="?android:attr/actionBarSize"
+        app:title_bar_title="@string/ct_new_contacts"/>
+    <TextView
+        android:textSize="14dp"
+        android:textColor="@color/ppColorTextNormal"
+        android:gravity="center_vertical"
+        android:background="@color/ppColorBackgroundDark"
+        android:paddingLeft="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:text="@string/ct_last_three_months"/>
+    <com.transsnet.palmpay.custom_view.SwipeRecyclerView
+        android:id="@+id/contact_rv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+</LinearLayout>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="@color/ppColorBackgroundLight"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <com.palmpay.lib.ui.titlebar.PpTitleBar
+        android:id="@+id/titleBar"
+        android:background="@color/transparent"
+        android:layout_width="match_parent"
+        android:layout_height="?android:attr/actionBarSize"
+        app:title_bar_show_right_2_iv="true"
+        app:title_bar_title="@string/core_transaction_history"/>
+    <LinearLayout
+        android:gravity="center_vertical"
+        android:background="@color/mm_color_f0ecfc"
+        android:paddingLeft="@dimen/dp16"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp40"
+        android:divider="@drawable/mm_bg_transparent_h_divider_8"
+        android:showDividers="middle">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/mm_icon_message"/>
+        <TextView
+            android:text="Only support displaying three month&apos;s history."
+            style="@style/Text.6306b2.12"/>
+    </LinearLayout>
+    <com.google.android.material.tabs.TabLayout
+        android:id="@+id/tabLayout"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        app:tabIndicator="@drawable/mm_bg_tab_indicator"/>
+    <View
+        android:background="@color/mm_color_f3f3f3"
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"/>
+    <androidx.viewpager.widget.ViewPager
+        android:id="@+id/viewPager"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"/>
+</LinearLayout>

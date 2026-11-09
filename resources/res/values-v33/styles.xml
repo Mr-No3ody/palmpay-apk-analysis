@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Base.Theme.SplashScreen.DayNight" parent="@style/Base.Theme.SplashScreen">
+        <item name="android:windowLightNavigationBar">true</item>
+        <item name="android:enforceNavigationBarContrast">true</item>
+    </style>
+    <style name="MainSplashTheme" parent="@style/Theme.SplashScreen">
+        <item name="postSplashScreenTheme">@style/MainSplashTheme2</item>
+        <item name="windowSplashScreenAnimatedIcon">@drawable/cv_splash_logo_4</item>
+        <item name="windowSplashScreenAnimationDuration">100</item>
+        <item name="windowSplashScreenBackground">@color/ppColorBackgroundLight</item>
+    </style>
+    <style name="MainSplashTheme2" parent="@style/Theme.AppCompat.Light.NoActionBar">
+        <item name="android:windowBackground">@color/ppColorBackgroundLight</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowEnterAnimation">@null</item>
+        <item name="android:windowExitAnimation">@null</item>
+        <item name="android:fitsSystemWindows">false</item>
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:opacity">-1</item>
+        <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+        <item name="android:statusBarColor">@color/transparent</item>
+        <item name="android:navigationBarColor">@color/transparent</item>
+        <item name="android:windowLayoutInDisplayCutoutMode">3</item>
+    </style>
+</resources>

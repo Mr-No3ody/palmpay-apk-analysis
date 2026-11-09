@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/ppColorBackgroundLight"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <View
+        app:layout_constraintTop_toTopOf="parent"
+        style="@style/core_divider_horizontal"/>
+    <ImageView
+        android:id="@+id/iv_view_receipt"
+        android:layout_width="@dimen/dp18"
+        android:layout_height="@dimen/dp18"
+        android:src="@drawable/cv_ic_order_result_view_receipt"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/tv_view_receipt"
+        app:layout_constraintHorizontal_chainStyle="packed"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
+    <TextView
+        android:textColor="@color/ppColorPrimary"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:id="@+id/tv_view_receipt"
+        android:layout_width="wrap_content"
+        android:layout_height="52dp"
+        android:text="@string/cv_view_receipt"
+        android:layout_marginStart="@dimen/dp6"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/iv_view_receipt"
+        app:layout_constraintTop_toTopOf="parent"
+        style="@style/txt_me_g"/>
+</merge>

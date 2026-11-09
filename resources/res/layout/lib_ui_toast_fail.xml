@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:background="@drawable/lib_ui_toast_bg_corner"
+    android:paddingTop="@dimen/ppToastVerticalMargin"
+    android:paddingBottom="@dimen/ppToastVerticalMargin"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:paddingVertical="@dimen/ppToastVerticalMargin">
+    <com.mikepenz.iconics.view.IconicsImageView
+        android:id="@+id/toast_icon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:iiv_color="@color/ppColorTextBase"
+        app:iiv_icon="pay_WarningOutline"
+        app:iiv_size="@dimen/ppToastIconSize"/>
+    <TextView
+        android:textSize="@dimen/ppToastTextSize"
+        android:textColor="@color/ppColorTextBase"
+        android:ellipsize="end"
+        android:gravity="center"
+        android:id="@android:id/message"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/ppToastHorizontalMargin"
+        android:layout_marginTop="11dp"
+        android:layout_marginRight="@dimen/ppToastHorizontalMargin"
+        android:maxWidth="@dimen/ppToastBgMaxWidth"
+        android:minWidth="@dimen/ppToastBgMinWidth"
+        android:layout_marginHorizontal="@dimen/ppToastHorizontalMargin"/>
+</LinearLayout>

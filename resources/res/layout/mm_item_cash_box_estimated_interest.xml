@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:layout_width="0dp"
+    android:layout_height="wrap_content"
+    android:layout_weight="1">
+    <TextView
+        android:id="@+id/tvInterestDay"
+        style="@style/Text.9ca2aa.12"/>
+    <androidx.appcompat.widget.AppCompatTextView
+        android:textStyle="bold"
+        android:id="@+id/tvInterestAmount"
+        android:layout_width="match_parent"
+        android:layout_marginTop="@dimen/dp4"
+        android:lines="1"
+        app:autoSizeTextType="uniform"
+        style="@style/Text.6306b2.14"/>
+</LinearLayout>

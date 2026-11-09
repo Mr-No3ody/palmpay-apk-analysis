@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android" android:paddingMode="stack">
+    <item>
+        <shape android:shape="rectangle">
+            <size
+                android:height="20dp"
+                android:width="20dp"/>
+            <solid android:color="@android:color/transparent"/>
+            <padding
+                android:left="2dp"
+                android:right="2dp"/>
+        </shape>
+    </item>
+    <item
+        android:gravity="center"
+        android:height="12dp"
+        android:width="12dp">
+        <shape android:shape="oval">
+            <solid android:color="@android:color/white"/>
+        </shape>
+    </item>
+</layer-list>

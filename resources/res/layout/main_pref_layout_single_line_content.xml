@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/ppColorBackgroundLight"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/main_setting_item_height"
+    android:minHeight="@dimen/main_setting_item_height"
+    android:paddingStart="@dimen/large_margin"
+    android:paddingEnd="@dimen/large_margin">
+    <TextView
+        android:id="@android:id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:layout_alignParentStart="true"
+        style="@style/txt_s_b"/>
+    <TextView
+        android:textColor="@color/ppColorTextAssist"
+        android:id="@android:id/summary"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toLeftOf="@+id/iv_arrow_right"
+        android:layout_centerVertical="true"
+        android:layout_toStartOf="@+id/iv_arrow_right"
+        style="@style/txt_s_lg"/>
+    <com.mikepenz.iconics.view.IconicsImageView
+        android:id="@+id/iv_arrow_right"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="@dimen/dp4"
+        android:layout_alignParentEnd="true"
+        app:iiv_color="@color/ppColorTextNormal"
+        app:iiv_icon="pay_ArrowRight"
+        app:iiv_size="16dp"/>
+    <View
+        android:background="@color/ppColorDividerLine"
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:layout_alignParentBottom="true"/>
+</RelativeLayout>

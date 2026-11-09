@@ -1,0 +1,10 @@
+package io.reactivex;
+
+import df.d;
+import io.reactivex.annotations.NonNull;
+
+/* JADX INFO: loaded from: classes4.dex */
+public interface ObservableConverter<T, R> {
+    @NonNull
+    R apply(@NonNull d<T> dVar);
+}

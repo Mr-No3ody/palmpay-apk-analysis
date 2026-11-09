@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:paddingTop="@dimen/dp8"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+    <TextView
+        android:gravity="center_vertical"
+        android:id="@+id/tv_favorite"
+        android:visibility="gone"
+        android:layout_width="106dp"
+        android:layout_height="48dp"
+        android:text="@string/core_favorite"
+        android:drawablePadding="@dimen/dp12"
+        android:paddingStart="@dimen/dp16"
+        style="@style/txt_mi_b"/>
+    <com.mikepenz.iconics.view.IconicsTextView
+        android:gravity="center_vertical"
+        android:id="@+id/tv_delete"
+        android:layout_width="106dp"
+        android:layout_height="48dp"
+        android:text="@string/core_delete"
+        android:drawablePadding="@dimen/dp12"
+        android:paddingStart="@dimen/dp16"
+        app:iiv_start_color="@color/ppColorTextPrimary"
+        app:iiv_start_icon="pay_Delete"
+        app:iiv_start_size="@dimen/dp16"
+        style="@style/txt_mi_b"/>
+</LinearLayout>

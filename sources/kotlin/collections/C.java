@@ -1,0 +1,19 @@
+package kotlin.collections;
+
+import java.util.Iterator;
+import kotlin.jvm.internal.markers.KMappedMarker;
+
+/* JADX INFO: loaded from: classes4.dex */
+public abstract class C implements Iterator, KMappedMarker {
+    public abstract int a();
+
+    @Override // java.util.Iterator
+    public final /* bridge */ /* synthetic */ Object next() {
+        return Integer.valueOf(a());
+    }
+
+    @Override // java.util.Iterator
+    public final void remove() {
+        throw new UnsupportedOperationException("Operation is not supported for read-only collection");
+    }
+}

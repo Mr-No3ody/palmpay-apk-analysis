@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:paddingLeft="@dimen/fb_dp12"
+    android:paddingTop="@dimen/fb_dp16"
+    android:paddingRight="@dimen/fb_dp12"
+    android:paddingBottom="@dimen/fb_dp16"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:minHeight="@dimen/fb_dp48"
+    android:paddingHorizontal="@dimen/fb_dp12"
+    android:paddingVertical="@dimen/fb_dp16">
+    <TextView
+        android:id="@+id/fb_tv_item_key"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/fb_earn"
+        app:layout_constrainedHeight="true"
+        app:layout_constrainedWidth="true"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        style="@style/fb_txt_s_b"/>
+    <ImageView
+        android:id="@+id/fb_iv_earn_tips_icon"
+        android:visibility="gone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/fb_info_icon_grey_1"
+        android:adjustViewBounds="true"
+        android:layout_marginStart="@dimen/fb_dp5"
+        android:layout_marginEnd="@dimen/fb_dp7"
+        app:layout_constraintBottom_toBottomOf="@+id/fb_tv_item_key"
+        app:layout_constraintStart_toEndOf="@+id/fb_tv_item_key"
+        app:layout_constraintTop_toTopOf="@+id/fb_tv_item_key"/>
+    <androidx.recyclerview.widget.RecyclerView
+        android:orientation="vertical"
+        android:id="@+id/fb_ry_payment_earn_list"
+        android:background="@drawable/fb_shape_rect_corner_8_bg_dark"
+        android:paddingTop="@dimen/fb_dp8"
+        android:paddingBottom="@dimen/fb_dp8"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/fb_dp12"
+        android:paddingVertical="@dimen/fb_dp8"
+        app:layout_constraintTop_toBottomOf="@+id/fb_tv_item_key"/>
+</merge>

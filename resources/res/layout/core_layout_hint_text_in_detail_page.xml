@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/lhtidp_root"
+    android:background="#08ff4545"
+    android:layout_width="match_parent"
+    android:layout_height="25dp">
+    <TextView
+        android:textSize="@dimen/dp11"
+        android:textColor="@color/ppColorError"
+        android:gravity="center_vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="@dimen/dp15"
+        android:text="@string/core_msg_pending_order_faq"/>
+</RelativeLayout>

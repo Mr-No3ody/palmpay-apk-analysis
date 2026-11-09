@@ -1,0 +1,91 @@
+package com.transsnet.palmpay.credit.bean.style.local.light;
+
+import N8.q0;
+import com.transsnet.palmpay.core.bean.style_config.BaseStyleConfig;
+import com.transsnet.palmpay.core.bean.style_config.CornerRadius;
+import com.transsnet.palmpay.core.bean.style_config.TextStyleConfig;
+import com.transsnet.palmpay.credit.bean.style.MobileInstallmentFirstPayStyleConfig;
+import kotlin.Metadata;
+
+/* JADX INFO: loaded from: classes4.dex */
+@Metadata(d1 = {"\u0000\f\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0002\b\u0003\u0018\u00002\u00020\u0001B\u0007¢\u0006\u0004\b\u0002\u0010\u0003¨\u0006\u0004"}, d2 = {"Lcom/transsnet/palmpay/credit/bean/style/local/light/MobileInstallmentFirstPayStyleConfigLocal;", "Lcom/transsnet/palmpay/credit/bean/style/MobileInstallmentFirstPayStyleConfig;", "<init>", "()V", "module_flexi_export_release"}, k = 1, mv = {2, 1, 0}, xi = 48)
+public final class MobileInstallmentFirstPayStyleConfigLocal extends MobileInstallmentFirstPayStyleConfig {
+    public MobileInstallmentFirstPayStyleConfigLocal() {
+        BaseStyleConfig baseStyleConfigF = q0.f("#6A35FF");
+        CornerRadius cornerRadius = new CornerRadius();
+        cornerRadius.setTopLeft(12);
+        cornerRadius.setTopRight(12);
+        cornerRadius.setBottomLeft(12);
+        cornerRadius.setBottomRight(12);
+        baseStyleConfigF.setCornerRadius(cornerRadius);
+        this.topDividerBg = baseStyleConfigF;
+        this.cardBg = q0.f("#ffffff");
+        BaseStyleConfig baseStyleConfigF2 = q0.f("#f6f6fa");
+        baseStyleConfigF2.setHeight(Float.valueOf(60.0f));
+        CornerRadius cornerRadius2 = new CornerRadius();
+        cornerRadius2.setTopLeft(12);
+        cornerRadius2.setTopRight(12);
+        cornerRadius2.setBottomLeft(12);
+        cornerRadius2.setBottomRight(12);
+        baseStyleConfigF2.setCornerRadius(cornerRadius2);
+        this.deviceInfoBg = baseStyleConfigF2;
+        TextStyleConfig textStyleConfigG = q0.g("#6f7b85");
+        Float fValueOf = Float.valueOf(10.0f);
+        textStyleConfigG.setTextSize(fValueOf);
+        this.brand = textStyleConfigG;
+        TextStyleConfig textStyleConfigG2 = q0.g("#6f7b85");
+        Float fValueOf2 = Float.valueOf(12.0f);
+        textStyleConfigG2.setTextSize(fValueOf2);
+        this.mobilePriceLabel = textStyleConfigG2;
+        TextStyleConfig textStyleConfigG3 = q0.g("#202046");
+        Float fValueOf3 = Float.valueOf(16.0f);
+        textStyleConfigG3.setTextSize(fValueOf3);
+        this.productAmount = textStyleConfigG3;
+        this.downPaymentTitle = q0.h("#202046", fValueOf2);
+        TextStyleConfig textStyleConfigG4 = q0.g("#202046");
+        textStyleConfigG4.setTextSize(Float.valueOf(26.0f));
+        this.downPaymentAmount = textStyleConfigG4;
+        TextStyleConfig textStyleConfig = new TextStyleConfig();
+        Float fValueOf4 = Float.valueOf(48.0f);
+        textStyleConfig.setHeight(fValueOf4);
+        textStyleConfig.setBgColor("#6A35FF");
+        CornerRadius cornerRadius3 = new CornerRadius();
+        cornerRadius3.setTopRight(12);
+        cornerRadius3.setBottomRight(12);
+        cornerRadius3.setTopLeft(12);
+        cornerRadius3.setBottomLeft(12);
+        textStyleConfig.setCornerRadius(cornerRadius3);
+        textStyleConfig.setTextColor("#ffffff");
+        textStyleConfig.setTextSize(fValueOf3);
+        this.btnConfirmPay = textStyleConfig;
+        TextStyleConfig textStyleConfig2 = new TextStyleConfig();
+        textStyleConfig2.setHeight(fValueOf4);
+        textStyleConfig2.setBgColor("#DAD0F7");
+        CornerRadius cornerRadius4 = new CornerRadius();
+        cornerRadius4.setTopRight(12);
+        cornerRadius4.setBottomRight(12);
+        cornerRadius4.setTopLeft(12);
+        cornerRadius4.setBottomLeft(12);
+        textStyleConfig2.setCornerRadius(cornerRadius4);
+        textStyleConfig2.setTextColor("#ffffff");
+        textStyleConfig2.setTextSize(fValueOf3);
+        this.btnConfirmPayUnable = textStyleConfig2;
+        this.tvContactAgent = q0.h("#6A35FF", fValueOf2);
+        BaseStyleConfig baseStyleConfigF3 = q0.f("#F6F6FA");
+        CornerRadius cornerRadius5 = new CornerRadius();
+        cornerRadius5.setTopLeft(8);
+        cornerRadius5.setTopRight(8);
+        cornerRadius5.setBottomLeft(8);
+        cornerRadius5.setBottomRight(8);
+        baseStyleConfigF3.setCornerRadius(cornerRadius5);
+        this.totalOutstandingBg = baseStyleConfigF3;
+        TextStyleConfig textStyleConfigG5 = q0.g("#202046");
+        Float fValueOf5 = Float.valueOf(14.0f);
+        textStyleConfigG5.setTextSize(fValueOf5);
+        this.totalOutstandingTitle = textStyleConfigG5;
+        this.totalOutstandingAmount = q0.h("#6A35FF", fValueOf5);
+        this.repaymentTotalTerms = q0.h("#6f7b85", fValueOf);
+        this.itemKey = q0.h("#6f7b85", fValueOf2);
+        this.itemValue = q0.h("#202046", fValueOf2);
+    }
+}

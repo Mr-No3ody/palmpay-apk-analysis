@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aapt="http://schemas.android.com/aapt"
+    android:height="63dp"
+    android:width="122dp"
+    android:viewportWidth="122"
+    android:viewportHeight="63">
+    <group>
+        <clip-path android:pathData="M0,0h122v63h-122z"/>
+        <path
+            android:fillColor="#b789d4"
+            android:pathData="M28.59,10.43C28.95,5.91 32.85,2.89 37.32,3.7L105.88,16.08C110.35,16.88 113.68,21.2 113.33,25.73C112.98,30.25 109.07,33.26 104.61,32.46L36.04,20.08C31.58,19.27 28.24,14.95 28.59,10.43Z"
+            android:fillType="evenOdd"/>
+        <path
+            android:fillColor="#aba4f7"
+            android:pathData="M9.73,13.98C11.04,8.53 16.11,4.88 21.94,5.56L89.07,13.39C95.66,14.15 100.72,20.14 100.39,26.76L100.07,33.03C99.74,39.65 94.14,44.39 87.55,43.63L20.42,35.8C13.84,35.03 8.77,29.05 9.11,22.43L9.2,20.53C9.54,20.72 9.91,20.88 10.29,21.01C12.7,21.78 15.03,20.89 15.5,19.02C15.97,17.14 14.39,15 11.99,14.23C11.21,13.98 10.43,13.9 9.73,13.98Z"
+            android:fillType="evenOdd"/>
+        <path
+            android:fillColor="#875cff"
+            android:pathData="M0,23C0,16.37 5.37,11 12,11H108C114.63,11 120,16.37 120,23V31C116.69,31 114,33.69 114,37C114,40.31 116.69,43 120,43V51C120,57.63 114.63,63 108,63H12C5.37,63 0,57.63 0,51V43C3.31,43 6,40.31 6,37C6,33.69 3.31,31 0,31V23Z"
+            android:fillType="evenOdd"/>
+        <path
+            android:fillColor="@drawable/_main_bg_palmzone_coupon_package__0_res_0x7f08004a"
+            android:pathData="M0,47H120V51C120,57.63 114.63,63 108,63H12C5.37,63 0,57.63 0,51V47Z"/>
+    </group>
+</vector>

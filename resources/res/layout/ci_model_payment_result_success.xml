@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:id="@+id/viewSuccessRoot"
+    android:paddingTop="@dimen/dp12"
+    android:paddingBottom="@dimen/dp8"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <ImageView
+        android:layout_width="@dimen/dp40"
+        android:layout_height="@dimen/dp40"
+        android:src="@drawable/cv_result_success"
+        android:scaleType="fitXY"/>
+    <TextView
+        android:layout_marginTop="@dimen/dp8"
+        android:text="@string/core_successful"
+        style="@style/Text.medium.202046.16"/>
+    <TextView
+        android:id="@+id/tvAmount"
+        android:layout_marginTop="@dimen/dp8"
+        style="@style/Text.medium.202046.32"/>
+</LinearLayout>

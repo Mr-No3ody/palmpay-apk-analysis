@@ -1,0 +1,33 @@
+package com.adjust.sdk.sig;
+
+import java.util.Iterator;
+
+/* JADX INFO: loaded from: classes.dex */
+public abstract class o extends w {
+    public static String a(Iterable iterable, String str, String str2, r0 r0Var) {
+        StringBuilder sb2 = new StringBuilder();
+        sb2.append((CharSequence) str);
+        Iterator it = iterable.iterator();
+        int i7 = 0;
+        while (it.hasNext()) {
+            Object next = it.next();
+            i7++;
+            if (i7 > 1) {
+                sb2.append((CharSequence) ", ");
+            }
+            if (r0Var != null) {
+                sb2.append((CharSequence) r0Var.a(next));
+            } else {
+                if (next != null ? next instanceof CharSequence : true) {
+                    sb2.append((CharSequence) next);
+                } else if (next instanceof Character) {
+                    sb2.append(((Character) next).charValue());
+                } else {
+                    sb2.append((CharSequence) next.toString());
+                }
+            }
+        }
+        sb2.append((CharSequence) str2);
+        return sb2.toString();
+    }
+}

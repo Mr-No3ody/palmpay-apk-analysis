@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:id="@+id/viewPendingRoot"
+    android:paddingTop="@dimen/dp12"
+    android:paddingBottom="@dimen/dp8"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:divider="@drawable/cv_shape_transparent_v_divider_8"
+    android:showDividers="middle">
+    <ImageView
+        android:id="@+id/ivIcon"
+        android:layout_width="@dimen/dp40"
+        android:layout_height="@dimen/dp40"
+        android:src="@drawable/cv_result_pending"
+        android:scaleType="fitXY"/>
+    <TextView
+        android:id="@+id/tvCountDown"
+        style="@style/Text.medium.202046.16"/>
+    <TextView
+        android:id="@+id/tvAmount"
+        style="@style/Text.medium.202046.32"/>
+    <TextView
+        android:id="@+id/tvPendingMsg"
+        android:paddingLeft="@dimen/dp12"
+        android:paddingRight="@dimen/dp12"
+        android:paddingHorizontal="@dimen/dp12"
+        style="@style/Text.9ca2aa.14"/>
+</LinearLayout>

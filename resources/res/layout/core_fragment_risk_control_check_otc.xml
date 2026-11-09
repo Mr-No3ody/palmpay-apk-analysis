@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="@color/ppColorBackgroundLight"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <com.palmpay.lib.ui.titlebar.PpTitleBar
+        android:id="@+id/titleBar"
+        android:background="@color/transparent"
+        android:layout_width="match_parent"
+        android:layout_height="?android:attr/actionBarSize"
+        app:title_bar_show_right_2_iv="false"/>
+    <TextView
+        android:textStyle="bold"
+        android:gravity="center"
+        android:paddingTop="38dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/core_title_attention"
+        style="@style/txt_l_b"/>
+    <TextView
+        android:gravity="center_vertical"
+        android:id="@+id/textViewMessage"
+        android:paddingTop="6dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:text="@string/core_msg_verify_otp_for_risk_control"
+        android:layout_marginHorizontal="20dp"
+        style="@style/txt_s_g"/>
+    <com.transsnet.palmpay.core.viewmodel.OneTimeCodeView
+        android:layout_gravity="center_horizontal"
+        android:id="@+id/viewOtc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="6dp"/>
+</LinearLayout>

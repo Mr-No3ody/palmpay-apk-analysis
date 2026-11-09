@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aapt="http://schemas.android.com/aapt"
+    android:height="130dp"
+    android:width="248dp"
+    android:viewportWidth="248"
+    android:viewportHeight="130">
+    <path
+        android:fillColor="@drawable/_ac_sign_up_coupon_bg_3__0_res_0x7f080012"
+        android:pathData="M0,12C0,5.37 5.37,0 12,0h224c6.63,0 12,5.37 12,12v58c-5.52,0 -10,4.48 -10,10s4.48,10 10,10v40L0,130L0,90c5.52,0 10,-4.48 10,-10S5.52,70 0,70zM38,80.5h1.96v-1L38,79.5zM43.86,80.5h3.91v-1h-3.91zM51.68,80.5h3.91v-1h-3.91zM59.5,80.5h3.91v-1L59.5,79.5zM67.32,80.5h3.91v-1h-3.91zM75.14,80.5h3.91v-1h-3.91zM82.96,80.5h3.91v-1h-3.91zM90.77,80.5h3.91v-1h-3.91zM98.59,80.5h3.91v-1h-3.91zM106.41,80.5h3.91v-1h-3.91zM114.23,80.5h3.91v-1h-3.91zM122.05,80.5h3.91v-1h-3.91zM129.86,80.5h3.91v-1h-3.91zM137.68,80.5h3.91v-1h-3.91zM145.5,80.5h3.91v-1L145.5,79.5zM153.32,80.5h3.91v-1h-3.91zM161.14,80.5h3.91v-1h-3.91zM168.95,80.5h3.91v-1h-3.91zM176.77,80.5h3.91v-1h-3.91zM184.59,80.5h3.91v-1h-3.91zM192.41,80.5h3.91v-1h-3.91zM200.23,80.5h3.91v-1h-3.91zM208.04,80.5L210,80.5v-1h-1.96z"
+        android:fillType="evenOdd"/>
+</vector>

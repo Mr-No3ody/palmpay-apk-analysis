@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/ac_tier3_nav_graph"
+    app:startDestination="@+id/fragment_tier3_step_face">
+    <fragment
+        android:name="com.transsnet.palmpay.account.ui.fragment.upgrade.UpgradeTier3StepFaceFragment"
+        android:id="@+id/fragment_tier3_step_face"/>
+    <fragment
+        android:name="com.transsnet.palmpay.account.ui.fragment.upgrade.UpgradeTier3StepBillsFragment"
+        android:id="@+id/fragment_tier3_step_bills"/>
+    <fragment
+        android:name="com.transsnet.palmpay.account.ui.fragment.upgrade.UpgradeTier3StepBillUploadFragment"
+        android:id="@+id/fragment_tier3_step_bill_upload"/>
+    <fragment
+        android:name="com.transsnet.palmpay.account.ui.fragment.upgrade.UpgradeTier3StepAddressEditFragment"
+        android:id="@+id/fragment_tier3_step_address"/>
+    <fragment
+        android:name="com.transsnet.palmpay.account.ui.fragment.upgrade.UpgradeTier3StepLoadingFragment"
+        android:id="@+id/fragment_tier3_step_loading"/>
+    <fragment
+        android:name="com.transsnet.palmpay.account.ui.fragment.upgrade.UpgradeTier3StepSuccessFragment"
+        android:id="@+id/fragment_tier3_step_success"/>
+</navigation>

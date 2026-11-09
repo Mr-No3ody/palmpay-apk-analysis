@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+    <com.mikepenz.iconics.view.IconicsTextView
+        android:gravity="start|center_vertical"
+        android:id="@+id/itv_setting_default"
+        android:layout_width="@dimen/dp144"
+        android:layout_height="@dimen/dp50"
+        android:text="@string/core_set_default"
+        android:drawablePadding="@dimen/dp8"
+        android:paddingStart="@dimen/dp16"
+        app:iiv_start_color="@color/ppColorTextPrimary"
+        app:iiv_start_icon="pay_RepaymentAccount"
+        app:iiv_start_size="@dimen/dp16"
+        style="@style/Text.202046.14"/>
+    <com.mikepenz.iconics.view.IconicsTextView
+        android:gravity="start|center_vertical"
+        android:id="@+id/itv_delete"
+        android:layout_width="@dimen/dp144"
+        android:layout_height="@dimen/dp50"
+        android:text="@string/core_delete"
+        android:drawablePadding="@dimen/dp8"
+        android:paddingStart="@dimen/dp16"
+        app:iiv_start_color="@color/ppColorTextPrimary"
+        app:iiv_start_icon="pay_Delete"
+        app:iiv_start_size="@dimen/dp16"
+        style="@style/Text.202046.14"/>
+</LinearLayout>

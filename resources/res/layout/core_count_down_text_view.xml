@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_gravity="center_vertical"
+    android:orientation="vertical"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+    <TextView
+        android:textSize="@dimen/dp42"
+        android:textColor="#202046"
+        android:id="@+id/tv_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/Text.medium.202046"/>
+    <TextView
+        android:textSize="@dimen/dp18"
+        android:textColor="@color/ppColorTextNormal"
+        android:id="@+id/tv_pre_prompt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="   Hrs          Mins        Secs"/>
+</LinearLayout>

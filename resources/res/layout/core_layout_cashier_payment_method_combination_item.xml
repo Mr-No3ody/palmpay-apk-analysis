@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <TextView
+        android:textSize="@dimen/dp12"
+        android:textColor="@color/ppColorTextNormal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/dp12"
+        android:layout_marginRight="@dimen/dp12"
+        android:layout_marginBottom="@dimen/dp4"
+        android:text="@string/core_dialog_cashier_combination_title"
+        android:layout_marginHorizontal="@dimen/dp12"/>
+    <include
+        android:id="@+id/combinationPayment"
+        android:background="@color/ppColorDividerLine"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        layout="@layout/core_item_cashier_preview_combination_payment_method"/>
+    <TextView
+        android:textSize="@dimen/dp12"
+        android:textColor="@color/ppColorTextNormal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/dp12"
+        android:layout_marginTop="@dimen/dp12"
+        android:layout_marginRight="@dimen/dp12"
+        android:layout_marginBottom="@dimen/dp4"
+        android:text="@string/core_dialog_cashier_payment_method_title"
+        android:layout_marginHorizontal="@dimen/dp12"/>
+</LinearLayout>

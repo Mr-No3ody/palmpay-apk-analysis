@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aapt="http://schemas.android.com/aapt"
+    android:height="390dp"
+    android:width="360dp"
+    android:viewportWidth="360"
+    android:viewportHeight="390">
+    <path
+        android:fillColor="@drawable/_qt_tv_pre_check_bg__0_res_0x7f080077"
+        android:pathData="M0,0h360v390h-360z"
+        android:strokeAlpha="0.8"
+        android:fillAlpha="0.8"/>
+</vector>

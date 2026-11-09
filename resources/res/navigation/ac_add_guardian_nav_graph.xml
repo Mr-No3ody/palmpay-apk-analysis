@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/ac_add_guardian_nav_graph"
+    app:startDestination="@+id/fragment_add_guardian_step_info">
+    <fragment
+        android:name="com.transsnet.palmpay.account.ui.fragment.guardian.AddGuardianInfoFragment"
+        android:id="@+id/fragment_add_guardian_step_info"/>
+    <fragment
+        android:name="com.transsnet.palmpay.account.ui.fragment.guardian.AddGuardianResubmitFragment"
+        android:id="@+id/fragment_add_guardian_step_resubmit"/>
+    <fragment
+        android:name="com.transsnet.palmpay.account.ui.fragment.guardian.AddGuardianRelationShipFragment"
+        android:id="@+id/fragment_add_guardian_step_relation"/>
+    <fragment
+        android:name="com.transsnet.palmpay.account.ui.fragment.guardian.AddGuardianResultFragment"
+        android:id="@+id/fragment_add_guardian_step_result"/>
+    <fragment
+        android:name="com.transsnet.palmpay.account.ui.fragment.guardian.AddGuardianExtraFragment"
+        android:id="@+id/fragment_add_guardian_step_extra"/>
+    <fragment
+        android:name="com.transsnet.palmpay.account.ui.fragment.guardian.AddGuardianExtra2Fragment"
+        android:id="@+id/fragment_add_guardian_step_extra_2"/>
+</navigation>

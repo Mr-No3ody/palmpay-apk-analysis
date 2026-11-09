@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shortcuts xmlns:android="http://schemas.android.com/apk/res/android">
+    <shortcut
+        android:icon="@drawable/main_widget_pay_bills"
+        android:enabled="true"
+        android:shortcutId="pay_bills"
+        android:shortcutShortLabel="@string/main_pay_bills">
+        <intent
+            android:targetPackage="com.transsnet.palmpay"
+            android:action="com.transsnet.palmpay.intent.action.WIDGET_PAY_BILLS"
+            android:targetClass="com.transsnet.palmpay.ui.activity.SplashActivity"/>
+    </shortcut>
+    <shortcut
+        android:icon="@drawable/main_widget_bundle"
+        android:enabled="true"
+        android:shortcutId="bundle"
+        android:shortcutShortLabel="@string/main_buy_data">
+        <intent
+            android:targetPackage="com.transsnet.palmpay"
+            android:action="com.transsnet.palmpay.intent.action.WIDGET_BUNDLE"
+            android:targetClass="com.transsnet.palmpay.ui.activity.SplashActivity"/>
+    </shortcut>
+    <shortcut
+        android:icon="@drawable/main_widget_topup_airtime"
+        android:enabled="true"
+        android:shortcutId="top_up"
+        android:shortcutShortLabel="@string/core_top_up_airtime">
+        <intent
+            android:targetPackage="com.transsnet.palmpay"
+            android:action="com.transsnet.palmpay.intent.action.WIDGET_TOPUP_AIRTIME"
+            android:targetClass="com.transsnet.palmpay.ui.activity.SplashActivity"/>
+    </shortcut>
+    <shortcut
+        android:icon="@drawable/main_widget_send_money"
+        android:enabled="true"
+        android:shortcutId="bank transfer"
+        android:shortcutShortLabel="@string/main_transfer_to_bank">
+        <intent
+            android:targetPackage="com.transsnet.palmpay"
+            android:action="com.transsnet.palmpay.intent.action.TRANS_TO_BANK_ACCOUNT"
+            android:targetClass="com.transsnet.palmpay.ui.activity.SplashActivity"/>
+    </shortcut>
+</shortcuts>

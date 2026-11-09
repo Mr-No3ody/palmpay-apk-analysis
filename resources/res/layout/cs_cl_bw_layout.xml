@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <com.palmpay.lib.ui.titlebar.PpTitleBar
+        android:id="@+id/cl_borrow_mtb"
+        android:background="@color/ppColorBackgroundLight"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:title_bar_show_right_1_iv="false"
+        app:title_bar_title="Borrow"
+        app:title_bar_title_color="@color/ppColorTextPrimary"/>
+    <FrameLayout
+        android:orientation="vertical"
+        android:id="@+id/cl_borrow_fl"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+</LinearLayout>

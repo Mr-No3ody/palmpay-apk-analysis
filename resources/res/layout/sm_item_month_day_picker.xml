@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:textSize="@dimen/dp20"
+    android:textColor="@color/ppColorPrimary"
+    android:gravity="center"
+    android:id="@+id/tv_date"
+    android:background="@drawable/core_rect_round_corner_bg_f3ebf9"
+    android:layout_width="@dimen/dp33"
+    android:layout_height="@dimen/dp33"
+    style="@style/txt_number_s_b"/>

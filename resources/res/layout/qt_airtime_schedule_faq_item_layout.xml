@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:gravity="center_vertical"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/dp50">
+    <TextView
+        android:gravity="start"
+        android:id="@+id/tvQuestion"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        style="@style/Text.202046.14"/>
+    <com.mikepenz.iconics.view.IconicsImageView
+        android:id="@+id/ivArrowRight"
+        android:layout_width="@dimen/dp20"
+        android:layout_height="@dimen/dp20"
+        app:iiv_color="@color/ppColorTextAssist"
+        app:iiv_icon="pay_ArrowRight"
+        app:iiv_size="@dimen/dp20"/>
+</LinearLayout>

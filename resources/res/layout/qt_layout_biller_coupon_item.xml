@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.transsnet.palmpay.core.viewmodel.ModelAvailableCouponItem xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/cp_bill_coupon"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/dp48"
+    android:layout_marginLeft="@dimen/dp16"
+    android:layout_marginTop="@dimen/dp12"
+    android:layout_marginRight="@dimen/dp16"
+    android:layout_marginHorizontal="@dimen/dp16"/>

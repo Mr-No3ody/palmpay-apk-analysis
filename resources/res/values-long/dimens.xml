@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="main_welcome_new_bottom_margin">28dp</dimen>
+    <dimen name="main_welcome_new_middle_margin">24dp</dimen>
+    <dimen name="main_welcome_new_top_margin">48dp</dimen>
+</resources>

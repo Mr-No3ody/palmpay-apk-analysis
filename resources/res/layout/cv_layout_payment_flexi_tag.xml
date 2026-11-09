@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:textSize="@dimen/dp8"
+    android:ellipsize="end"
+    android:gravity="center"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:maxLines="1"
+    android:drawablePadding="@dimen/dp2"
+    android:drawableStart="@drawable/cv_payment_flexi_tag_icon"
+    android:paddingEnd="@dimen/dp8"
+    style="@style/txt_s_g"/>

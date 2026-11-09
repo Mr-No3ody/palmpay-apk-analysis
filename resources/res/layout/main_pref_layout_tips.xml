@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:paddingTop="@dimen/dp12"
+    android:paddingBottom="@dimen/dp16"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/dp12"
+        android:layout_marginRight="@dimen/dp12">
+        <TextView
+            android:textSize="@dimen/dp12"
+            android:textColor="@color/ppColorTextNormal"
+            android:id="@+id/cptv_tv1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/main_pattern_setting_tips"
+            android:lineSpacingMultiplier="1.3"/>
+    </RelativeLayout>
+</RelativeLayout>

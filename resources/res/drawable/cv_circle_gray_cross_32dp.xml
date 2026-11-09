@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:drawable="@drawable/cv_circle_gray_cross"
+        android:left="@dimen/dp4"
+        android:top="@dimen/dp2"
+        android:right="@dimen/dp4"
+        android:bottom="@dimen/dp2"/>
+</layer-list>

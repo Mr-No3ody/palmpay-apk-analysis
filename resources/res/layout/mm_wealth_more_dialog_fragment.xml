@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="@dimen/dp180"
+    android:layout_height="wrap_content">
+    <ImageView
+        android:layout_gravity="right"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dp4"
+        android:layout_marginRight="@dimen/dp12"
+        android:src="@drawable/mm_icon_triangle"/>
+    <LinearLayout
+        android:orientation="vertical"
+        android:background="@drawable/cv_shape_rect_corner_12_bg_white"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="-0.5dp"
+        android:divider="@drawable/mm_shape_more_function_divider"
+        android:showDividers="middle"
+        android:dividerPadding="@dimen/dp12">
+        <com.mikepenz.iconics.view.IconicsTextView
+            android:gravity="center"
+            android:id="@+id/tvSetting"
+            android:paddingLeft="@dimen/dp12"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dp50"
+            android:text="@string/core_interest_setting"
+            android:drawablePadding="4dp"
+            app:iiv_start_color="@color/ppColorTextPrimary"
+            app:iiv_start_icon="pay_InterestSet"
+            app:iiv_start_size="@dimen/dp20"
+            style="@style/Text.202046.14"/>
+        <com.mikepenz.iconics.view.IconicsTextView
+            android:gravity="center"
+            android:id="@+id/tvReport"
+            android:paddingLeft="@dimen/dp12"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dp50"
+            android:text="@string/mm_earning_report"
+            android:drawablePadding="4dp"
+            app:iiv_start_color="@color/ppColorTextPrimary"
+            app:iiv_start_icon="pay_Agreements"
+            app:iiv_start_size="@dimen/dp20"
+            style="@style/Text.202046.14"/>
+    </LinearLayout>
+</LinearLayout>

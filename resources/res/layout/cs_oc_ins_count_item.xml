@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:gravity="center"
+    android:orientation="horizontal"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+    <CheckedTextView
+        android:textSize="14sp"
+        android:textColor="@color/cs_bw_date_txt_color"
+        android:gravity="start"
+        android:id="@+id/oc_ins_tv"
+        android:background="@drawable/cs_oc_ins_pay_in_bg"
+        android:paddingTop="@dimen/dp4"
+        android:paddingBottom="@dimen/dp4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/cs_oc_ins_pay_in"
+        android:paddingStart="@dimen/dp10"
+        android:paddingEnd="@dimen/dp10"
+        android:layout_marginEnd="@dimen/dp16"/>
+</LinearLayout>

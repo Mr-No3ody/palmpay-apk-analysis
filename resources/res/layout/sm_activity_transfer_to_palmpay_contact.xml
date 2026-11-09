@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <com.palmpay.lib.ui.titlebar.PpTitleBar
+        android:id="@+id/title_bar"
+        android:background="@color/ppColorBackgroundLight"
+        android:layout_width="match_parent"
+        android:layout_height="?android:attr/actionBarSize"
+        app:layout_constraintTop_toTopOf="parent"
+        app:title_bar_show_right_1_iv="true"
+        app:title_bar_show_right_text_arrow_down="false"
+        app:title_bar_title="@string/sm_contact"/>
+    <com.google.android.material.tabs.TabLayout
+        android:id="@+id/tabLayout"
+        android:background="@color/ppColorBackgroundLight"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp40"
+        app:layout_constraintTop_toBottomOf="@+id/title_bar"
+        app:tabGravity="fill"
+        app:tabIndicatorFullWidth="true"
+        app:tabMode="fixed"
+        app:tabPaddingEnd="@dimen/dp10"
+        app:tabPaddingStart="@dimen/dp10"
+        app:tabRippleColor="@android:color/transparent"
+        app:tabSelectedTextColor="@color/ppColorPrimary"
+        app:tabTextAppearance="@style/NormalTextStyle"
+        app:tabTextColor="@color/ppColorTextNormal"/>
+    <View
+        android:id="@+id/v_divider"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tabLayout"
+        style="@style/core_divider_horizontal"/>
+    <androidx.viewpager2.widget.ViewPager2
+        android:id="@+id/vp_contacts"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/v_divider"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

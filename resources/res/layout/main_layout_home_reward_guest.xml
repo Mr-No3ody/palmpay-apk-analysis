@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/guestViewContainer"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingHorizontal="16dp">
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/ivSkeleton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scaleType="fitXY"
+        android:adjustViewBounds="true"
+        app:srcCompat="@drawable/main_reward_ad_skeleton_bg"/>
+    <com.transsnet.adsdk.widgets.SingleAdView
+        android:id="@+id/guestAdView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scaleType="fitXY"
+        android:adjustViewBounds="true"
+        app:slot_id="AECA43CD5B764A62981DB5B6B231D821"/>
+    <com.palmpay.lib.ui.button.PpButton
+        android:gravity="center"
+        android:layout_gravity="bottom"
+        android:id="@+id/tvLogin"
+        android:layout_width="match_parent"
+        android:layout_marginLeft="@dimen/dp16"
+        android:layout_marginRight="@dimen/dp16"
+        android:layout_marginBottom="@dimen/dp18"
+        android:text="@string/core_log_in"
+        android:layout_marginHorizontal="@dimen/dp16"
+        style="@style/ppButtonStyle"/>
+</FrameLayout>

@@ -1,0 +1,19 @@
+package q999ggg99999qqggqqg9qg.qqggggg9g9q99q9gq.q999ggg99999qqggqqg9qg;
+
+import android.os.IInterface;
+import android.os.RemoteException;
+
+/* JADX INFO: loaded from: classes4.dex */
+public interface q999ggg99999qqggqqg9qg extends IInterface {
+    String gqgg9q99qg9() throws RemoteException;
+
+    boolean q999ggg99999qqggqqg9qg() throws RemoteException;
+
+    void qg9gqgqqggg9q9qg() throws RemoteException;
+
+    boolean qgq9qg99() throws RemoteException;
+
+    String qgqq999g() throws RemoteException;
+
+    String qqggggg9g9q99q9gq() throws RemoteException;
+}

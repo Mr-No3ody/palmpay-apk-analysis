@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:background="@drawable/cs_cl_download_cash_bg"
+    android:paddingLeft="@dimen/dp24"
+    android:paddingTop="@dimen/dp32"
+    android:paddingRight="@dimen/dp24"
+    android:paddingBottom="@dimen/dp36"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingHorizontal="@dimen/dp24">
+    <ImageView
+        android:layout_width="@dimen/dp48"
+        android:layout_height="@dimen/dp48"
+        android:src="@drawable/cs_oc_flexi_cash_logo_small"/>
+    <TextView
+        android:layout_marginTop="@dimen/dp12"
+        android:text="@string/cs_cl_flexi_cash_launched"
+        style="@style/Text.medium.202046.16"/>
+    <TextView
+        android:layout_marginTop="@dimen/dp16"
+        android:text="@string/cs_cl_flexi_cash_download_content"
+        style="@style/Text.6f7b85.14"/>
+    <TextView
+        android:textColor="@color/ppColorFlexiCashPrimary"
+        android:id="@+id/tvSkipDownloadPage"
+        android:layout_marginTop="@dimen/dp28"
+        android:text="@string/cs_cl_skip_download_page"
+        style="@style/Text.medium.202046.16"/>
+</LinearLayout>

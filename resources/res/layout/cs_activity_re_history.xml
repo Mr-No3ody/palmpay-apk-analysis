@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="@color/core_oc_refer_earn_bg"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <com.palmpay.lib.ui.titlebar.PpTitleBar
+        android:id="@+id/title_bar"
+        android:background="@color/transparent"
+        android:layout_width="match_parent"
+        android:layout_height="?android:attr/actionBarSize"
+        app:title_bar_style="light"
+        app:title_bar_title="Earn Extra Cash"/>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:background="@drawable/cs_tab_unselected_bg"
+        android:padding="@dimen/dp1"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:layout_marginLeft="@dimen/dp27"
+        android:layout_marginTop="@dimen/dp10"
+        android:layout_marginRight="@dimen/dp27"
+        android:layout_marginHorizontal="@dimen/dp27">
+        <TextView
+            android:textColor="@color/cv_text_color_white"
+            android:gravity="center"
+            android:id="@+id/tvReward"
+            android:background="@drawable/cs_tab_selected_bg"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:text="@string/cs_rewards"
+            android:layout_weight="1"/>
+        <TextView
+            android:textColor="@color/cv_text_color_white"
+            android:gravity="center"
+            android:id="@+id/tvWithdraw"
+            android:background="@drawable/cs_tab_unselected_bg"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:text="@string/cs_withdraw"
+            android:layout_weight="1"/>
+    </LinearLayout>
+    <androidx.viewpager.widget.ViewPager
+        android:id="@+id/viewPager"
+        android:padding="@dimen/dp5"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginLeft="@dimen/dp26"
+        android:layout_marginTop="@dimen/dp20"
+        android:layout_marginRight="@dimen/dp26"
+        android:layout_marginBottom="@dimen/dp20"
+        android:layout_weight="1"
+        android:layout_marginHorizontal="@dimen/dp26"
+        android:layout_marginVertical="@dimen/dp20"/>
+</LinearLayout>
