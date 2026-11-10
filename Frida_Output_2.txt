@@ -1,0 +1,83 @@
+[+] PalmPay crypto monitor installed
+[Android Emulator 5554::PalmPay ]->
+========== CIPHER INIT ==========
+Transformation: AES/GCM/NoPadding
+Mode: ENCRYPT_MODE
+Key fingerprint: 29a623c10074de9a9af1209bf6e6c0f0f1e928267c622f8cb6fef756e49d9d60
+Key (hex): 3fae40bbf55088ad847f6ea25e65a407e3526eabba20da28c39fd4468b3427bf
+Key length: 32
+IV: f5c54087175f02153b180995
+=================================
+
+========== CIPHER INIT ==========
+Transformation: AES/GCM/NoPadding
+Mode: ENCRYPT_MODE
+Key fingerprint: 29a623c10074de9a9af1209bf6e6c0f0f1e928267c622f8cb6fef756e49d9d60
+Key (hex): 3fae40bbf55088ad847f6ea25e65a407e3526eabba20da28c39fd4468b3427bf
+Key length: 32
+IV: f5c54087175f02153b180995
+=================================
+
+========== CIPHER FINAL ==========
+Transformation: AES/GCM/NoPadding
+Mode: ENCRYPT_MODE
+Key fingerprint: 29a623c10074de9a9af1209bf6e6c0f0f1e928267c622f8cb6fef756e49d9d60
+Key (hex): 3fae40bbf55088ad847f6ea25e65a407e3526eabba20da28c39fd4468b3427bf
+GCM IV: f5c54087175f02153b180995
+AAD length: 0
+Input length: 211
+Output length: 227
+==================================
+
+========== CIPHER INIT ==========
+Transformation: RSA/ECB/OAEPPadding
+Mode: ENCRYPT_MODE
+Key fingerprint: bb0bd4d18e1c5bdba21872ae1340e1a1b4837f7789682924df8882ced437e83b
+Key (hex): 30820122300d06092a864886f70d01010105000382010f003082010a0282010100cc7fabb35513688cc638c9592deb43c343d1b53357fd7573ad310ebdbb425404c9d709df2b67e86da9a71a6a553d2076ecf4579dbd0fe861cba788276641e80ade4143dbda60d6384465d98c8a765bd47a91cdf94d00c425e7f3292e6e6a40e2b9287f008594b77e9ebf927d479a649f8f3d4a9815623c18046998c54d8fb4bd384db7116ee037639eedb897fecb315ac33d155a062779297ae8e6c492a958320b5aa1f5d9cbf8c1ca02b788d45c61055730fdd55eb94a05a6dbfef03d1c9e8f8c21be7f93ad9939686e0ad4feb668a4d79f57aea77bee926c81cd5bd8e3056d4373831f95c95c9d8ed2ce8272b297996f13b68639568649df60b3d59ebb446f0203010001
+Key length: 294
+IV: null
+=================================
+
+========== CIPHER FINAL ==========
+Transformation: RSA/ECB/OAEPPadding
+Mode: ENCRYPT_MODE
+Key fingerprint: bb0bd4d18e1c5bdba21872ae1340e1a1b4837f7789682924df8882ced437e83b
+Key (hex): 30820122300d06092a864886f70d01010105000382010f003082010a0282010100cc7fabb35513688cc638c9592deb43c343d1b53357fd7573ad310ebdbb425404c9d709df2b67e86da9a71a6a553d2076ecf4579dbd0fe861cba788276641e80ade4143dbda60d6384465d98c8a765bd47a91cdf94d00c425e7f3292e6e6a40e2b9287f008594b77e9ebf927d479a649f8f3d4a9815623c18046998c54d8fb4bd384db7116ee037639eedb897fecb315ac33d155a062779297ae8e6c492a958320b5aa1f5d9cbf8c1ca02b788d45c61055730fdd55eb94a05a6dbfef03d1c9e8f8c21be7f93ad9939686e0ad4feb668a4d79f57aea77bee926c81cd5bd8e3056d4373831f95c95c9d8ed2ce8272b297996f13b68639568649df60b3d59ebb446f0203010001
+GCM IV: null
+AAD length: 0
+Input length: 32
+Output length: 256
+==================================
+
+========== CIPHER INIT ==========
+Transformation: AES/GCM/NoPadding
+Mode: DECRYPT_MODE
+Key fingerprint: 29a623c10074de9a9af1209bf6e6c0f0f1e928267c622f8cb6fef756e49d9d60
+Key (hex): 3fae40bbf55088ad847f6ea25e65a407e3526eabba20da28c39fd4468b3427bf
+Key length: 32
+IV: d6b6d3f3e87fcf909ed880d9
+=================================
+
+========== CIPHER INIT ==========
+Transformation: AES/GCM/NoPadding
+Mode: DECRYPT_MODE
+Key fingerprint: 29a623c10074de9a9af1209bf6e6c0f0f1e928267c622f8cb6fef756e49d9d60
+Key (hex): 3fae40bbf55088ad847f6ea25e65a407e3526eabba20da28c39fd4468b3427bf
+Key length: 32
+IV: d6b6d3f3e87fcf909ed880d9
+=================================
+
+========== CIPHER FINAL ==========
+Transformation: AES/GCM/NoPadding
+Mode: DECRYPT_MODE
+Key fingerprint: 29a623c10074de9a9af1209bf6e6c0f0f1e928267c622f8cb6fef756e49d9d60
+Key (hex): 3fae40bbf55088ad847f6ea25e65a407e3526eabba20da28c39fd4468b3427bf
+GCM IV: d6b6d3f3e87fcf909ed880d9
+AAD length: 0
+Input length: 7081
+
+========== DECRYPTED SERVER RESPONSE ==========
+{"respCode":"00000000","respMsg":"success","data":{"total":3561,"totalPage":357,"curPage":1,"pageSize":10,"dataMap":null,"extData":{"beginTime":1786357121384,"endTime":1794305921384,"firstBillTime":1514764800000},"list":[{"tntCode":null,"countryCode":null,"orderNo":"033dp4vb9b03","payId":"20261110A04100002010000464276447504","memberId":"E51DF49C8FED40198E4FBB058D525E84","amount":-73680,"displayAmount":"-736.80","orderStatus":"Successful","transType":"03","subTransTypeCode":null,"sourceProduct":"transfer_account_number","sourceEvent":null,"serviceProduct":"cashout","serviceEvent":null,"title":"Send - VIOLET ELO EJENADIA","subTitle":null,"createTime":1794300937608,"updateTime":1794300943520,"iconUrl":null,"redirect":null,"customLinkH5":null,"customLinkIos":null,"customLinkAndroid":null,"amountDirection":"out","merchantNo":null,"businessType":"3","payerAccountType":0},{"tntCode":null,"countryCode":null,"orderNo":"63dp35i8f006","payId":"20261110A04330306010001033291252816","memberId":"E51DF49C8FED40198E4FBB058D525E84","amount":-39000,"displayAmount":"-390.00","orderStatus":"Successful","transType":"34","subTransTypeCode":null,"sourceProduct":null,"sourceEvent":null,"serviceProduct":null,"serviceEvent":null,"title":"Buy Data bundle","subTitle":null,"createTime":1794298712296,"updateTime":1794298719535,"iconUrl":"https://transsnet-android-upload-image-prod.s3.amazonaws.com/activity/171826700182420-Globacom.png","redirect":null,"customLinkH5":null,"customLinkIos":null,"customLinkAndroid":null,"amountDirection":"out","merchantNo":null,"businessType":null,"payerAccountType":0},{"tntCode":null,"countryCode":null,"orderNo":"033doa4f2800","payId":"20261109A04100002110000464159898704","memberId":"E51DF49C8FED40198E4FBB058D525E84","amount":-10000,"displayAmount":"-100.00","orderStatus":"Successful","transType":"03","subTransTypeCode":null,"sourceProduct":"transfer_to_mmo","sourceEvent":null,"serviceProduct":"cashout","serviceEvent":null,"title":"Send - EMMANUEL  JULIUS","subTitle":null,"createTime":1794261089100,"updateTime":1794261164645,"iconUrl":null,"redirect":null,"customLinkH5":null,"customLinkIos":null,"customLinkAndroid":null,"amountDirection":"out","merchantNo":null,"businessType":"9","payerAccountType":0},{"tntCode":null,"countryCode":null,"orderNo":"63do5rc48006","payId":"20261109A04330306010001032861031716","memberId":"E51DF49C8FED40198E4FBB058D525E84","amount":-39000,"displayAmount":"-390.00","orderStatus":"Successful","transType":"34","subTransTypeCode":null,"sourceProduct":null,"sourceEvent":null,"serviceProduct":null,"serviceEvent":null,"title":"Buy Data bundle","subTitle":null,"createTime":1794255434048,"updateTime":1794255442525,"iconUrl":"https://transsnet-android-upload-image-prod.s3.amazonaws.com/activity/171826700182420-Globacom.png","redirect":null,"customLinkH5":null,"customLinkIos":null,"customLinkAndroid":null,"amountDirection":"out","merchantNo":null,"businessType":null,"payerAccountType":0},{"tntCode":null,"countryCode":null,"orderNo":"033dntosa104","payId":"20261109A04100002010000463944736004","memberId":"E51DF49C8FED40198E4FBB058D525E84","amount":-45000,"displayAmount":"-450.00","orderStatus":"Successful","transType":"03","subTransTypeCode":null,"sourceProduct":"transfer_account_number","sourceEvent":null,"serviceProduct":"cashout","serviceEvent":null,"title":"Send - CHRISTIANA TUESIMI KRUMALE","subTitle":null,"createTime":1794239790417,"updateTime":1794239796184,"iconUrl":null,"redirect":null,"customLinkH5":null,"customLinkIos":null,"customLinkAndroid":null,"amountDirection":"out","merchantNo":null,"businessType":"3","payerAccountType":0},{"tntCode":null,"countryCode":null,"orderNo":"033dnkmu2802","payId":"20261109A04100002010000463825515104","memberId":"E51DF49C8FED40198E4FBB058D525E84","amount":-50000,"displayAmount":"-500.00","orderStatus":"Closed","transType":"03","subTransTypeCode":null,"sourceProduct":"transfer_account_number","sourceEvent":null,"serviceProduct":"cashout","serviceEvent":null,"title":"Send - VIOLET ELO EJENADIA","subTitle":null,"createTime":1794228056513,"updateTime":1794229810014,"iconUrl":null,"redirect":null,"customLinkH5":null,"customLinkIos":null,"customLinkAndroid":null,"amountDirection":"out","merchantNo":null,"businessType":"3","payerAccountType":0},{"tntCode":null,"countryCode":null,"orderNo":"033dnljhda01","payId":"20261109A04100002010000463840856604","memberId":"E51DF49C8FED40198E4FBB058D525E84","amount":-50000,"displayAmount":"-500.00","orderStatus":"Successful","transType":"03","subTransTypeCode":null,"sourceProduct":"transfer_account_number","sourceEvent":null,"serviceProduct":"cashout","serviceEvent":null,"title":"Send - EMMANUEL  JULIUS","subTitle":null,"createTime":1794229231452,"updateTime":1794229273170,"iconUrl":null,"redirect":null,"customLinkH5":null,"customLinkIos":null,"customLinkAndroid":null,"amountDirection":"out","merchantNo":null,"businessType":"3","payerAccountType":0},{"tntCode":null,"countryCode":null,"orderNo":"033dne9x8802","payId":"20261109A04100002010000463741937704","memberId":"E51DF49C8FED40198E4FBB058D525E84","amount":-45000,"displayAmount":"-450.00","orderStatus":"Successful","transType":"03","subTransTypeCode":null,"sourceProduct":"transfer_account_number","sourceEvent":null,"serviceProduct":"cashout","serviceEvent":null,"title":"Send - CHRISTIANA TUESIMI KRUMALE","subTitle":null,"createTime":1794219815794,"updateTime":1794219823178,"iconUrl":null,"redirect":null,"customLinkH5":null,"customLinkIos":null,"customLinkAndroid":null,"amountDirection":"out","merchantNo":null,"businessType":"3","payerAccountType":0},{"tntCode":null,"countryCode":null,"orderNo":"63dne828f016","payId":"20261109A04330306010001032006890916","memberId":"E51DF49C8FED40198E4FBB058D525E84","amount":-124500,"displayAmount":"-1,245.00","orderStatus":"Successful","transType":"34","subTransTypeCode":null,"sourceProduct":null,"sourceEvent":null,"serviceProduct":null,"serviceEvent":null,"title":"Buy Data bundle","subTitle":null,"createTime":1794219748601,"updateTime":1794219761843,"iconUrl":"https://transsnet-android-upload-image-prod.s3.amazonaws.com/activity/171826700182420-Globacom.png","redirect":null,"customLinkH5":null,"customLinkIos":null,"customLinkAndroid":null,"amountDirection":"out","merchantNo":null,"businessType":null,"payerAccountType":0},{"tntCode":null,"countryCode":null,"orderNo":"63dnc6jd7016","payId":"20261109A04330306010001031953566716","memberId":"E51DF49C8FED40198E4FBB058D525E84","amount":-205000,"displayAmount":"-2,050.00","orderStatus":"Successful","transType":"34","subTransTypeCode":null,"sourceProduct":null,"sourceEvent":null,"serviceProduct":null,"serviceEvent":null,"title":"Buy Data bundle","subTitle":null,"createTime":1794217101972,"updateTime":1794217113652,"iconUrl":"https://transsnet-android-upload-image-prod.s3.amazonaws.com/activity/171826700182420-Globacom.png","redirect":null,"customLinkH5":null,"customLinkIos":null,"customLinkAndroid":null,"amountDirection":"out","merchantNo":null,"businessType":null,"payerAccountType":0}]},"addition":null,"status":true}
+================================================
+Output length: 7065
+==================================
